@@ -8,7 +8,13 @@ config:
 events:
   -
     start_year: '20'
-    text: 'example events'
+    text: 'example event20'
   -
-    start_year: '100'
-    text: 'example events100'
+    start_year: '30'
+    text: 'example event30'
+  -
+    start_year: '35'
+    text: 'example event35'
+  -
+    start_year: '60'
+    text: 'example event60'

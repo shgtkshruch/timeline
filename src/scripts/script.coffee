@@ -58,5 +58,21 @@ class Timeline
           left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
         .text event.text
         .appendTo @$events
+    @ajustOverlap()
+
+  ajustOverlap: ->
+    $prevItem = ''
+    $ '.timeline__event'
+      .each (index, el) ->
+        if index is 0
+          $prevItem = $ el
+        else
+          $el = $ el
+          prevItemRightSidePosition = $prevItem.offset().left + $prevItem.outerWidth()
+          nowItemLeftSidePosition = $el.offset().left
+          if prevItemRightSidePosition > nowItemLeftSidePosition
+            $el.css
+              top: $prevItem.offset().top + $prevItem.outerHeight()
+          $prevItem = $el
 
 new Timeline()
