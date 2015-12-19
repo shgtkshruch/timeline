@@ -8,7 +8,8 @@ config:
 events:
   -
     start_year: '20'
-    text: 'example event20'
+    end_year: '40'
+    text: 'example event20-40'
   -
     start_year: '30'
     text: 'example event30'

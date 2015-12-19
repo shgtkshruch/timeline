@@ -1,5 +1,6 @@
 .controller {
   position: relative;
+  display: inline-block;
   z-index: $zindex-controller;
   &__icon {
     font-size: 50px;

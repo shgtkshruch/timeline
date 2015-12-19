@@ -52,11 +52,21 @@ class Timeline
     @$events.empty()
     @events.forEach (event) =>
       $ '<div></div>'
-        .addClass 'timeline__event'
+        .addClass 'timeline__event event'
         .css
           top: '0'
           left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
-        .text event.text
+        .append '<span></span>'
+          .find 'span'
+          .addClass 'event__time'
+          .css
+            width: ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+          .end()
+        .append '<span></span>'
+          .find 'span:nth-child(2)'
+          .addClass 'event__text'
+          .text event.text
+          .end()
         .appendTo @$events
     @ajustOverlap()
 
