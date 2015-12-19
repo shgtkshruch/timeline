@@ -1,5 +1,12 @@
 ---
+config:
+  start_year: 0
+  end_year: 100
+
 events:
   -
     start_year: '20'
     text: 'example events'
+  -
+    start_year: '100'
+    text: 'example events100'

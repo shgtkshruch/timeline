@@ -8,7 +8,7 @@ class Timeline
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
 
-    @renderYears()
+    @fetch()
     @events()
 
   events: ->
@@ -22,10 +22,19 @@ class Timeline
         @oneYearWith -= 10
         @renderYears()
 
+  fetch: ->
+    $.ajax
+      url: 'data/timeline.json'
+      success: (data, status, xhr) =>
+        @data = data
+        @startYear = data.config.start_year
+        @endYear = data.config.end_year
+        @renderYears()
+
   renderYears: ->
     @$years.empty()
-    i = 0
-    while i <= 100
+    i = @startYear
+    while i <= @endYear
       if i % @yearUnit is 0
         $ '<div></div>'
           .addClass 'timeline__year'
@@ -38,20 +47,17 @@ class Timeline
             .end()
           .appendTo @$years
       i++
-    @fetch()
+    @renderEvents()
 
-  fetch: ->
+  renderEvents: ->
     @$events.empty()
-    $.ajax
-      url: 'data/timeline.json'
-      success: (data, status, xhr) =>
-        data.events.forEach (d) =>
-          $ '<div></div>'
-            .addClass 'timeline__event'
-            .css
-              top: '0'
-              left: (d.start_year * @oneYearWith / @yearUnit) + 'px'
-            .text d.text
-            .appendTo @$events
+    @data.events.forEach (d) =>
+      $ '<div></div>'
+        .addClass 'timeline__event'
+        .css
+          top: '0'
+          left: (d.start_year * @oneYearWith / @yearUnit) + 'px'
+        .text d.text
+        .appendTo @$events
 
 new Timeline()

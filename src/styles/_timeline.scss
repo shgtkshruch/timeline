@@ -8,6 +8,7 @@
     z-index: $zindex-year;
   }
   &__year {
+    box-sizing: border-box;
     position: relative;
     display: inline-block;
     font-size: 50px;
