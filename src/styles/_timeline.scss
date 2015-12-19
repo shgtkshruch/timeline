@@ -5,6 +5,7 @@
     left: 0;
     transform: translateY(-50%);
     white-space: nowrap;
+    z-index: $zindex-year;
   }
   &__year {
     position: relative;
@@ -23,7 +24,7 @@
   }
   &__events {
     position: relative;
-    padding-top: 20px;
+    z-index: $zindex-event;
   }
   &__event {
     position: absolute;

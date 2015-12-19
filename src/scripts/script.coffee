@@ -9,8 +9,21 @@ class Timeline
     @$events = $ '#timelineEvents'
 
     @renderYears()
+    @events()
+
+  events: ->
+    $ '#controllerPlus'
+      .click (e) =>
+        @oneYearWith += 10
+        @renderYears()
+
+    $ '#controllerMinus'
+      .click (e) =>
+        @oneYearWith -= 10
+        @renderYears()
 
   renderYears: ->
+    @$years.empty()
     i = 0
     while i <= 100
       if i % @yearUnit is 0
@@ -28,6 +41,7 @@ class Timeline
     @fetch()
 
   fetch: ->
+    @$events.empty()
     $.ajax
       url: 'data/timeline.json'
       success: (data, status, xhr) =>

@@ -9,6 +9,7 @@ html(lang="ja")
     meta(content='keywords', name='keywords')
     meta(content='width=device-width, initial-scale=1' name='viewport')
     meta(content='telephone=no', name='format-detection')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', media='all')
     // build:css styles/vendor.css
     // bower:css
     // endbower
@@ -18,6 +19,14 @@ html(lang="ja")
     #timeline.timeline
       #timelineYears.timeline__years
       #timelineEvents.timeline__events
+      #timelineController.timeline__controller.controller
+        ul
+          - menus = {}
+          - menus[1] = {id: 'Plus', class: 'plus'}
+          - menus[2] = {id: 'Minus', class: 'minus'}
+          each menu, i in menus
+            li
+              i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}")
 
     // build:js scripts/vendor.js
     // bower:js
