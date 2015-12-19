@@ -93,19 +93,28 @@ gulp.task 'image', ->
       interlaced: true
     .pipe gulp.dest config.dest + '/images'
 
+gulp.task 'yaml', ->
+  gulp.src config.src + '/data/*.yml'
+    .pipe $.yaml
+      space: 2
+    .pipe gulp.dest config.dest + '/data'
+    .pipe browserSync.reload
+      stream: true
+
 gulp.task 'clean', ->
   del ['dist/partials', 'dist/scripts/*.js', '!dist/scripts/{main,vendor}.js']
 
 gulp.task 'publish', ->
   ghpages.publish path.join __dirname, config.dest
 
-gulp.task 'default', ['jade', 'sass', 'coffee', 'image', 'browser-sync'], ->
+gulp.task 'default', ['jade', 'sass', 'coffee', 'image', 'yaml', 'browser-sync'], ->
   gulp.watch config.src + '/**/*.jade', ['jade']
   gulp.watch config.src + '/styles/*.scss', ['sass']
   gulp.watch config.src + '/scripts/*.coffee', ['coffee']
   gulp.watch config.src + '/images/*', ['image']
+  gulp.watch config.src + '/data/*.yml', ['yaml']
 
-gulp.task 'prebuild', ['html', 'sass', 'coffee', 'image']
+gulp.task 'prebuild', ['html', 'sass', 'coffee', 'image', 'yaml']
 
 gulp.task 'build', ['prebuild'], ->
   gulp.start 'clean'
