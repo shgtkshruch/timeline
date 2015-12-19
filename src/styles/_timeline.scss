@@ -1,0 +1,32 @@
+.timeline {
+  &__years {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    white-space: nowrap;
+  }
+  &__year {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    height: 100vh;
+    &:not(:last-child) {
+      border-right: 1px dashed #000;
+    }
+  }
+  &__yearNum {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  &__events {
+    position: relative;
+    padding-top: 20px;
+  }
+  &__event {
+    position: absolute;
+    white-space: nowrap;
+  }
+}

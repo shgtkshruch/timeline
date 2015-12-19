@@ -1,0 +1,5 @@
+---
+events:
+  -
+    start_year: '20'
+    text: 'example events'

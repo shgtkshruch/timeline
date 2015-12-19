@@ -1,0 +1,21 @@
+{
+  "name": "timeline",
+  "description": "",
+  "main": "",
+  "authors": [
+    "shgtkshruch <shgtk.shruch@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/shgtkshruch/timeline",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
