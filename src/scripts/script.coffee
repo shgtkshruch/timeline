@@ -1,9 +1,6 @@
 class Timeline
   constructor: ->
 
-    @oneYearWith = 170
-    @yearUnit = 10
-
     @$body =  $ '#timeline'
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
@@ -14,19 +11,21 @@ class Timeline
   events: ->
     $ '#controllerPlus'
       .click (e) =>
-        @oneYearWith += 10
+        @oneUnitYearWith += 10
         @renderYears()
 
     $ '#controllerMinus'
       .click (e) =>
-        @oneYearWith -= 10
+        @oneUnitYearWith -= 10
         @renderYears()
 
   fetch: ->
     $.ajax
       url: 'data/timeline.json'
       success: (data, status, xhr) =>
-        @data = data
+        @events = data.events
+        @oneUnitYearWith = data.config.oneUnitYearWidth || 100
+        @yearUnit = data.config.yearUnit || 10
         @startYear = data.config.start_year
         @endYear = data.config.end_year
         @renderYears()
@@ -39,7 +38,7 @@ class Timeline
         $ '<div></div>'
           .addClass 'timeline__year'
           .css
-            width: @oneYearWith + 'px'
+            width: @oneUnitYearWith + 'px'
           .append '<span></span>'
             .find 'span'
             .addClass 'timeline__yearNum'
@@ -51,13 +50,13 @@ class Timeline
 
   renderEvents: ->
     @$events.empty()
-    @data.events.forEach (d) =>
+    @events.forEach (event) =>
       $ '<div></div>'
         .addClass 'timeline__event'
         .css
           top: '0'
-          left: (d.start_year * @oneYearWith / @yearUnit) + 'px'
-        .text d.text
+          left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
+        .text event.text
         .appendTo @$events
 
 new Timeline()
