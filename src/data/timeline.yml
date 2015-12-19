@@ -1,21 +1,34 @@
 ---
 config:
   start_year: 0
-  end_year: 100
+  end_year: 120
   yearUnit: 10
   oneUnitYearWidth: 100
 
 events:
   -
     start_year: '20'
-    end_year: '40'
-    text: 'example event20-40'
+    end_year: '80'
+    text: 'example event20-80'
   -
     start_year: '30'
     text: 'example event30'
   -
-    start_year: '35'
-    text: 'example event35'
+    start_year: '30'
+    text: 'example event30'
   -
-    start_year: '60'
-    text: 'example event60'
+    start_year: '40'
+    end_year: '50'
+    text: 'example event40-50'
+  -
+    start_year: '70'
+    end_year: '80'
+    text: 'example event70-80'
+  -
+    start_year: '80'
+    end_year: '90'
+    text: 'example event80-90'
+  -
+    start_year: '100'
+    end_year: '110'
+    text: 'example event100-110'

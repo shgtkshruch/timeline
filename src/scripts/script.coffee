@@ -71,18 +71,25 @@ class Timeline
     @ajustOverlap()
 
   ajustOverlap: ->
-    $prevItem = ''
+    $prevItem = $mostRightSideItem = ''
     $ '.timeline__event'
       .each (index, el) ->
+        $el = $ el
         if index is 0
-          $prevItem = $ el
+          $mostRightSideItem = $prevItem = $el
         else
-          $el = $ el
-          prevItemRightSidePosition = $prevItem.offset().left + $prevItem.outerWidth()
-          nowItemLeftSidePosition = $el.offset().left
-          if prevItemRightSidePosition > nowItemLeftSidePosition
-            $el.css
-              top: $prevItem.offset().top + $prevItem.outerHeight()
+          mostRightSideItemRightSide = $mostRightSideItem.offset().left + $mostRightSideItem.outerWidth()
+          prevItemRightSide = $prevItem.offset().left + $prevItem.outerWidth()
+          nowItemLeftSide = $el.offset().left
+          if mostRightSideItemRightSide < nowItemLeftSide
+            $mostRightSideItem = $el
+          else
+            if prevItemRightSide < nowItemLeftSide
+              $el.css
+                top: $mostRightSideItem.offset().top + $mostRightSideItem.outerHeight()
+            else
+              $el.css
+                top: $prevItem.offset().top + $prevItem.outerHeight()
           $prevItem = $el
 
 new Timeline()
