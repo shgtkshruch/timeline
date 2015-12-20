@@ -14,16 +14,17 @@ events:
     start_year: '30'
     text: 'example event30'
   -
-    start_year: '30'
-    text: 'example event30'
-  -
     start_year: '40'
     end_year: '50'
     text: 'example event40-50'
   -
-    start_year: '70'
+    start_year: '50'
+    end_year: '60'
+    text: 'example event50-60'
+  -
+    start_year: '60'
     end_year: '80'
-    text: 'example event70-80'
+    text: 'example event60-80'
   -
     start_year: '80'
     end_year: '90'

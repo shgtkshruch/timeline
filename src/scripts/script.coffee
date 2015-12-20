@@ -71,25 +71,27 @@ class Timeline
     @ajustOverlap()
 
   ajustOverlap: ->
-    $prevItem = $mostRightSideItem = ''
-    $ '.timeline__event'
+    leftEvents = []
+    $ '.event'
       .each (index, el) ->
         $el = $ el
+        loopEnd = ''
+
         if index is 0
-          $mostRightSideItem = $prevItem = $el
-        else
-          mostRightSideItemRightSide = $mostRightSideItem.offset().left + $mostRightSideItem.outerWidth()
-          prevItemRightSide = $prevItem.offset().left + $prevItem.outerWidth()
-          nowItemLeftSide = $el.offset().left
-          if mostRightSideItemRightSide < nowItemLeftSide
-            $mostRightSideItem = $el
+          leftEvents.push {row: $el.offset().top, $el: $el}
+          return
+
+        leftEvents.forEach (leftEvent, index2, array) ->
+          return if loopEnd
+
+          if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
+            loopEnd = true
+            leftEvents.splice index2, 1, {row: $el.offset().top, $el: $el}
           else
-            if prevItemRightSide < nowItemLeftSide
-              $el.css
-                top: $mostRightSideItem.offset().top + $mostRightSideItem.outerHeight()
-            else
-              $el.css
-                top: $prevItem.offset().top + $prevItem.outerHeight()
-          $prevItem = $el
+            $el.css
+              top: $el.outerHeight() * (index2 + 1)
+
+          if leftEvents.length - 1 is index2
+            leftEvents.push {row: $el.offset().top, $el: $el}
 
 new Timeline()
