@@ -10,9 +10,15 @@ events:
     start_year: '20'
     end_year: '80'
     text: 'example event20-80'
+    lightbox:
+      img: 'http://placehold.it/300'
+      text: 'lightbox text20-80'
   -
     start_year: '30'
     text: 'example event30'
+    lightbox:
+      img: 'http://placehold.it/400'
+      text: 'lightbox text30'
   -
     start_year: '40'
     end_year: '50'

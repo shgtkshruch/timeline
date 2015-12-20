@@ -1,0 +1,43 @@
+.lightbox {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,.9);
+  z-index: $zindex-lightbox;
+  &__close {
+    $size: 100px;
+    $size-outer: 100px / 1.414;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: $size-outer;
+    height: $size-outer;
+    cursor: pointer;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: $size;
+      height: 1px;
+      background-color: #000;
+    }
+    &::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+  &__item {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

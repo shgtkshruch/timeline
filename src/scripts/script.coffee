@@ -4,11 +4,14 @@ class Timeline
     @$body =  $ '#timeline'
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
+    @$lightbox = $ '#timelineLightbox'
 
+    @showLightboxId = ''
+
+    @setEvents()
     @fetch()
-    @events()
 
-  events: ->
+  setEvents: ->
     $ '#controllerPlus'
       .click (e) =>
         @oneUnitYearWith += 10
@@ -18,6 +21,18 @@ class Timeline
       .click (e) =>
         @oneUnitYearWith -= 10
         @renderYears()
+
+    @$events.on 'click', '.event--lightbox', (e) =>
+      @showLightboxId  = $(e.target).parents('.event--lightbox').data('id')
+      $ '.lightbox [data-id=' + @showLightboxId + ']'
+        .fadeIn()
+      @$lightbox.fadeIn()
+
+    $ '#lightboxClose'
+      .click (e) =>
+        $ '.lightbox [data-id=' + @showLightboxId + ']'
+          .fadeOut()
+        @$lightbox.fadeOut()
 
   fetch: ->
     $.ajax
@@ -29,6 +44,7 @@ class Timeline
         @startYear = data.config.start_year
         @endYear = data.config.end_year
         @renderYears()
+        @renderLightbox()
 
   renderYears: ->
     @$years.empty()
@@ -50,9 +66,11 @@ class Timeline
 
   renderEvents: ->
     @$events.empty()
-    @events.forEach (event) =>
+    @events.forEach (event, index) =>
+      lightboxClass = if event.lightbox then 'event--lightbox' else ''
       $ '<div></div>'
-        .addClass 'timeline__event event'
+        .attr 'data-id', index
+        .addClass 'timeline__event event ' + lightboxClass
         .css
           top: '0'
           left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
@@ -93,5 +111,21 @@ class Timeline
 
           if leftEvents.length - 1 is index2
             leftEvents.push {row: $el.offset().top, $el: $el}
+
+  renderLightbox: ->
+    @events.forEach (event, index) =>
+      if event.lightbox
+        $ '<div></div>'
+          .addClass 'lightbox__item'
+          .attr 'data-id', index
+          .append '<img/>'
+            .find 'img'
+            .attr 'src', event.lightbox.img
+            .end()
+          .append '<p></p>'
+            .find 'p'
+            .text event.lightbox.text
+            .end()
+          .appendTo @$lightbox
 
 new Timeline()

@@ -1,4 +1,7 @@
 .event {
+  &--lightbox {
+    cursor: pointer;
+  }
   &__time {
     display: inline-block;
     background-color: #000;
