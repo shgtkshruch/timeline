@@ -66,7 +66,7 @@ class Timeline
           .append '<span></span>'
             .find 'span'
             .addClass 'timeline__yearNum'
-            .text i
+            .text if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
             .end()
           .appendTo @$years
       i++

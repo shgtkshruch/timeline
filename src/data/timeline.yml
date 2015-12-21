@@ -1,9 +1,9 @@
 ---
 config:
   start_year: 0
-  end_year: 120
+  end_year: 1500
   yearUnit: 10
-  oneUnitYearWidth: 200
+  oneUnitYearWidth: 100
 
 events:
   -
@@ -39,3 +39,7 @@ events:
     start_year: '100'
     end_year: '110'
     text: 'example event100-110'
+  -
+    start_year: '140'
+    end_year: '150'
+    text: 'example event140-150'
