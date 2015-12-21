@@ -1,7 +1,6 @@
 class Timeline
   constructor: ->
 
-    @$body =  $ '#timeline'
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
     @$lightbox = $ '#timelineLightbox'
@@ -23,13 +22,22 @@ class Timeline
         @renderYears()
 
     @$events.on 'click', '.event--lightbox', (e) =>
+      $ 'body, html'
+        .css
+          overflow: 'hidden'
       @showLightboxId  = $(e.target).parents('.event--lightbox').data('id')
       $ '.lightbox [data-id=' + @showLightboxId + ']'
         .fadeIn()
-      @$lightbox.fadeIn()
+      @$lightbox
+        .css
+          left: $(window).scrollLeft()
+        .fadeIn()
 
     $ '#lightboxClose'
       .click (e) =>
+        $ 'body, html'
+          .css
+            overflow: 'initial'
         $ '.lightbox [data-id=' + @showLightboxId + ']'
           .fadeOut()
         @$lightbox.fadeOut()

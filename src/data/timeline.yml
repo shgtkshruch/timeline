@@ -3,7 +3,7 @@ config:
   start_year: 0
   end_year: 120
   yearUnit: 10
-  oneUnitYearWidth: 100
+  oneUnitYearWidth: 200
 
 events:
   -
