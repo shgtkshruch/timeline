@@ -11,7 +11,6 @@
     box-sizing: border-box;
     position: relative;
     display: inline-block;
-    font-size: 50px;
     height: 100vh;
     &:not(:last-child) {
       border-right: 1px dashed #000;
@@ -22,6 +21,12 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    font-size: 50px;
+    font-family: 'Rozha One', serif;
+    &--hundred {
+      top: 45%;
+      font-size: 80px;
+    }
   }
   &__events {
     position: relative;
