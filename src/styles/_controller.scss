@@ -1,7 +1,9 @@
 .controller {
-  position: relative;
-  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: $zindex-controller;
+  background-color: rgba(255, 255, 255, .8);
   &__icon {
     font-size: 50px;
     cursor: pointer;
