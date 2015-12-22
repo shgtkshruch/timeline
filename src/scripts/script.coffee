@@ -76,14 +76,23 @@ class Timeline
   adjustOverlapYears: ->
     scale = [2, 5, 10]
     i = 0
+
     while @isOverlapYears() or i is scale.length
       $ '.timeline__yearNum'
         .not '.timeline__yearNum--hundred'
+          .parent()
+          .css
+            'border-left': 'none'
+          .end()
         .hide()
         .each (index, el) ->
           $el = $ el
           if ($el.text() / 10) % scale[i] is 0
-            $el.show()
+            $el
+              .show()
+              .parent()
+              .css
+                'border-left': '1px dashed #000'
       i++
 
     @renderEvents()
