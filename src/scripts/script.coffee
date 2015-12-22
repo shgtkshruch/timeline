@@ -130,7 +130,7 @@ class Timeline
           .find 'span:nth-child(2)'
           .addClass 'event__text'
           .text event.text
-          .end
+          .end()
         .appendTo @$events
     @adjustOverlapEvents()
 
