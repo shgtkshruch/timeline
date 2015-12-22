@@ -71,7 +71,44 @@ class Timeline
             .end()
           .appendTo @$years
       i++
+    @adjustOverlapYears()
+
+  adjustOverlapYears: ->
+    scale = [2, 5, 10]
+    i = 0
+    while @isOverlapYears() or i is scale.length
+      $ '.timeline__yearNum'
+        .not '.timeline__yearNum--hundred'
+        .hide()
+        .each (index, el) ->
+          $el = $ el
+          if ($el.text() / 10) % scale[i] is 0
+            $el.show()
+      i++
+
     @renderEvents()
+
+  isOverlapYears: ->
+    isOverlap = false
+    $prevElement = ''
+    $ '.timeline__yearNum'
+      .not '.timeline__yearNum--hundred'
+      .filter ':visible'
+      .each (index, el) ->
+        return if isOverlap
+
+        $el = $ el
+
+        if index is 0
+          $prevElement = $el
+          return
+
+        if $el.offset().left < $prevElement.offset().left + $prevElement.outerWidth()
+          isOverlap = true
+
+        $prevElement = $el
+
+    return isOverlap
 
   renderEvents: ->
     @$events.empty()
@@ -93,11 +130,11 @@ class Timeline
           .find 'span:nth-child(2)'
           .addClass 'event__text'
           .text event.text
-          .end()
+          .end
         .appendTo @$events
-    @ajustOverlap()
+    @adjustOverlapEvents()
 
-  ajustOverlap: ->
+  adjustOverlapEvents: ->
     leftEvents = []
     $ '.event'
       .each (index, el) ->
