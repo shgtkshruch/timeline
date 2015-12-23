@@ -28,12 +28,20 @@ html(lang="ja")
           each menu, i in menus
             li
               i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}")
+      #timelineCategory.timeline__category.category
+
     #timelineLightbox.lightbox
       #lightboxClose.lightbox__close
+
+    script(type="text/template" id="category-template")
+      label
+        input(type="checkbox" value!="<%= value %>" checked="checked")
+        | <%= value %>
 
     // build:js scripts/vendor.js
     // bower:js
     script(src='../bower_components/jquery/dist/jquery.js')
+    script(src='../bower_components/lodash/lodash.js')
     // endbower
     // endbuild
 

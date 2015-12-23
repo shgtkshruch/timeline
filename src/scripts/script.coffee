@@ -4,6 +4,7 @@ class Timeline
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
     @$lightbox = $ '#timelineLightbox'
+    @$categories = $ '#timelineCategory'
 
     @showLightboxId = ''
 
@@ -50,6 +51,9 @@ class Timeline
           .fadeOut()
         @$lightbox.fadeOut()
 
+    @$categories.on 'change', (e) =>
+      @filteringByCategory()
+
   fetch: ->
     $.ajax
       url: 'data/timeline.json'
@@ -59,8 +63,10 @@ class Timeline
         @yearUnit = data.config.yearUnit || 10
         @startYear = data.config.start_year
         @endYear = data.config.end_year
+
         @renderYears()
         @renderLightbox()
+        @renderCategories()
 
   renderYears: ->
     @$years.empty()
@@ -101,7 +107,7 @@ class Timeline
                 'border-left': '1px dashed #000'
       i++
 
-    @renderEvents()
+    @filteringByCategory()
 
   isOverlapYears: ->
     isOverlap = false
@@ -124,13 +130,38 @@ class Timeline
 
     return isOverlap
 
-  renderEvents: ->
+  filteringByCategory: ->
+    removedCategories = []
+    events = []
+
+    @$categories.find('input:not(:checked)').each (index, el) ->
+      removedCategories.push $(el).val()
+
+    if removedCategories.length is 0
+      @renderEvents @events
+      return
+
+    @events.forEach (event) ->
+      if !event.category
+        events.push event
+        return
+
+      mergeCategory = event.category.concat removedCategories
+      if _.uniq(mergeCategory).length < event.category.length + removedCategories.length
+        return
+
+      events.push event
+
+    @renderEvents events
+
+  renderEvents: (events) ->
     @$events.empty()
-    @events.forEach (event, index) =>
+    events.forEach (event, index) =>
       lightboxClass = if event.lightbox then 'event--lightbox' else ''
       $ '<div></div>'
         .attr 'data-id', index
         .addClass 'timeline__event event ' + lightboxClass
+        .addClass if event.category then event.category.join(' ')
         .css
           top: '0'
           left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
@@ -187,5 +218,16 @@ class Timeline
             .text event.lightbox.text
             .end()
           .appendTo @$lightbox
+
+  renderCategories: ->
+    categories = []
+    categoryTemplate = _.template $('#category-template').text()
+
+    @events.forEach (event, index) ->
+     if event.category
+       categories.push event.category
+
+    _.chain(categories).flattenDeep().uniq().value().forEach (category, index) =>
+      @$categories.append categoryTemplate {value: category}
 
 new Timeline()

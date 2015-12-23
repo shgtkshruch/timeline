@@ -1,7 +1,7 @@
 ---
 config:
   start_year: 0
-  end_year: 10000
+  end_year: 1000
   yearUnit: 10
   oneUnitYearWidth: 100
 
@@ -13,28 +13,43 @@ events:
     lightbox:
       img: 'http://placehold.it/300'
       text: 'lightbox text20-80'
+    category:
+      - 'art'
+      - 'data'
   -
     start_year: '30'
     text: 'example event30'
     lightbox:
       img: 'http://placehold.it/400'
       text: 'lightbox text30'
+    category:
+      - 'history'
   -
     start_year: '40'
     end_year: '50'
     text: 'example event40-50'
+    category:
+      - 'art'
   -
     start_year: '50'
     end_year: '60'
     text: 'example event50-60'
+    category:
+      - 'history'
+      - 'data'
   -
     start_year: '60'
     end_year: '80'
     text: 'example event60-80'
+    category:
+      - 'data'
   -
     start_year: '80'
     end_year: '90'
     text: 'example event80-90'
+    category:
+      - 'art'
+      - 'history'
   -
     start_year: '100'
     end_year: '110'
