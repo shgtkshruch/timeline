@@ -80,12 +80,10 @@ class Timeline
     @adjustOverlapYears()
 
   adjustOverlapYears: ->
-    scale = [2, 5, 10]
+    scale = [2, 5, 10, 100, 1000]
     i = 0
-
-    while @isOverlapYears() or i is scale.length
+    while @isOverlapYears()
       $ '.timeline__yearNum'
-        .not '.timeline__yearNum--hundred'
           .parent()
           .css
             'border-left': 'none'
@@ -100,51 +98,13 @@ class Timeline
               .css
                 'border-left': '1px dashed #000'
       i++
-    @adjustOverlapHundredYears()
-
-  adjustOverlapHundredYears: ->
-    while @isOverlapHundredYears()
-      $timelineYearNumHundred = $ '.timeline__yearNum--hundred'
-      exponent = $timelineYearNumHundred.filter(':visible').eq(1).text().match(/0+$/)[0].length
-
-      $timelineYearNumHundred.each (index, el) ->
-        $el = $ el
-        if $el.text() % Math.pow(10, exponent + 1) != 0
-          $el
-            .hide()
-            .parent()
-            .css
-              'border-left': 'none'
 
     @renderEvents()
-
-  isOverlapHundredYears: ->
-    isOverlap = false
-    $prevElement = ''
-
-    $ '.timeline__yearNum--hundred'
-      .filter ':visible'
-      .each (index, el) ->
-        return if isOverlap
-
-        $el = $ el
-
-        if index is 0
-          $prevElement = $el
-          return
-
-        if $el.offset().left < $prevElement.offset().left + $prevElement.outerWidth()
-          isOverlap = true
-
-        $prevElement = $el
-
-    return isOverlap
 
   isOverlapYears: ->
     isOverlap = false
     $prevElement = ''
     $ '.timeline__yearNum'
-      .not '.timeline__yearNum--hundred'
       .filter ':visible'
       .each (index, el) ->
         return if isOverlap
