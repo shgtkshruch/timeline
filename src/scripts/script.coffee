@@ -80,7 +80,6 @@ class Timeline
           .append '<span></span>'
             .find 'span'
             .addClass 'timeline__yearNum'
-            .addClass if i % 100 is 0 then 'timeline__yearNum--hundred'
             .text if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
             .end()
           .appendTo @$years
@@ -161,7 +160,6 @@ class Timeline
       $ '<div></div>'
         .attr 'data-id', index
         .addClass 'timeline__event event ' + lightboxClass
-        .addClass if event.category then event.category.join(' ')
         .css
           top: '0'
           left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
