@@ -1,9 +1,9 @@
 ---
 config:
   start_year: 0
-  end_year: 1500
+  end_year: 10000
   yearUnit: 10
-  oneUnitYearWidth: 100
+  oneUnitYearWidth: 20
 
 events:
   -

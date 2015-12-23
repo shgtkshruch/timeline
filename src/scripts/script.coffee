@@ -13,12 +13,18 @@ class Timeline
   setEvents: ->
     $ '#controllerPlus'
       .click (e) =>
-        @oneUnitYearWith += 10
+        if @oneUnitYearWith <= 11
+          @oneUnitYearWith++
+        else
+          @oneUnitYearWith += 10
         @renderYears()
 
     $ '#controllerMinus'
       .click (e) =>
-        @oneUnitYearWith -= 10
+        if @oneUnitYearWith <= 11
+          @oneUnitYearWith--
+        else
+          @oneUnitYearWith -= 10
         @renderYears()
 
     @$events.on 'click', '.event--lightbox', (e) =>
@@ -94,8 +100,45 @@ class Timeline
               .css
                 'border-left': '1px dashed #000'
       i++
+    @adjustOverlapHundredYears()
+
+  adjustOverlapHundredYears: ->
+    while @isOverlapHundredYears()
+      $timelineYearNumHundred = $ '.timeline__yearNum--hundred'
+      exponent = $timelineYearNumHundred.filter(':visible').eq(1).text().match(/0+$/)[0].length
+
+      $timelineYearNumHundred.each (index, el) ->
+        $el = $ el
+        if $el.text() % Math.pow(10, exponent + 1) != 0
+          $el
+            .hide()
+            .parent()
+            .css
+              'border-left': 'none'
 
     @renderEvents()
+
+  isOverlapHundredYears: ->
+    isOverlap = false
+    $prevElement = ''
+
+    $ '.timeline__yearNum--hundred'
+      .filter ':visible'
+      .each (index, el) ->
+        return if isOverlap
+
+        $el = $ el
+
+        if index is 0
+          $prevElement = $el
+          return
+
+        if $el.offset().left < $prevElement.offset().left + $prevElement.outerWidth()
+          isOverlap = true
+
+        $prevElement = $el
+
+    return isOverlap
 
   isOverlapYears: ->
     isOverlap = false
