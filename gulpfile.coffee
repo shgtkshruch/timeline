@@ -95,6 +95,7 @@ gulp.task 'image', ->
 
 gulp.task 'yaml', ->
   gulp.src config.src + '/data/*.yml'
+    .pipe $.plumber()
     .pipe $.yaml
       space: 2
     .pipe gulp.dest config.dest + '/data'
