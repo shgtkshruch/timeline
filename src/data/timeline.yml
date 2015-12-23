@@ -1,7 +1,7 @@
 ---
 config:
   start_year: 0
-  end_year: 500
+  end_year: 1500
   yearUnit: 10
   oneUnitYearWidth: 100
 

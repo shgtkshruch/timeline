@@ -16,13 +16,12 @@
   }
   &__yearNum {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     left: 0;
-    transform: translateY(-50%);
     font-size: 50px;
     font-family: 'Rozha One', serif;
     &--hundred {
-      top: 45%;
+      bottom: 40px;
       font-size: 80px;
     }
   }
