@@ -13,7 +13,7 @@ class Timeline
   setEvents: ->
     $ '#controllerPlus'
       .click (e) =>
-        if @oneUnitYearWith <= 11
+        if @oneUnitYearWith < 10
           @oneUnitYearWith++
         else
           @oneUnitYearWith += 10
@@ -21,7 +21,9 @@ class Timeline
 
     $ '#controllerMinus'
       .click (e) =>
-        if @oneUnitYearWith <= 11
+        if @oneUnitYearWith is 1
+          return
+        else if (@oneUnitYearWith - 10) <= 0
           @oneUnitYearWith--
         else
           @oneUnitYearWith -= 10
