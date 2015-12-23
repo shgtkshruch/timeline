@@ -22,7 +22,7 @@ class Timeline
         @renderYears()
 
     @$events.on 'click', '.event--lightbox', (e) =>
-      $ 'body, html'
+      $ 'html'
         .css
           overflow: 'hidden'
       @showLightboxId  = $(e.target).parents('.event--lightbox').data('id')
@@ -35,7 +35,7 @@ class Timeline
 
     $ '#lightboxClose'
       .click (e) =>
-        $ 'body, html'
+        $ 'html'
           .css
             overflow: 'initial'
         $ '.lightbox [data-id=' + @showLightboxId + ']'
