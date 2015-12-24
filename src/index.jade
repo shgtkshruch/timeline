@@ -31,8 +31,8 @@ html(lang="ja")
       #timelineCategory.timeline__category.category
         .category__order#categoryOrder
           select
-            option(value="or") or
             option(value="and") and
+            option(value="or") or
 
     #timelineLightbox.lightbox
       #lightboxClose.lightbox__close
@@ -45,7 +45,7 @@ html(lang="ja")
 
     script(type="text/template" id="category-template")
       label
-        input(type="checkbox" value!="<%= value %>" checked="checked")
+        input(type="checkbox" value!="<%= value %>")
         | <%= value %>
 
     script(type="text/template" id="lightbox-template")
