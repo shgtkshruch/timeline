@@ -1,11 +1,17 @@
 ---
 config:
-  start_year: 0
-  end_year: 1000
-  yearUnit: 10
-  oneUnitYearWidth: 100
+  start_year: '-200'
+  end_year: '1000'
+  yearUnit: '10'
+  oneUnitYearWidth: '100'
 
 events:
+  -
+    start_year: '-100'
+    end_year: '-80'
+    text: 'example event-100-80'
+    category:
+      - 'history'
   -
     start_year: '20'
     end_year: '80'

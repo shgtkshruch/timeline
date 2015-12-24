@@ -162,7 +162,7 @@ class Timeline
         .addClass 'timeline__event event ' + lightboxClass
         .css
           top: '0'
-          left: (event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
+          left: (Math.abs(@startYear) * @oneUnitYearWith / @yearUnit + event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
         .append '<span></span>'
           .find 'span'
           .addClass 'event__time'
