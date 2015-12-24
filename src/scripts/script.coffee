@@ -105,7 +105,7 @@ class Timeline
               .show()
               .parent()
               .css
-                'border-left': '1px dashed rgba(255, 255, 255, .5)'
+                'border-left': '1px dashed rgba(255, 255, 255, .3)'
       i++
 
     @filteringByCategory()
@@ -174,6 +174,11 @@ class Timeline
           .end()
         .append '<span></span>'
           .find 'span:nth-child(2)'
+          .addClass 'event__period'
+          .text event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
+          .end()
+        .append '<span></span>'
+          .find 'span:nth-child(3)'
           .addClass 'event__text'
           .text event.text
           .end()
