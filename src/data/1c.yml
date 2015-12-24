@@ -1,17 +1,3 @@
----
-config:
-  start_year: '-200'
-  end_year: '1000'
-  yearUnit: '10'
-  oneUnitYearWidth: '20'
-
-events:
-  -
-    start_year: '-100'
-    end_year: '-80'
-    text: 'example event-100-80'
-    category:
-      - 'history'
   -
     start_year: '20'
     end_year: '80'
@@ -56,11 +42,3 @@ events:
     category:
       - 'art'
       - 'history'
-  -
-    start_year: '100'
-    end_year: '110'
-    text: 'example event100-110'
-  -
-    start_year: '140'
-    end_year: '150'
-    text: 'example event140-150'

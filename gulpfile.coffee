@@ -9,6 +9,7 @@ propsort = require 'css-property-sorter'
 mqpacker = require 'css-mqpacker'
 fmt = require 'cssfmt'
 del = require 'del'
+fs = require 'fs'
 ghpages = require 'gh-pages'
 path = require 'path'
 
@@ -94,8 +95,16 @@ gulp.task 'image', ->
     .pipe gulp.dest config.dest + '/images'
 
 gulp.task 'yaml', ->
-  gulp.src config.src + '/data/*.yml'
+  src = []
+  files = fs.readdirSync config.src + '/data'
+  configYml = files.splice files.find 'config.yml', 0
+  files.unshift configYml
+  files.forEach (file) ->
+    src.push config.src + '/data/' + file
+
+  gulp.src src
     .pipe $.plumber()
+    .pipe $.concat 'timeline.yml'
     .pipe $.yaml
       space: 2
     .pipe gulp.dest config.dest + '/data'
