@@ -66,7 +66,6 @@ class Timeline
 
         @renderYears()
         @renderLightbox()
-        @renderCategories()
 
   renderYears: ->
     $fragment = $ document.createDocumentFragment()
@@ -107,8 +106,7 @@ class Timeline
               .css
                 'border-left': '1px dashed rgba(255, 255, 255, .3)'
       i++
-
-    @filteringByCategory()
+    @renderCategories()
 
   isOverlapYears: ->
     isOverlap = false
@@ -130,6 +128,22 @@ class Timeline
         $prevElement = $el
 
     return isOverlap
+
+  renderCategories: ->
+    categories = []
+    categoryTemplate = _.template $('#category-template').text()
+    $fragment = $ document.createDocumentFragment()
+
+    @events.forEach (event, index) ->
+     if event.category
+       categories.push event.category
+
+    _.chain(categories).flattenDeep().uniq().value().forEach (category, index) ->
+      $fragment.append categoryTemplate {value: category}
+
+    $fragment.appendTo @$categories
+
+    @filteringByCategory()
 
   filteringByCategory: ->
     removedCategories = []
@@ -218,19 +232,5 @@ class Timeline
           $fragment.append lightboxTemplate lightbox
 
     $fragment.appendTo @$lightbox
-
-  renderCategories: ->
-    categories = []
-    categoryTemplate = _.template $('#category-template').text()
-    $fragment = $ document.createDocumentFragment()
-
-    @events.forEach (event, index) ->
-     if event.category
-       categories.push event.category
-
-    _.chain(categories).flattenDeep().uniq().value().forEach (category, index) ->
-      $fragment.append categoryTemplate {value: category}
-
-    $fragment.appendTo @$categories
 
 new Timeline()
