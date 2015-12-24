@@ -34,7 +34,7 @@ class Timeline
       $ 'html'
         .css
           overflow: 'hidden'
-      @showLightboxId  = $(e.target).parents('.event--lightbox').data('id')
+      @showLightboxId  = $(e.target).closest('.event--lightbox').data('id')
       $ '.lightbox [data-id=' + @showLightboxId + ']'
         .fadeIn()
       @$lightbox
