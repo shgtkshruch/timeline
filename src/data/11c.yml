@@ -1,0 +1,21 @@
+  -
+    start_year: '1096'
+    end_year: '1099'
+    text: '第1回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1096'
+    text: '東海地震'
+    category:
+      - 'event'
+      - 'nature'
+      - 'japan'
+  -
+    start_year: '1099'
+    text: '南海地震'
+    category:
+      - 'event'
+      - 'nature'
+      - 'japan'

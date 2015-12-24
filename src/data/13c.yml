@@ -1,0 +1,107 @@
+  -
+    start_year: '1200'
+    end_year: '1253'
+    text: '道元'
+    category:
+      - 'human'
+      - 'japan'
+      - 'religion'
+  -
+    start_year: '1202'
+    end_year: '1204'
+    text: '第4回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1215'
+    end_year: '1294'
+    text: 'クビライ'
+    category:
+      - 'human'
+  -
+    start_year: '1218'
+    end_year: '1221'
+    text: '第5回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1222'
+    end_year: '1282'
+    text: '日蓮'
+    category:
+      - 'human'
+      - 'japan'
+      - 'religion'
+  -
+    start_year: '1225'
+    end_year: '1274'
+    text: 'トマス・アクィナス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1228'
+    end_year: '1229'
+    text: '第6回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1248'
+    end_year: '1249'
+    text: '第7回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1254'
+    end_year: '1324'
+    text: 'マルコ・ポーロ'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1265'
+    end_year: '1321'
+    text: 'ダンテ・アリギエーリ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1270'
+    text: '第8回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1271'
+    end_year: '1272'
+    text: '第9回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1274'
+    text: '元寇'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '1283'
+    end_year: '1352'
+    text: '吉田兼好'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1288'
+    end_year: '1339'
+    text: '後醍醐天皇'
+    category:
+      - 'human'
+      - 'japan'

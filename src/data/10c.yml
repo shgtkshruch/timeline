@@ -6,3 +6,11 @@
       - 'human'
       - 'japan'
       - 'art'
+  -
+    start_year: '975'
+    end_year: '1020'
+    text: '紫式部'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'

@@ -1,0 +1,115 @@
+  -
+    start_year: '1118'
+    end_year: '1191'
+    text: '平清盛'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1118'
+    end_year: '1190'
+    text: '西行'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1120'
+    end_year: '1180'
+    text: 'ルイ7世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1123'
+    end_year: '1160'
+    text: '源頼朝'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1123'
+    end_year: '1190'
+    text: 'フリードリヒ1世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1127'
+    end_year: '1192'
+    text: '後白河天皇'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1133'
+    end_year: '1212'
+    text: '法然'
+    category:
+      - 'human'
+      - 'japan'
+      - 'religion'
+  -
+    start_year: '1141'
+    end_year: '1215'
+    text: '栄西'
+    category:
+      - 'human'
+      - 'japan'
+      - 'religion'
+  -
+    start_year: '1147'
+    end_year: '1148'
+    text: '第2回十字軍'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1155'
+    end_year: '1216'
+    text: '鴨長明'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1157'
+    end_year: '1199'
+    text: 'リチャード1世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1157'
+    end_year: '1225'
+    text: '北条政子'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1159'
+    end_year: '1189'
+    text: '源義経'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1162'
+    end_year: '1227'
+    text: 'チンギス・カン'
+    category:
+      - 'human'
+  -
+    start_year: '1180'
+    end_year: '1239'
+    text: '後鳥羽天皇'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1189'
+    end_year: '1192'
+    text: '第3回十字軍'
+    category:
+      - 'event'
+      - 'europe'
