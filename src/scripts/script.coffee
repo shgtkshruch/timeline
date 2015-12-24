@@ -5,6 +5,7 @@ class Timeline
     @$events = $ '#timelineEvents'
     @$lightbox = $ '#timelineLightbox'
     @$categories = $ '#timelineCategory'
+    @$categoryOrder = $ '#categoryOrder'
 
     @showLightboxId = ''
 
@@ -146,26 +147,39 @@ class Timeline
     @filteringByCategory()
 
   filteringByCategory: ->
-    removedCategories = []
+    switch @$categoryOrder.find('select').val()
+      when 'or'
+        @filteringByOr()
+      when 'and'
+        @filteringByAnd()
+
+  filteringByOr: ->
+    showCategories = []
     events = []
 
-    @$categories.find('input:not(:checked)').each (index, el) ->
-      removedCategories.push $(el).val()
-
-    if removedCategories.length is 0
-      @renderEvents @events
-      return
+    @$categories.find('input:checked').each (index, el) ->
+      showCategories.push $(el).val()
 
     @events.forEach (event) ->
-      if !event.category
+      mergeCategory = event.category.concat showCategories
+      if _.uniq(mergeCategory).length < event.category.length + showCategories.length
         events.push event
-        return
 
-      mergeCategory = event.category.concat removedCategories
-      if _.uniq(mergeCategory).length < event.category.length + removedCategories.length
-        return
+    @renderEvents events
 
-      events.push event
+  filteringByAnd: ->
+    showCategories = []
+    events = []
+
+    checked = @$categories.find('input:checked')
+
+    checked.each (index, el) ->
+      showCategories.push $(el).val()
+
+    @events.forEach (event) ->
+      mergeCategory = event.category.concat showCategories
+      if _.uniq(mergeCategory).length is event.category.length + showCategories.length - checked.length
+        events.push event
 
     @renderEvents events
 

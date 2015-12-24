@@ -29,6 +29,10 @@ html(lang="ja")
             li
               i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}")
       #timelineCategory.timeline__category.category
+        .category__order#categoryOrder
+          select
+            option(value="or") or
+            option(value="and") and
 
     #timelineLightbox.lightbox
       #lightboxClose.lightbox__close
