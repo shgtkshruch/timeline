@@ -59,10 +59,10 @@ class Timeline
       url: 'data/timeline.json'
       success: (data, status, xhr) =>
         @events = data.events
-        @oneUnitYearWith = data.config.oneUnitYearWidth || 100
-        @yearUnit = data.config.yearUnit || 10
-        @startYear = data.config.start_year
-        @endYear = data.config.end_year
+        @oneUnitYearWith = parseInt data.config.oneUnitYearWidth, 10 || 100
+        @yearUnit = parseInt data.config.yearUnit, 10 || 10
+        @startYear = parseInt data.config.start_year, 10
+        @endYear = parseInt data.config.end_year, 10
 
         @renderYears()
         @renderLightbox()
