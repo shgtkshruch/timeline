@@ -5,4 +5,10 @@
   transform: translateY(-50%);
   z-index: $zindex-category;
   color: #fff;
+  &__text {
+    display: inline-block;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
 }

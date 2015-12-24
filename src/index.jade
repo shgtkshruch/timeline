@@ -46,7 +46,7 @@ html(lang="ja")
     script(type="text/template" id="category-template")
       label
         input(type="checkbox" value!="<%= value %>")
-        | <%= value %>
+        span.category__text <%= value %>
 
     script(type="text/template" id="lightbox-template")
       .lightbox__item(data-id!="<%= id %>")
