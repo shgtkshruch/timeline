@@ -1,0 +1,18 @@
+  -
+    start_year: '552'
+    text: '仏教伝来'
+    category:
+      - 'event'
+  -
+    start_year: '570'
+    end_year: '632'
+    text: 'ムハンマド・イブン＝アブトゥッラーフ'
+    category:
+      - 'human'
+  -
+    start_year: '574'
+    end_year: '622'
+    text: '聖徳太子'
+    category:
+      - 'human'
+      - 'japan'

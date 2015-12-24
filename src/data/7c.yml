@@ -1,0 +1,28 @@
+  -
+    start_year: '646'
+    text: '大化の改新'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '659'
+    end_year: '720'
+    text: '藤原不比等'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '660'
+    end_year: '720'
+    text: '柿本人麻呂'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '668'
+    end_year: '749'
+    text: '行基'
+    category:
+      - 'human'
+      - 'japan'

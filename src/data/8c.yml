@@ -1,0 +1,28 @@
+  -
+    start_year: '712'
+    text: '古事記成立'
+    category:
+      - 'event'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '720'
+    text: '日本書紀成立'
+    category:
+      - 'event'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '774'
+    end_year: '835'
+    text: '空海'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '778'
+    end_year: '822'
+    text: '最澄'
+    category:
+      - 'human'
+      - 'japan'
