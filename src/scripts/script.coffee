@@ -161,18 +161,21 @@ class Timeline
 
     @$events.empty()
 
-    events.forEach (event, index) =>
-      event.start_year = parseInt event.start_year, 10
-      event.end_year = parseInt event.end_year, 10
+    _.chain(events)
+      .sortBy((n) -> parseInt n.start_year, 10)
+      .value()
+      .forEach (event, index) =>
+        event.start_year = parseInt event.start_year, 10
+        event.end_year = parseInt event.end_year, 10
 
-      ev = {}
-      ev.id = index
-      ev.klass = if event.lightbox then 'event--lightbox' else ''
-      ev.left = ((Math.abs(@startYear) + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
-      ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
-      ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
-      ev.text = event.text
-      $fragment.append eventTemplate ev
+        ev = {}
+        ev.id = index
+        ev.klass = if event.lightbox then 'event--lightbox' else ''
+        ev.left = ((Math.abs(@startYear) + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
+        ev.text = event.text
+        $fragment.append eventTemplate ev
 
     $fragment.appendTo @$events
 
@@ -203,13 +206,16 @@ class Timeline
     $fragment = $ document.createDocumentFragment()
     lightboxTemplate = _.template $('#lightbox-template').text()
 
-    @events.forEach (event, index) =>
-      if event.lightbox
-        lightbox = {}
-        lightbox.id = index
-        lightbox.src = event.lightbox.img
-        lightbox.text = event.lightbox.text
-        $fragment.append lightboxTemplate lightbox
+    _.chain(@events)
+      .sortBy((n) -> parseInt n.start_year, 10)
+      .value()
+      .forEach (event, index) =>
+        if event.lightbox
+          lightbox = {}
+          lightbox.id = index
+          lightbox.src = event.lightbox.img
+          lightbox.text = event.lightbox.text
+          $fragment.append lightboxTemplate lightbox
 
     $fragment.appendTo @$lightbox
 
