@@ -211,20 +211,15 @@ class Timeline
 
   renderLightbox: ->
     $fragment = $ document.createDocumentFragment()
+    lightboxTemplate = _.template $('#lightbox-template').text()
+
     @events.forEach (event, index) =>
       if event.lightbox
-        $ '<div></div>'
-          .addClass 'lightbox__item'
-          .attr 'data-id', index
-          .append '<img/>'
-            .find 'img'
-            .attr 'src', event.lightbox.img
-            .end()
-          .append '<p></p>'
-            .find 'p'
-            .text event.lightbox.text
-            .end()
-          .appendTo $fragment
+        lightbox = {}
+        lightbox.id = index
+        lightbox.src = event.lightbox.img
+        lightbox.text = event.lightbox.text
+        $fragment.append lightboxTemplate lightbox
 
     $fragment.appendTo @$lightbox
 
