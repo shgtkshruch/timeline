@@ -3,7 +3,7 @@ config:
   start_year: '-200'
   end_year: '1000'
   yearUnit: '10'
-  oneUnitYearWidth: '100'
+  oneUnitYearWidth: '20'
 
 events:
   -

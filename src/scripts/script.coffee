@@ -188,24 +188,21 @@ class Timeline
     $ '.event'
       .each (index, el) ->
         $el = $ el
-        loopEnd = ''
+        loopEnd = false
 
         if index is 0
           leftEvents.push {row: $el.offset().top, $el: $el}
-          return
-
-        leftEvents.forEach (leftEvent, index2, array) ->
-          return if loopEnd
-
-          if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
-            loopEnd = true
-            leftEvents.splice index2, 1, {row: $el.offset().top, $el: $el}
-          else
-            $el.css
-              top: $el.outerHeight() * (index2 + 1)
-
-          if leftEvents.length - 1 is index2
-            leftEvents.push {row: $el.offset().top, $el: $el}
+        else
+          leftEvents.forEach (leftEvent, index2) ->
+            return if loopEnd
+            if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
+              loopEnd = true
+              leftEvents.splice index2, 1, {row: $el.offset().top, $el: $el}
+            else
+              $el.css
+                top: leftEvent.row + $el.outerHeight()
+              if index2 is leftEvents.length - 1
+                leftEvents.push {row: $el.offset().top, $el: $el}
 
   renderLightbox: ->
     $fragment = $ document.createDocumentFragment()
