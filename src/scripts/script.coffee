@@ -105,7 +105,7 @@ class Timeline
               .show()
               .parent()
               .css
-                'border-left': '1px dashed #000'
+                'border-left': '1px dashed rgba(255, 255, 255, .5)'
       i++
 
     @filteringByCategory()

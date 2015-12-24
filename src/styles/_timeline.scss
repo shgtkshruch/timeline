@@ -12,7 +12,7 @@
     position: relative;
     display: inline-block;
     height: 100vh;
-    border-left: 1px dashed #000;
+    border-left: 1px dashed rgba(255, 255, 255, .5);
   }
   &__yearNum {
     position: absolute;
@@ -20,6 +20,7 @@
     left: 0;
     font-size: 50px;
     font-family: 'Rozha One', serif;
+    color: rgba(255, 255, 255, .8);
   }
   &__events {
     position: relative;

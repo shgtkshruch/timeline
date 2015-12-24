@@ -1,12 +1,23 @@
 .event {
+  padding-right: 10px;
+  &:hover {
+    .event__time {
+      background-color: rgba(255, 255, 255, .9);
+    }
+  }
   &--lightbox {
     cursor: pointer;
   }
   &__time {
     display: inline-block;
-    background-color: #000;
     width: 10px;
     height: 10px;
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    margin-right: 5px;
+    transition: background-color .3s;
+  }
+  &__text {
+    color: #fff;
   }
 }
