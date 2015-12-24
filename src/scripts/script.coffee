@@ -69,6 +69,7 @@ class Timeline
         @renderCategories()
 
   renderYears: ->
+    $fragment = $ document.createDocumentFragment()
     @$years.empty()
     i = @startYear
     while i <= @endYear
@@ -82,8 +83,9 @@ class Timeline
             .addClass 'timeline__yearNum'
             .text if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
             .end()
-          .appendTo @$years
+          .appendTo $fragment
       i++
+      $fragment.appendTo @$years
     @adjustOverlapYears()
 
   adjustOverlapYears: ->
@@ -154,6 +156,7 @@ class Timeline
     @renderEvents events
 
   renderEvents: (events) ->
+    $fragment = $ document.createDocumentFragment()
     @$events.empty()
     events.forEach (event, index) =>
       lightboxClass = if event.lightbox then 'event--lightbox' else ''
@@ -174,7 +177,10 @@ class Timeline
           .addClass 'event__text'
           .text event.text
           .end()
-        .appendTo @$events
+        .appendTo $fragment
+
+    $fragment.appendTo @$events
+
     @adjustOverlapEvents()
 
   adjustOverlapEvents: ->
@@ -202,6 +208,7 @@ class Timeline
             leftEvents.push {row: $el.offset().top, $el: $el}
 
   renderLightbox: ->
+    $fragment = $ document.createDocumentFragment()
     @events.forEach (event, index) =>
       if event.lightbox
         $ '<div></div>'
@@ -215,17 +222,22 @@ class Timeline
             .find 'p'
             .text event.lightbox.text
             .end()
-          .appendTo @$lightbox
+          .appendTo $fragment
+
+    $fragment.appendTo @$lightbox
 
   renderCategories: ->
     categories = []
     categoryTemplate = _.template $('#category-template').text()
+    $fragment = $ document.createDocumentFragment()
 
     @events.forEach (event, index) ->
      if event.category
        categories.push event.category
 
     _.chain(categories).flattenDeep().uniq().value().forEach (category, index) =>
-      @$categories.append categoryTemplate {value: category}
+      $fragment.append categoryTemplate {value: category}
+
+    $fragment.appendTo @$categories
 
 new Timeline()
