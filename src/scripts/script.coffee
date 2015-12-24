@@ -232,7 +232,7 @@ class Timeline
      if event.category
        categories.push event.category
 
-    _.chain(categories).flattenDeep().uniq().value().forEach (category, index) =>
+    _.chain(categories).flattenDeep().uniq().value().forEach (category, index) ->
       $fragment.append categoryTemplate {value: category}
 
     $fragment.appendTo @$categories
