@@ -157,32 +157,22 @@ class Timeline
 
   renderEvents: (events) ->
     $fragment = $ document.createDocumentFragment()
+    eventTemplate = _.template $('#event-template').text()
+
     @$events.empty()
+
     events.forEach (event, index) =>
-      lightboxClass = if event.lightbox then 'event--lightbox' else ''
-      $ '<div></div>'
-        .attr 'data-id', index
-        .addClass 'timeline__event event ' + lightboxClass
-        .css
-          top: '0'
-          left: (Math.abs(@startYear) * @oneUnitYearWith / @yearUnit + event.start_year * @oneUnitYearWith / @yearUnit) + 'px'
-        .append '<span></span>'
-          .find 'span'
-          .addClass 'event__time'
-          .css
-            width: ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
-          .end()
-        .append '<span></span>'
-          .find 'span:nth-child(2)'
-          .addClass 'event__period'
-          .text event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
-          .end()
-        .append '<span></span>'
-          .find 'span:nth-child(3)'
-          .addClass 'event__text'
-          .text event.text
-          .end()
-        .appendTo $fragment
+      event.start_year = parseInt event.start_year, 10
+      event.end_year = parseInt event.end_year, 10
+
+      ev = {}
+      ev.id = index
+      ev.klass = if event.lightbox then 'event--lightbox' else ''
+      ev.left = ((Math.abs(@startYear) + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+      ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+      ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
+      ev.text = event.text
+      $fragment.append eventTemplate ev
 
     $fragment.appendTo @$events
 

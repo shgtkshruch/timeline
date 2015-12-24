@@ -33,6 +33,12 @@ html(lang="ja")
     #timelineLightbox.lightbox
       #lightboxClose.lightbox__close
 
+    script(type="text/template" id="event-template")
+      .timeline__event.event(class!="<%= klass %>" style!="left: <%= left %>" data-id!="<%= id %>")
+        span.event__time(style!="width: <%= timeWidth %>")
+        span.event__period <%= period %>
+        span.event__text <%= text %>
+
     script(type="text/template" id="category-template")
       label
         input(type="checkbox" value!="<%= value %>" checked="checked")
