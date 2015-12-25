@@ -35,7 +35,7 @@ class Timeline
       text = $(e.target).closest('.event').find('.event__text').text()
 
       $.ajax
-        url: 'https://jp.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=&explaintext=&titles=' + text
+        url: 'https://jp.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=&explaintext=&redirects=&titles=' + text
         dataType: 'jsonp'
         success: (data, status, xhr) =>
           pageId = Object.keys(data.query.pages)[0]
