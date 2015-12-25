@@ -33,23 +33,36 @@ class Timeline
 
     @$events.on 'click', '.event', (e) =>
       text = $(e.target).closest('.event').find('.event__text').text()
+
       $.ajax
         url: 'https://jp.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=&explaintext=&titles=' + text
         dataType: 'jsonp'
         success: (data, status, xhr) =>
           pageId = Object.keys(data.query.pages)[0]
           content = data.query.pages[pageId].extract
+
+          $lightboxInner = $ '#lightboxInner'
+
           p = $ '<p></p>'
             .addClass 'lightbox__item'
             .text content
+
           @$lightbox
-            .append p
             .css
               left: $(window).scrollLeft()
+            .find $lightboxInner
+              .append p
+              .end()
             .fadeIn()
+
           $ 'html'
             .css
               overflow: 'hidden'
+
+          $ '#lightboxClose'
+            .css
+              top: $lightboxInner.offset().top + 20 + 'px'
+              left: $lightboxInner.position().left + $lightboxInner.outerWidth() - 20 + 'px'
 
     $ '#lightboxClose'
       .click (e) =>
