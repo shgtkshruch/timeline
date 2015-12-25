@@ -4,21 +4,25 @@
     text: 'クレオパトラ'
     category:
       - 'human'
+      - 'egypt'
   -
     start_year: '-53'
     end_year: '14'
     text: 'アウグストゥス'
     category:
       - 'human'
+      - 'europe'
   -
     start_year: '-6'
     end_year: '57'
     text: '光武帝'
     category:
       - 'human'
+      - 'china'
   -
     start_year: '-4'
     end_year: '32'
     text: 'イエス・キリスト'
     category:
       - 'human'
+      - 'europe'

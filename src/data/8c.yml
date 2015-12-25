@@ -21,6 +21,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'religion'
   -
     start_year: '778'
     end_year: '822'
@@ -28,3 +29,4 @@
     category:
       - 'human'
       - 'japan'
+      - 'religion'

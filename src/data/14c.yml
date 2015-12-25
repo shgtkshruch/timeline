@@ -1,0 +1,67 @@
+  -
+    start_year: '1305'
+    end_year: '1358'
+    text: '足利尊氏'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1313'
+    end_year: '1375'
+    text: 'ジョヴァンニ・ボッカッチョ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1348'
+    end_year: '1350'
+    text: 'ペスト禍'
+    wikipedia: 'ペスト'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1358'
+    end_year: '1408'
+    text: '足利義満'
+    category:
+      - 'human'
+      - 'japan'
+  -
+    start_year: '1371'
+    end_year: '1434'
+    text: '鄭和'
+    category:
+      - 'human'
+      - 'china'
+  -
+    start_year: '1377'
+    end_year: '1446'
+    text: 'フィリッポ・ブルネレスキ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1386'
+    end_year: '1466'
+    text: 'ドナテッロ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1394'
+    end_year: '1460'
+    text: 'エンリケ航海王子'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1398'
+    end_year: '1468'
+    text: 'ヨハネス・グーテンベルク'
+    category:
+      - 'human'
+      - 'europe'

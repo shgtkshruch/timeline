@@ -1,12 +1,14 @@
   -
     start_year: '483'
     end_year: '565'
-    text: 'ユスティニアヌス１世'
+    text: 'ユスティニアヌス1世'
     category:
       - 'human'
+      - 'europe'
   -
     start_year: '480'
     end_year: '547'
     text: 'ベネディクトゥス'
     category:
       - 'human'
+      - 'europe'

@@ -4,38 +4,45 @@
     text: '龍樹'
     category:
       - 'human'
+      - 'india'
   -
     start_year: '155'
     end_year: '191'
     text: '孫堅'
     category:
       - 'human'
+      - 'china'
   -
     start_year: '155'
     end_year: '220'
     text: '曹操'
     category:
       - 'human'
+      - 'china'
   -
     start_year: '161'
     end_year: '223'
     text: '劉備'
     category:
       - 'human'
+      - 'china'
   -
     start_year: '170'
     end_year: '248'
     text: '卑弥呼'
     category:
       - 'human'
+      - 'japan'
   -
     start_year: '181'
     end_year: '234'
     text: '諸葛亮'
     category:
       - 'human'
+      - 'china'
   -
     start_year: '184'
     text: '黄巾の乱'
     category:
       - 'event'
+      - 'china'

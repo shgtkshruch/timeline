@@ -3,6 +3,7 @@
     text: '仏教伝来'
     category:
       - 'event'
+      - 'japan'
   -
     start_year: '570'
     end_year: '632'

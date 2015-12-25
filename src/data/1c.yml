@@ -4,25 +4,32 @@
     text: 'ネロ'
     category:
       - 'human'
+      - 'europe'
   -
     start_year: '76'
     end_year: '138'
     text: 'ハドリアヌス'
     category:
       - 'human'
+      - 'europe'
   -
     start_year: '79'
     text: 'ポンペイ滅亡'
+    wikipedia: 'ポンペイ'
     category:
       - 'event'
+      - 'europe'
   -
     start_year: '83'
     end_year: '168'
     text: 'クラウディオス・プトレマイオス'
     category:
       - 'human'
+      - 'europe'
   -
     start_year: '100'
     text: '大乗仏教誕生'
+    wikipedia: '大乗仏教'
     category:
       - 'event'
+      - 'india'

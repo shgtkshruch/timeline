@@ -1,0 +1,232 @@
+  -
+    start_year: '1404'
+    end_year: '1472'
+    text: 'レオン・バッティスタ・アルベルティ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1412'
+    end_year: '1431'
+    text: 'ジャンヌ・ダルク'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1421'
+    end_year: '1471'
+    text: 'ヘンリー6世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1434'
+    end_year: '1530'
+    text: '狩野正信'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1436'
+    end_year: '1490'
+    text: '足利義政'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1440'
+    end_year: '1506'
+    text: '雪舟'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1444'
+    end_year: '1514'
+    text: 'ドナト・ブラマンテ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1445'
+    end_year: '1510'
+    text: 'サンドロ・ボッティチェッリ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1450'
+    end_year: '1498'
+    text: 'ジョン・カボット'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1450'
+    end_year: '1500'
+    text: 'バルトロメウ・ディアス'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1451'
+    end_year: '1506'
+    text: 'クリストファー・コロンブス'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1452'
+    end_year: '1519'
+    text: 'レオナルド・ダ・ヴィンチ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1457'
+    end_year: '1509'
+    text: 'ヘンリー7世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1467'
+    end_year: '1524'
+    text: 'ジョヴァンニ・デ・メディチ・イル・ポポラーノ'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1469'
+    end_year: '1524'
+    text: 'ヴァスコ・ダ・ガマ'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1469'
+    end_year: '1527'
+    text: 'マキャヴェリ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1473'
+    end_year: '1543'
+    text: 'コペルニクス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1475'
+    end_year: '1554'
+    text: 'セバスティアーノ・セルリオ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1475'
+    end_year: '1564'
+    text: 'ミケランジェロ・ブオナローティ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1478'
+    end_year: '1535'
+    text: 'トマス・モア'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1480'
+    end_year: '1521'
+    text: 'フェルディナンド・マゼラン'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1483'
+    end_year: '1520'
+    text: 'ラファエロ・サンティ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1483'
+    end_year: '1546'
+    text: 'マルティン・ルター'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1483'
+    end_year: '1555'
+    text: 'フランソワ・ラブレー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1485'
+    end_year: '1528'
+    text: 'ジョバンニ・ダ・ヴェラッツァーノ'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1491'
+    end_year: '1557'
+    text: 'ジャック・カルティエ'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1491'
+    end_year: '1557'
+    text: 'ヘンリー8世'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1494'
+    end_year: '1566'
+    text: 'スレイマン1世'
+    category:
+      - 'human'
+  -
+    start_year: '1497'
+    end_year: '1543'
+    text: 'ハンス・ホルバイン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1498'
+    text: '南海地震'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '1498'
+    end_year: '1546'
+    text: 'ジュリオ・ロマーノ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
