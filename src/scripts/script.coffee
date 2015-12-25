@@ -103,6 +103,8 @@ class Timeline
         @endYear = parseInt data.config.end_year, 10
 
         @renderYears()
+        @renderCategories()
+        @filteringByCategory()
 
   renderYears: ->
     $fragment = $ document.createDocumentFragment()
@@ -143,7 +145,8 @@ class Timeline
               .css
                 'border-left': '1px dashed rgba(255, 255, 255, .3)'
       i++
-    @renderCategories()
+
+    @filteringByCategory()
 
   isOverlapYears: ->
     isOverlap = false
@@ -179,8 +182,6 @@ class Timeline
       $fragment.append categoryTemplate {value: category}
 
     $fragment.appendTo @$categories
-
-    @filteringByCategory()
 
   filteringByCategory: ->
     switch @$categoryOrder.find('select').val()
