@@ -29,7 +29,7 @@
       left: 50%;
       width: $size;
       height: 1px;
-      background-color: #fff;
+      background-color: #000;
       transition: transform .3s;
     }
     &::before {
@@ -55,14 +55,14 @@
     width: 40em;
     max-height: 80vh;
     padding: $paddingCalc $padding $paddingCalc  $paddingCalc;
-    background-color: darken($color-body, 20%);
+    background-color: #fff;
     overflow-y: scroll;
   }
   &__item {
     padding-right: 10px;
     max-height: calc(#{$height-inner} - #{$padding});
     line-height: 2;
-    color: #fff;
+    color: #000;
     overflow: scroll;
   }
 }
