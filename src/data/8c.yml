@@ -1,6 +1,7 @@
   -
     start_year: '712'
     text: '古事記成立'
+    wikipedia: '古事記'
     category:
       - 'event'
       - 'japan'
@@ -8,6 +9,7 @@
   -
     start_year: '720'
     text: '日本書紀成立'
+    wikipedia: '日本書紀'
     category:
       - 'event'
       - 'japan'

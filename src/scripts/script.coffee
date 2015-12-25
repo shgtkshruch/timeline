@@ -32,7 +32,9 @@ class Timeline
         @renderYears()
 
     @$events.on 'click', '.event', (e) =>
-      text = $(e.target).closest('.event').find('.event__text').text()
+      $el = $(e.target).closest('.event')
+      dataWikipedia = $el.data('wikipedia')
+      text = dataWikipedia || $el.find('.event__text').text()
       url = ['https://jp.wikipedia.org/w/api.php?'
             'action=query',
             '&format=json',
@@ -234,9 +236,8 @@ class Timeline
         event.end_year = parseInt event.end_year, 10
 
         ev = {}
-        ev.id = index
-        ev.klass = if event.lightbox then 'event--lightbox' else ''
         ev.left = ((Math.abs(@startYear) + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.wikipedia = event.wikipedia || ''
         ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
         ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
         ev.text = event.text
