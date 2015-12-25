@@ -39,7 +39,7 @@ class Timeline
         dataType: 'jsonp'
         success: (data, status, xhr) =>
           pageId = Object.keys(data.query.pages)[0]
-          content = data.query.pages[pageId].extract
+          content = if pageId isnt '-1' then data.query.pages[pageId].extract else 'Wikipediaに記事がありませんでした。'
 
           $lightboxInner = $ '#lightboxInner'
 
