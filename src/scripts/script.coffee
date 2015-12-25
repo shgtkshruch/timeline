@@ -33,15 +33,29 @@ class Timeline
 
     @$events.on 'click', '.event', (e) =>
       text = $(e.target).closest('.event').find('.event__text').text()
+      url = ['https://jp.wikipedia.org/w/api.php?'
+            'action=query',
+            '&format=json',
+            '&prop=extracts',
+            '&exintro=',
+            '&explaintext=',
+            '&redirects=',
+            '&titles=',
+            text
+            ].join('')
 
       $.ajax
-        url: 'https://jp.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=&explaintext=&redirects=&titles=' + text
+        url: url
         dataType: 'jsonp'
         success: (data, status, xhr) =>
           pageId = Object.keys(data.query.pages)[0]
-          content = if pageId isnt '-1' then data.query.pages[pageId].extract else 'Wikipediaに記事がありませんでした。'
+          content = if pageId isnt '-1'
+            data.query.pages[pageId].extract
+          else
+            'Wikipediaに記事がありませんでした。'
 
           $lightboxInner = $ '#lightboxInner'
+          padding = 20
 
           p = $ '<p></p>'
             .addClass 'lightbox__item'
@@ -61,8 +75,8 @@ class Timeline
 
           $ '#lightboxClose'
             .css
-              top: $lightboxInner.offset().top + 20 + 'px'
-              left: $lightboxInner.position().left + $lightboxInner.outerWidth() - 20 + 'px'
+              top: $lightboxInner.offset().top + padding + 'px'
+              left: $lightboxInner.position().left + $lightboxInner.outerWidth() - padding + 'px'
 
     $ '#lightboxClose'
       .click (e) =>
