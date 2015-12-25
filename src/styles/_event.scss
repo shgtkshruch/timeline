@@ -1,12 +1,10 @@
 .event {
   padding-right: 10px;
+  cursor: pointer;
   &:hover {
     .event__time {
       background-color: rgba(255, 255, 255, .9);
     }
-  }
-  &--lightbox {
-    cursor: pointer;
   }
   &__time {
     display: inline-block;

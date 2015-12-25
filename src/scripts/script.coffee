@@ -31,26 +31,36 @@ class Timeline
           @oneUnitYearWith -= 10
         @renderYears()
 
-    @$events.on 'click', '.event--lightbox', (e) =>
-      $ 'html'
-        .css
-          overflow: 'hidden'
-      @showLightboxId  = $(e.target).closest('.event--lightbox').data('id')
-      $ '.lightbox [data-id=' + @showLightboxId + ']'
-        .fadeIn()
-      @$lightbox
-        .css
-          left: $(window).scrollLeft()
-        .fadeIn()
+    @$events.on 'click', '.event', (e) =>
+      text = $(e.target).closest('.event').find('.event__text').text()
+      $.ajax
+        url: 'https://jp.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=&explaintext=&titles=' + text
+        dataType: 'jsonp'
+        success: (data, status, xhr) =>
+          pageId = Object.keys(data.query.pages)[0]
+          content = data.query.pages[pageId].extract
+          p = $ '<p></p>'
+            .addClass 'lightbox__item'
+            .text content
+          @$lightbox
+            .append p
+            .css
+              left: $(window).scrollLeft()
+            .fadeIn()
+          $ 'html'
+            .css
+              overflow: 'hidden'
 
     $ '#lightboxClose'
       .click (e) =>
         $ 'html'
           .css
             overflow: 'initial'
-        $ '.lightbox [data-id=' + @showLightboxId + ']'
-          .fadeOut()
-        @$lightbox.fadeOut()
+        @$lightbox
+          .fadeOut 400, ->
+            $(@)
+              .find '.lightbox__item'
+              .remove()
 
     @$categories.on 'change', (e) =>
       @filteringByCategory()
@@ -66,7 +76,6 @@ class Timeline
         @endYear = parseInt data.config.end_year, 10
 
         @renderYears()
-        @renderLightbox()
 
   renderYears: ->
     $fragment = $ document.createDocumentFragment()
@@ -229,22 +238,5 @@ class Timeline
                 top: leftEvent.row + $el.outerHeight()
               if index2 is leftEvents.length - 1
                 leftEvents.push {row: $el.offset().top, $el: $el}
-
-  renderLightbox: ->
-    $fragment = $ document.createDocumentFragment()
-    lightboxTemplate = _.template $('#lightbox-template').text()
-
-    _.chain(@events)
-      .sortBy((n) -> parseInt n.start_year, 10)
-      .value()
-      .forEach (event, index) =>
-        if event.lightbox
-          lightbox = {}
-          lightbox.id = index
-          lightbox.src = event.lightbox.img
-          lightbox.text = event.lightbox.text
-          $fragment.append lightboxTemplate lightbox
-
-    $fragment.appendTo @$lightbox
 
 new Timeline()

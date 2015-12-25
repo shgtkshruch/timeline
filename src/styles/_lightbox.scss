@@ -34,22 +34,11 @@
     }
   }
   &__item {
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  &__img {
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  &__text {
-    width: 40em;
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: left;
+    max-width: 40em;
+    line-height: 2;
   }
 }

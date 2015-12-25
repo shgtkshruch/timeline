@@ -48,11 +48,6 @@ html(lang="ja")
         input(type="checkbox" value!="<%= value %>")
         span.category__text <%= value %>
 
-    script(type="text/template" id="lightbox-template")
-      .lightbox__item(data-id!="<%= id %>")
-        img.lightbox__img(src!="<%= src %>" alt="")
-        p.lightbox__text <%= text %>
-
     // build:js scripts/vendor.js
     // bower:js
     script(src='../bower_components/jquery/dist/jquery.js')
