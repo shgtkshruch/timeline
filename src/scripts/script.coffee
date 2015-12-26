@@ -15,14 +15,17 @@ class Timeline
   setEvents: ->
     $ '#controllerPlus'
       .click (e) =>
+        nowYear = @getNowYear()
         if @oneUnitYearWith < 10
           @oneUnitYearWith++
         else
           @oneUnitYearWith += 10
         @renderYears()
+        @scrollWindow nowYear
 
     $ '#controllerMinus'
       .click (e) =>
+        nowYear = @getNowYear()
         if @oneUnitYearWith is 1
           return
         else if (@oneUnitYearWith - 10) <= 0
@@ -30,6 +33,7 @@ class Timeline
         else
           @oneUnitYearWith -= 10
         @renderYears()
+        @scrollWindow nowYear
 
     @$events.on 'click', '.event', (e) =>
       $el = $(e.target).closest('.event')
@@ -93,6 +97,12 @@ class Timeline
 
     @$categories.on 'change', (e) =>
       @filteringByCategory()
+
+  getNowYear: ->
+    return ($(window).scrollLeft() + $(window).width() / 2) * @yearUnit / @oneUnitYearWith
+
+  scrollWindow: (nowYear) ->
+    $(window).scrollLeft nowYear * @oneUnitYearWith / @yearUnit - $(window).width() / 2
 
   fetch: ->
     $.ajax
@@ -247,7 +257,7 @@ class Timeline
         event.end_year = parseInt event.end_year, 10
 
         ev = {}
-        ev.left = ((Math.abs(@startYear) + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.left = ((@startYear * -1 + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
         ev.wikipedia = event.wikipedia || ''
         ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
         ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
