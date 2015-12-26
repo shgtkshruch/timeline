@@ -186,7 +186,7 @@ class Timeline
     selectedCategory =
       kind: ['human', 'event']
       region: ['egypt', 'europe', 'china', 'japan', 'india']
-      occupation: ['art', 'scholar', 'religion']
+      occupation: ['art', 'scholar', 'science', 'religion', 'politics']
       others: []
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 
@@ -250,17 +250,31 @@ class Timeline
     @$events.empty()
 
     _.chain(events)
-      .sortBy((n) -> parseInt n.start_year, 10)
+      .sortBy (n) ->
+        if n.start_year is '?'
+          parseInt(n.end_year, 10) - 50
+        else
+          parseInt n.start_year, 10
       .value()
       .forEach (event, index) =>
-        event.start_year = parseInt event.start_year, 10
-        event.end_year = parseInt event.end_year, 10
+
+        if event.start_year is '?'
+          startYearForWidth = parseInt(event.end_year, 10) - 50
+          startYearForPeriod = '?'
+        else
+          startYearForWidth = startYearForPeriod = parseInt event.start_year, 10
+
+        if event.end_year is '?'
+          endYearForWidth = parseInt(event.start_year, 10) + 50
+          endYearForPeriod = '?'
+        else
+          endYearForWidth = endYearForPeriod = parseInt event.end_year, 10
 
         ev = {}
-        ev.left = ((@startYear * -1 + event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.left = ((@startYear * -1 + startYearForWidth) * @oneUnitYearWith / @yearUnit) + 'px'
         ev.wikipedia = event.wikipedia || ''
-        ev.timeWidth = ((event.end_year - event.start_year) * @oneUnitYearWith / @yearUnit) + 'px'
-        ev.period = event.start_year + if event.end_year then ' ~ ' + event.end_year else ''
+        ev.timeWidth = ((endYearForWidth - startYearForWidth) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.period = startYearForPeriod + if endYearForPeriod then ' ~ ' + endYearForPeriod else ''
         ev.text = event.text
         $fragment.append eventTemplate ev
 
