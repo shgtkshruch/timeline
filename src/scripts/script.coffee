@@ -266,17 +266,17 @@ class Timeline
         loopEnd = false
 
         if index is 0
-          leftEvents.push {row: $el.offset().top, $el: $el}
+          leftEvents.push {row: $el.position().top, $el: $el}
         else
           leftEvents.forEach (leftEvent, index2) ->
             return if loopEnd
             if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
               loopEnd = true
-              leftEvents.splice index2, 1, {row: $el.offset().top, $el: $el}
+              leftEvents.splice index2, 1, {row: $el.position().top, $el: $el}
             else
               $el.css
                 top: leftEvent.row + $el.outerHeight()
               if index2 is leftEvents.length - 1
-                leftEvents.push {row: $el.offset().top, $el: $el}
+                leftEvents.push {row: $el.position().top, $el: $el}
 
 new Timeline()

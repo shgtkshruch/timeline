@@ -1,9 +1,9 @@
 .timeline {
+  $font-size: 30px;
   &__years {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 0;
-    transform: translateY(-50%);
     white-space: nowrap;
     z-index: $zindex-year;
   }
@@ -16,15 +16,16 @@
   }
   &__yearNum {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    font-size: 50px;
+    font-size: $font-size;
     font-family: 'Rozha One', serif;
     color: rgba(255, 255, 255, .8);
   }
   &__events {
     position: relative;
     z-index: $zindex-event;
+    margin-top: $font-size + 10px;
   }
   &__event {
     position: absolute;
