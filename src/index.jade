@@ -45,9 +45,13 @@ html(lang="ja")
         span.event__text <%= text %>
 
     script(type="text/template" id="category-template")
-      label.category__label
-        input(type="checkbox" value!="<%= value %>")
-        span.category__text <%= value %>
+      .category__block
+        p.category__heading <%= heading %>
+        <% _.forEach(categories, function (category) { %>
+        label
+          input(type="checkbox" value!="<%= category %>")
+          span.category__text <%= category %>
+        <% }); %>
 
     // build:js scripts/vendor.js
     // bower:js

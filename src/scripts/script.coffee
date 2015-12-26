@@ -173,6 +173,13 @@ class Timeline
 
   renderCategories: ->
     categories = []
+    selectedCategory =
+      kind: ['human', 'event']
+      region: ['egypt', 'europe', 'china', 'japan', 'india']
+      occupation: ['art', 'scholar', 'religion']
+      others: []
+    selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
+
     categoryTemplate = _.template $('#category-template').text()
     $fragment = $ document.createDocumentFragment()
 
@@ -181,7 +188,11 @@ class Timeline
        categories.push event.category
 
     _.chain(categories).flattenDeep().uniq().value().forEach (category, index) ->
-      $fragment.append categoryTemplate {value: category}
+      if selectedCategoryArray.indexOf(category) is -1
+        selectedCategory.others.push category
+
+    for key, value of selectedCategory
+      $fragment.append categoryTemplate {heading: key, categories: value}
 
     $fragment.appendTo @$categories
 
