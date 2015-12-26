@@ -1,0 +1,24 @@
+  -
+    start_year: '?'
+    end_year: '-1000'
+    text: 'サウル'
+    category:
+      - 'human'
+      - 'arab'
+      - 'politics'
+  -
+    start_year: '-1040'
+    end_year: '-961'
+    text: 'ダビデ'
+    category:
+      - 'human'
+      - 'arab'
+      - 'politics'
+  -
+    start_year: '-1011'
+    end_year: '-931'
+    text: 'ソロモン'
+    category:
+      - 'human'
+      - 'arab'
+      - 'politics'

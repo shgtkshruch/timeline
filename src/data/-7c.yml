@@ -1,0 +1,47 @@
+  -
+    start_year: '-700'
+    end_year: '?'
+    text: 'ヘーシオドス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '?'
+    end_year: '-609'
+    text: 'ヨシア'
+    category:
+      - 'human'
+      - 'arab'
+      - 'politics'
+  -
+    start_year: '-639'
+    end_year: '-559'
+    text: 'ソロン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '-624'
+    end_year: '-546'
+    text: 'タレス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-610'
+    end_year: '-546'
+    text: 'アナクシマンドロス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-609'
+    text: 'メギドの戦い'
+    wikipedia: 'メギドの戦い (紀元前609年)'
+    category:
+      - 'event'
+      - 'arab'

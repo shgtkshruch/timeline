@@ -1,6 +1,6 @@
 ---
 config:
-  start_year: '-200'
+  start_year: '-1100'
   end_year: '2000'
   yearUnit: '10'
   oneUnitYearWidth: '100'

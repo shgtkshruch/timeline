@@ -1,7 +1,15 @@
   -
+    start_year: '300'
+    end_year: '700'
+    text: '古墳時代'
+    category:
+      - 'age'
+      - 'japan'
+  -
     start_year: '272'
     end_year: '337'
     text: 'コンスタンティヌス1世'
     category:
       - 'human'
       - 'europe'
+      - 'politics'

@@ -1,0 +1,71 @@
+  -
+    start_year: '-500'
+    end_year: '-428'
+    text: 'アナクサゴラス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-500'
+    end_year: '?'
+    text: 'パルメニデス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-499'
+    end_year: '-449'
+    text: 'ペルシア戦争'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '-487'
+    end_year: '-376'
+    text: 'ゴルギアス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-480'
+    end_year: '?'
+    text: 'レウキッポス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '-469'
+    end_year: '-339'
+    text: 'ソクラテス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-463'
+    end_year: '-383'
+    text: '釈迦'
+    category:
+      - 'human'
+      - 'india'
+      - 'religion'
+  -
+    start_year: '-460'
+    end_year: '-370'
+    text: 'デモクリトス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-427'
+    end_year: '-343'
+    text: 'プラトン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'

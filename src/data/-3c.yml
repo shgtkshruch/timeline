@@ -1,0 +1,39 @@
+  -
+    start_year: '-300'
+    end_year: '300'
+    text: '弥生時代'
+    category:
+      - 'age'
+      - 'japan'
+  -
+    start_year: '-287'
+    end_year: '-212'
+    text: 'アルキメデス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'science'
+  -
+    start_year: '-280'
+    end_year: '-233'
+    text: '韓非'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'
+  -
+    start_year: '-259'
+    end_year: '-210'
+    text: '始皇帝'
+    category:
+      - 'human'
+      - 'china'
+      - 'politics'
+  -
+    start_year: '-206'
+    end_year: '220'
+    text: '漢'
+    category:
+      - 'countory'
+      - 'china'

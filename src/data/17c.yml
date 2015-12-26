@@ -1,0 +1,7 @@
+  -
+    start_year: '1603'
+    end_year: '1868'
+    text: '江戸時代'
+    category:
+      - 'age'
+      - 'japan'

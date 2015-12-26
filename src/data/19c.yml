@@ -1,0 +1,7 @@
+  -
+    start_year: '1868'
+    end_year: '1912'
+    text: '明治時代'
+    category:
+      - 'age'
+      - 'japan'

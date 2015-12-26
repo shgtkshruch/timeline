@@ -1,10 +1,19 @@
   -
+    start_year: '-27'
+    end_year: '1453'
+    text: '帝政ローマ'
+    wikipedia: 'ローマ帝国'
+    category:
+      - 'countory'
+      - 'europe'
+  -
     start_year: '37'
     end_year: '68'
     text: 'ネロ'
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '76'
     end_year: '138'
@@ -12,6 +21,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '79'
     text: 'ポンペイ滅亡'
@@ -26,6 +36,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'scholar'
   -
     start_year: '100'
     text: '大乗仏教誕生'
@@ -33,3 +44,4 @@
     category:
       - 'event'
       - 'india'
+      - 'religion'

@@ -1,0 +1,39 @@
+  -
+    start_year: '-600'
+    end_year: '?'
+    text: '老子'
+    category:
+      - 'human'
+      - 'china'
+  -
+    start_year: '-582'
+    end_year: '-496'
+    text: 'ピタゴラス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'science'
+  -
+    start_year: '-552'
+    end_year: '-479'
+    text: '孔子'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'
+  -
+    start_year: '-540'
+    end_year: '-480'
+    text: 'ヘラクレイトス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-509'
+    end_year: '-27'
+    text: '共和制ローマ'
+    category:
+      - 'countory'
+      - 'europe'

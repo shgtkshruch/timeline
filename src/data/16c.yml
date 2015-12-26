@@ -1,0 +1,15 @@
+  -
+    start_year: '1500'
+    end_year: '1555'
+    text: 'カール5世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1573'
+    end_year: '1603'
+    text: '安土桃山時代'
+    category:
+      - 'age'
+      - 'japan'

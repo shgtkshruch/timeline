@@ -1,0 +1,14 @@
+  -
+    start_year: '1912'
+    end_year: '1926'
+    text: '大正時代'
+    category:
+      - 'age'
+      - 'japan'
+  -
+    start_year: '1926'
+    end_year: '1989'
+    text: '昭和時代'
+    category:
+      - 'age'
+      - 'japan'

@@ -5,6 +5,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1118'
     end_year: '1190'
@@ -20,6 +21,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1123'
     end_year: '1160'
@@ -27,6 +29,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1123'
     end_year: '1190'
@@ -34,6 +37,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1127'
     end_year: '1192'
@@ -41,6 +45,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1133'
     end_year: '1212'
@@ -79,6 +84,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1157'
     end_year: '1225'
@@ -86,6 +92,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1159'
     end_year: '1189'
@@ -93,18 +100,28 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1162'
     end_year: '1227'
     text: 'チンギス・カン'
     category:
       - 'human'
+      - 'politics'
   -
     start_year: '1180'
     end_year: '1239'
     text: '後鳥羽天皇'
     category:
       - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1185'
+    end_year: '1333'
+    text: '鎌倉時代'
+    category:
+      - 'age'
       - 'japan'
   -
     start_year: '1189'

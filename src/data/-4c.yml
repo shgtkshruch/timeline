@@ -1,0 +1,56 @@
+  -
+    start_year: '-384'
+    end_year: '-322'
+    text: 'アリストテレス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-372'
+    end_year: '-289'
+    text: '孟子'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'
+  -
+    start_year: '-369'
+    end_year: '-286'
+    text: '荘子'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'
+  -
+    start_year: '-367'
+    end_year: '-282'
+    text: 'プトレマイオス1世'
+    category:
+      - 'human'
+      - 'egypt'
+      - 'politics'
+  -
+    start_year: '-356'
+    end_year: '-323'
+    text: 'アレクサンドロス3世'
+    category:
+      - 'human'
+      - 'egypt'
+      - 'politics'
+  -
+    start_year: '-341'
+    end_year: '-270'
+    text: 'エピクロス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '-313'
+    end_year: '-238'
+    text: '荀子'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'

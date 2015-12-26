@@ -19,6 +19,7 @@
     text: 'クビライ'
     category:
       - 'human'
+      - 'politics'
   -
     start_year: '1218'
     end_year: '1221'
@@ -105,3 +106,4 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'

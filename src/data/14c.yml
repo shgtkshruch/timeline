@@ -5,6 +5,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1313'
     end_year: '1375'
@@ -13,6 +14,13 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1336'
+    end_year: '1573'
+    text: '室町時代'
+    category:
+      - 'age'
+      - 'japan'
   -
     start_year: '1348'
     end_year: '1350'
@@ -28,6 +36,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '1371'
     end_year: '1434'
@@ -58,6 +67,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1398'
     end_year: '1468'
@@ -65,3 +75,4 @@
     category:
       - 'human'
       - 'europe'
+      - 'science'

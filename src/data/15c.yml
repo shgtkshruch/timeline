@@ -36,6 +36,7 @@
       - 'human'
       - 'japan'
       - 'art'
+      - 'politics'
   -
     start_year: '1440'
     end_year: '1506'
@@ -96,6 +97,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1467'
     end_year: '1524'
@@ -202,6 +204,7 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '1494'
     end_year: '1566'
@@ -222,6 +225,7 @@
     category:
       - 'event'
       - 'japan'
+      - 'nature'
   -
     start_year: '1498'
     end_year: '1546'

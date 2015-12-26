@@ -184,9 +184,9 @@ class Timeline
   renderCategories: ->
     categories = []
     selectedCategory =
-      kind: ['human', 'event']
-      region: ['egypt', 'europe', 'china', 'japan', 'india']
-      occupation: ['art', 'scholar', 'science', 'religion', 'politics']
+      kind: ['age', 'countory', 'event', 'human']
+      region: ['arab', 'china', 'egypt', 'europe', 'india', 'japan']
+      occupation: ['art', 'politics', 'religion', 'scholar', 'science']
       others: []
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 

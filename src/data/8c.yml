@@ -1,4 +1,11 @@
   -
+    start_year: '710'
+    end_year: '794'
+    text: '奈良時代'
+    category:
+      - 'age'
+      - 'japan'
+  -
     start_year: '712'
     text: '古事記成立'
     wikipedia: '古事記'
@@ -30,3 +37,10 @@
       - 'human'
       - 'japan'
       - 'religion'
+  -
+    start_year: '794'
+    end_year: '1185'
+    text: '平安時代'
+    category:
+      - 'age'
+      - 'japan'

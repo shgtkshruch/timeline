@@ -5,10 +5,13 @@
     category:
       - 'human'
       - 'europe'
+      - 'politics'
   -
     start_year: '480'
     end_year: '547'
     text: 'ベネディクトゥス'
+    wikipedia: 'ヌルシアのベネディクトゥス'
     category:
       - 'human'
       - 'europe'
+      - 'religion'

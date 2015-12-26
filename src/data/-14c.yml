@@ -1,0 +1,7 @@
+  -
+    start_year: '-1400'
+    end_year: '-300'
+    text: '縄文時代'
+    category:
+      - 'age'
+      - 'japan'

@@ -5,6 +5,7 @@
     category:
       - 'human'
       - 'india'
+      - 'religion'
   -
     start_year: '155'
     end_year: '191'
@@ -33,6 +34,7 @@
     category:
       - 'human'
       - 'japan'
+      - 'politics'
   -
     start_year: '181'
     end_year: '234'

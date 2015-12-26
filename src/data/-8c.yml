@@ -1,0 +1,22 @@
+  -
+    start_year: '-778'
+    end_year: '-206'
+    text: '秦'
+    category:
+      - 'countory'
+      - 'china'
+  -
+    start_year: '-753'
+    end_year: '-509'
+    text: '王政ローマ'
+    category:
+      - 'countory'
+      - 'europe'
+  -
+    start_year: '-750'
+    end_year: '?'
+    text: 'ホメーロス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'

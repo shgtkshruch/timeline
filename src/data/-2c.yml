@@ -1,0 +1,17 @@
+  -
+    start_year: '-145'
+    end_year: '-86'
+    text: '司馬遷'
+    category:
+      - 'human'
+      - 'china'
+      - 'scholar'
+  -
+    start_year: '-106'
+    end_year: '-43'
+    text: 'マルクス・トゥッリウス・キケロ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+      - 'scholar'

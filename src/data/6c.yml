@@ -4,16 +4,27 @@
     category:
       - 'event'
       - 'japan'
+      - 'religion'
   -
     start_year: '570'
     end_year: '632'
     text: 'ムハンマド'
     category:
       - 'human'
+      - 'arab'
+      - 'religion'
   -
     start_year: '574'
     end_year: '622'
     text: '聖徳太子'
     category:
       - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '592'
+    end_year: '710'
+    text: '飛鳥時代'
+    category:
+      - 'age'
       - 'japan'
