@@ -16,22 +16,22 @@ class Timeline
     $ '#controllerPlus'
       .click (e) =>
         nowYear = @getNowYear()
-        if @oneUnitYearWith < 10
-          @oneUnitYearWith++
+        if @oneUnitYearWidth < 10
+          @oneUnitYearWidth++
         else
-          @oneUnitYearWith += 10
+          @oneUnitYearWidth += 10
         @renderYears()
         @scrollWindow nowYear
 
     $ '#controllerMinus'
       .click (e) =>
         nowYear = @getNowYear()
-        if @oneUnitYearWith is 1
+        if @oneUnitYearWidth is 1
           return
-        else if (@oneUnitYearWith - 10) <= 0
-          @oneUnitYearWith--
+        else if (@oneUnitYearWidth - 10) <= 0
+          @oneUnitYearWidth--
         else
-          @oneUnitYearWith -= 10
+          @oneUnitYearWidth -= 10
         @renderYears()
         @scrollWindow nowYear
 
@@ -99,17 +99,17 @@ class Timeline
       @filteringByCategory()
 
   getNowYear: ->
-    return ($(window).scrollLeft() + $(window).width() / 2) * @yearUnit / @oneUnitYearWith
+    return ($(window).scrollLeft() + $(window).width() / 2) * @yearUnit / @oneUnitYearWidth
 
   scrollWindow: (nowYear) ->
-    $(window).scrollLeft nowYear * @oneUnitYearWith / @yearUnit - $(window).width() / 2
+    $(window).scrollLeft nowYear * @oneUnitYearWidth / @yearUnit - $(window).width() / 2
 
   fetch: ->
     $.ajax
       url: 'data/timeline.json'
       success: (data, status, xhr) =>
         @events = data.events
-        @oneUnitYearWith = parseInt data.config.oneUnitYearWidth, 10 || 100
+        @oneUnitYearWidth = parseInt data.config.oneUnitYearWidth, 10 || 100
         @yearUnit = parseInt data.config.yearUnit, 10 || 10
         @startYear = parseInt data.config.start_year, 10
         @endYear = parseInt data.config.end_year, 10
@@ -127,7 +127,7 @@ class Timeline
         $ '<div></div>'
           .addClass 'timeline__year'
           .css
-            width: @oneUnitYearWith + 'px'
+            width: @oneUnitYearWidth + 'px'
           .append '<span></span>'
             .find 'span'
             .addClass 'timeline__yearNum'
@@ -271,9 +271,9 @@ class Timeline
           endYearForWidth = endYearForPeriod = parseInt event.end_year, 10
 
         ev = {}
-        ev.left = ((@startYear * -1 + startYearForWidth) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.left = ((@startYear * -1 + startYearForWidth) * @oneUnitYearWidth / @yearUnit) + 'px'
         ev.wikipedia = event.wikipedia || ''
-        ev.timeWidth = ((endYearForWidth - startYearForWidth) * @oneUnitYearWith / @yearUnit) + 'px'
+        ev.timeWidth = ((endYearForWidth - startYearForWidth) * @oneUnitYearWidth / @yearUnit) + 'px'
         ev.period = startYearForPeriod + if endYearForPeriod then ' ~ ' + endYearForPeriod else ''
         ev.text = event.text
         $fragment.append eventTemplate ev
