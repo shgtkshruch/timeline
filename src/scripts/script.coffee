@@ -116,7 +116,6 @@ class Timeline
 
         @renderYears()
         @renderCategories()
-        @filteringByCategory()
 
   renderYears: ->
     $fragment = $ document.createDocumentFragment()
