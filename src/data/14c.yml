@@ -1,4 +1,12 @@
   -
+    start_year: '1300'
+    end_year: '1600'
+    text: 'ルネサンス'
+    category:
+      - 'age'
+      - 'europe'
+      - 'art'
+  -
     start_year: '1305'
     end_year: '1358'
     text: '足利尊氏'
@@ -21,6 +29,13 @@
     category:
       - 'age'
       - 'japan'
+  -
+    start_year: '1337'
+    end_year: '1453'
+    text: '百年戦争'
+    category:
+      - 'event'
+      - 'europe'
   -
     start_year: '1348'
     end_year: '1350'

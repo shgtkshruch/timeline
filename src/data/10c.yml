@@ -14,3 +14,11 @@
       - 'human'
       - 'japan'
       - 'art'
+  -
+    start_year: '1000'
+    end_year: '1200'
+    text: 'ロマネスク'
+    category:
+      - 'age'
+      - 'europe'
+      - 'art'

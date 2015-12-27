@@ -1,7 +1,231 @@
   -
+    start_year: '1600'
+    text: '関ヶ原の戦い'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '1600'
+    end_year: '1700'
+    text: 'オランダ黄金時代'
+    category:
+      - 'age'
+      - 'europe'
+  -
+    start_year: '1600'
+    end_year: '1800'
+    text: 'バロック'
+    category:
+      - 'age'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1600'
+    end_year: '1649'
+    text: 'チャールズ1世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1602'
+    text: 'オランダ東インド会社設立'
+    wikipedia: 'オランダ東インド会社'
+    category:
+      - 'event'
+      - 'europe'
+      - 'economy'
+  -
     start_year: '1603'
     end_year: '1868'
     text: '江戸時代'
     category:
       - 'age'
       - 'japan'
+  -
+    start_year: '1605'
+    text: '慶長地震'
+    category:
+      - 'event'
+      - 'japan'
+      - 'nature'
+  -
+    start_year: '1606'
+    end_year: '1669'
+    text: 'レンブラント・ファン・レイン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1608'
+    end_year: '1674'
+    text: 'ジョン・ミルトン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1618'
+    end_year: '1648'
+    text: '三十年戦争'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1622'
+    end_year: '1673'
+    text: 'モリエール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1623'
+    end_year: '1662'
+    text: 'ブレーズ・パスカル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1627'
+    end_year: '1691'
+    text: 'ロバート・ボイル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1629'
+    end_year: '1695'
+    text: 'クリスティアーン・ホイヘンス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1632'
+    end_year: '1675'
+    text: 'ヨハネス・フェルメール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1632'
+    end_year: '1677'
+    text: 'バールーフ・デ・スピノザ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1632'
+    end_year: '1707'
+    text: 'ジョン・ロック'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1635'
+    end_year: '1703'
+    text: 'ロバート・フック'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1637'
+    text: 'オランダでチューリップ・バブル'
+    wikipedia: 'チューリップ・バブル'
+    category:
+      - 'event'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1638'
+    end_year: '1715'
+    text: 'ルイ14世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1641'
+    end_year: '1649'
+    text: '清教徒革命'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1642'
+    end_year: '1727'
+    text: 'アイザック・ニュートン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1644'
+    end_year: '1694'
+    text: '松尾芭蕉'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1646'
+    end_year: '1716'
+    text: 'ゴットフリート・ライプニッツ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1648'
+    text: 'ヴェストファーレン条約'
+    category:
+      - 'event'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1658'
+    end_year: '1716'
+    text: '尾形光琳'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1666'
+    end_year: '1728'
+    text: '荻生徂徠'
+    category:
+      - 'human'
+      - 'japan'
+      - 'scholar'
+  -
+    start_year: '1685'
+    end_year: '1750'
+    text: 'ヨハン・セバスティアン・バッハ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1688'
+    end_year: '1689'
+    text: '名誉革命'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1689'
+    end_year: '1755'
+    text: 'シャルル・ド・モンテスキュー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'

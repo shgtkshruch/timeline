@@ -14,6 +14,13 @@
       - 'human'
       - 'europe'
   -
+    start_year: '1415'
+    end_year: '1648'
+    text: '大航海時代'
+    category:
+      - 'age'
+      - 'europe'
+  -
     start_year: '1421'
     end_year: '1471'
     text: 'ヘンリー6世'
@@ -127,7 +134,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'scholar'
+      - 'science'
   -
     start_year: '1475'
     end_year: '1554'
@@ -175,6 +182,7 @@
       - 'human'
       - 'europe'
       - 'scholar'
+      - 'religion'
   -
     start_year: '1483'
     end_year: '1555'

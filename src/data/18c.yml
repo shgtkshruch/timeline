@@ -1,0 +1,401 @@
+  -
+    start_year: '1700'
+    end_year: '1782'
+    text: 'ダニエル・ベルヌーイ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1706'
+    end_year: '1790'
+    text: 'ベンジャミン・フランクリン'
+    category:
+      - 'human'
+      - 'america'
+      - 'politics'
+      - 'scholar'
+      - 'science'
+  -
+    start_year: '1707'
+    end_year: '1783'
+    text: 'レオンハルト・オイラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1707'
+    text: '宝永地震'
+    category:
+      - 'event'
+      - 'japan'
+      - 'nature'
+  -
+    start_year: '1711'
+    end_year: '1776'
+    text: 'デイヴィッド・ヒューム'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1712'
+    end_year: '1778'
+    text: 'ジャン＝ジャック・ルソー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1713'
+    end_year: '1769'
+    text: 'マルク・アントワーヌ・ロージェ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1713'
+    end_year: '1780'
+    text: 'ジャック・ジェルメン・スフロ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1717'
+    end_year: '1768'
+    text: 'ヨハン・ヨアヒム・ヴィンケルマン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1720'
+    end_year: '1778'
+    text: 'ジョヴァンニ・バッティスタ・ピラネージ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1723'
+    end_year: '1790'
+    text: 'アダム・スミス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'economy'
+  -
+    start_year: '1724'
+    end_year: '1804'
+    text: 'イマヌエル・カント'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1728'
+    end_year: '1799'
+    text: 'エティエンヌ・ルイ・ブーレー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1730'
+    end_year: '1801'
+    text: '本居宣長'
+    category:
+      - 'human'
+      - 'japan'
+      - 'scholar'
+  -
+    start_year: '1732'
+    end_year: '1799'
+    text: 'ジョージ・ワシントン'
+    category:
+      - 'human'
+      - 'america'
+      - 'politics'
+  -
+    start_year: '1732'
+    end_year: '1792'
+    text: 'リチャード・アークライト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1732'
+    end_year: '1809'
+    text: 'フランツ・ヨーゼフ・ハイドン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1734'
+    end_year: '1798'
+    text: 'ジョゼッペ・ピエルマリー二'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1736'
+    end_year: '1806'
+    text: 'クロード・ニコラ・ルドゥー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1736'
+    end_year: '1819'
+    text: 'ジェームズ・ワット'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1737'
+    end_year: '1809'
+    text: 'トマス・ペイン'
+    category:
+      - 'human'
+      - 'america'
+      - 'scholar'
+  -
+    start_year: '1740'
+    end_year: '1810'
+    text: 'モンゴルフィエ兄弟'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1743'
+    end_year: '1826'
+    text: 'トーマス・ジェファーソン'
+    category:
+      - 'human'
+      - 'america'
+      - 'politics'
+  -
+    start_year: '1746'
+    end_year: '1823'
+    text: 'ジャック・シャルル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1748'
+    end_year: '1832'
+    text: 'ジェレミ・ベンサム'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'economy'
+  -
+    start_year: '1749'
+    end_year: '1827'
+    text: 'ピエール＝シモン・ラプラス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1749'
+    end_year: '1832'
+    text: 'ゲーテ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1755'
+    end_year: '1793'
+    text: 'マリー・アントワネット'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1756'
+    end_year: '1791'
+    text: 'モーツァルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1756'
+    end_year: '1791'
+    text: 'ヴォルフガング・アマデウス・モーツァルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1760'
+    end_year: '1849'
+    text: '葛飾北斎'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1760'
+    end_year: '1830'
+    text: 'イギリス産業革命'
+    wikipedia: '産業革命'
+    category:
+      - 'evnt'
+      - 'europe'
+  -
+    start_year: '1762'
+    end_year: '1814'
+    text: 'ヨハン・ゴットリープ・フィヒテ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1768'
+    end_year: '1830'
+    text: 'ジョゼフ・フーリエ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1769'
+    end_year: '1821'
+    text: 'ナポレオン・ボナパルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1770'
+    end_year: '1823'
+    text: 'ベートーヴェン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1770'
+    end_year: '1843'
+    text: 'フリードリヒ・ヘルダーリン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1770'
+    end_year: '1881'
+    text: 'ヘーゲル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1773'
+    end_year: '1829'
+    text: 'トマス・ヤング'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1775'
+    end_year: '1851'
+    text: 'ジョゼフ・マロード・ウィリアム・ターナー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1775'
+    end_year: '1854'
+    text: 'フリードリヒ・シェリング'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1776'
+    text: 'アメリカ独立戦争'
+    category:
+      - 'event'
+      - 'america'
+  -
+    start_year: '1777'
+    end_year: '1855'
+    text: 'カール・フリードリヒ・ガウス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1783'
+    end_year: '1842'
+    text: 'スタンダール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1785'
+    end_year: '1863'
+    text: 'グリム兄弟'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1788'
+    end_year: '1860'
+    text: 'アルトゥル・ショーペンハウアー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1789'
+    end_year: '1799'
+    text: 'フランス革命'
+    category:
+      - 'event'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1797'
+    end_year: '1828'
+    text: 'シューベルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1797'
+    end_year: '1858'
+    text: '歌川広重'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1798'
+    end_year: '1863'
+    text: 'ウジェーヌ・ドラクロワ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'

@@ -1,5 +1,19 @@
   -
     start_year: '1500'
+    end_year: '1600'
+    text: 'スペイン黄金時代'
+    category:
+      - 'age'
+      - 'europe'
+  -
+    start_year: '1500'
+    end_year: '1700'
+    text: '科学革命'
+    category:
+      - 'age'
+      - 'europe'
+  -
+    start_year: '1500'
     end_year: '1555'
     text: 'カール5世'
     category:
@@ -7,9 +21,257 @@
       - 'europe'
       - 'politics'
   -
+    start_year: '1507'
+    end_year: '1573'
+    text: 'ジャコモ・バロッツィ・ダ・ヴィニョーラ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1508'
+    end_year: '1580'
+    text: 'アンドレーア・パッラーディオ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1509'
+    end_year: '1564'
+    text: 'ジャン・カルヴァン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'religion'
+  -
+    start_year: '1511'
+    end_year: '1574'
+    text: 'ジョルジョ・ヴァザーリ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1517'
+    text: 'ルターの宗教改革'
+    wikipedia: '宗教改革'
+    category:
+      - 'event'
+      - 'europe'
+      - 'religion'
+  -
+    start_year: '1521'
+    end_year: '1573'
+    text: '武田信玄'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1522'
+    end_year: '1591'
+    text: '千利休'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1525'
+    end_year: '1569'
+    text: 'ピーテル・ブリューゲル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1517'
+    text: 'ローマ略奪（ルネサンス終了）'
+    wikipedia: 'ローマ略奪'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1527'
+    end_year: '1598'
+    text: 'フェリペ2世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1530'
+    end_year: '1578'
+    text: '上杉謙信'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1533'
+    end_year: '1603'
+    text: 'エリザベス1世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1534'
+    end_year: '1582'
+    text: '織田信長'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1537'
+    end_year: '1598'
+    text: '豊臣秀吉'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1543'
+    end_year: '1616'
+    text: '徳川家康'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1547'
+    end_year: '1616'
+    text: 'ミゲル・デ・セルバンテス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1548'
+    end_year: '1600'
+    text: 'ガリレオ・ガリレイ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1555'
+    text: 'イタリアで利子率革命'
+    category:
+      - 'event'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1561'
+    end_year: '1626'
+    text: 'フランシス・ベーコン'
+    wikipedia: 'フランシス・ベーコン (哲学者)'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1564'
+    end_year: '1616'
+    text: 'ウィリアム・シェイクスピア'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1570'
+    end_year: '1619'
+    text: 'ハンス・リッペルスハイ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1571'
+    end_year: '1630'
+    text: 'ヨハネス・ケプラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
     start_year: '1573'
     end_year: '1603'
     text: '安土桃山時代'
     category:
       - 'age'
       - 'japan'
+  -
+    start_year: '1577'
+    end_year: '1640'
+    text: 'ピーテル・パウル・ルーベンス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1578'
+    end_year: '1657'
+    text: 'ウィリアム・ハーヴェー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1588'
+    end_year: '1679'
+    text: 'トマス・ホッブズ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1593'
+    end_year: '1652'
+    text: 'ジョルジョ・ド・ラ・トゥール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1596'
+    end_year: '1650'
+    text: 'ルネ・デカルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1598'
+    end_year: '1680'
+    text: 'ジャン・ロレンツォ・ベルニーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1599'
+    end_year: '1658'
+    text: 'オリバー・クロムウェル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1599'
+    end_year: '1660'
+    text: 'ディエゴ・ベラスケス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1599'
+    end_year: '1667'
+    text: 'フランチェスコ・ボッロミーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'

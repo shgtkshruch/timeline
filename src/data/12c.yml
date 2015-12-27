@@ -70,6 +70,14 @@
       - 'event'
       - 'europe'
   -
+    start_year: '1150'
+    end_year: '1500'
+    text: 'ゴシック'
+    category:
+      - 'age'
+      - 'europe'
+      - 'art'
+  -
     start_year: '1155'
     end_year: '1216'
     text: '鴨長明'
