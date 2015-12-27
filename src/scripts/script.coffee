@@ -302,4 +302,19 @@ class Timeline
               if index2 is leftEvents.length - 1
                 leftEvents.push {row: $el.position().top, $el: $el}
 
+    @extendYearAxis leftEvents
+
+  extendYearAxis: (leftEvents) ->
+    last = _.last(leftEvents)
+    lastEventPositoin = last.$el.offset().top + last.$el.outerHeight()
+
+    if last is undefined or lastEventPositoin < $(window).height()
+      @$years
+        .css
+          height: '100vh'
+    else
+      @$years
+        .css
+          height: lastEventPositoin + 'px'
+
 new Timeline()
