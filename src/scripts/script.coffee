@@ -305,15 +305,13 @@ class Timeline
 
   extendYearAxis: (leftEvents) ->
     last = _.last(leftEvents)
-    lastEventPositoin = last.$el.offset().top + last.$el.outerHeight()
-
-    if last is undefined or lastEventPositoin < $(window).height()
+    if last is undefined or last.$el.offset().top + last.$el.outerHeight() < $(window).height()
       @$years
         .css
           height: '100vh'
     else
       @$years
         .css
-          height: lastEventPositoin + 'px'
+          height: last.$el.offset().top + last.$el.outerHeight() + 'px'
 
 new Timeline()
