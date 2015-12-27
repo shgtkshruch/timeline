@@ -39,7 +39,7 @@ html(lang="ja")
       #lightboxClose.lightbox__close
 
     script(type="text/template" id="event-template")
-      .timeline__event.event(style!="left: <%= left %>" data-wikipedia!="<%= wikipedia %>")
+      .timeline__event.event(title!="<%= period %> <%= text %>" style!="left: <%= left %>" data-wikipedia!="<%= wikipedia %>")
         span.event__time(style!="width: <%= timeWidth %>")
         span.event__period <%= period %>
         span.event__text <%= text %>
