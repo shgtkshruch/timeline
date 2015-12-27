@@ -6,6 +6,7 @@ class Timeline
     @$lightbox = $ '#timelineLightbox'
     @$categories = $ '#timelineCategory'
     @$categoryOrder = $ '#categoryOrder'
+    @$lightboxClose = $ '#lightboxClose'
 
     @showLightboxId = ''
 
@@ -69,6 +70,7 @@ class Timeline
 
           @$lightbox
             .css
+              top: $(window).scrollTop()
               left: $(window).scrollLeft()
             .find $lightboxInner
               .append p
@@ -79,21 +81,18 @@ class Timeline
             .css
               overflow: 'hidden'
 
-          $ '#lightboxClose'
-            .css
-              top: $lightboxInner.offset().top + padding + 'px'
-              left: $lightboxInner.position().left + $lightboxInner.outerWidth() - padding + 'px'
+          @$lightboxClose.css
+            top: $lightboxInner.position().top + padding + 'px'
+            left: $lightboxInner.position().left + $lightboxInner.outerWidth() - padding + 'px'
 
-    $ '#lightboxClose'
-      .click (e) =>
-        $ 'html'
-          .css
-            overflow: 'initial'
-        @$lightbox
-          .fadeOut 400, ->
-            $(@)
-              .find '.lightbox__item'
-              .remove()
+    @$lightboxClose.click (e) =>
+      $ 'html'
+        .css
+          overflow: 'initial'
+      @$lightbox.fadeOut 400, ->
+        $(@)
+          .find '.lightbox__item'
+          .remove()
 
     @$categories.on 'change', (e) =>
       @filteringByCategory()
