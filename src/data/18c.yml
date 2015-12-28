@@ -228,14 +228,6 @@
   -
     start_year: '1756'
     end_year: '1791'
-    text: 'モーツァルト'
-    category:
-      - 'human'
-      - 'europe'
-      - 'art'
-  -
-    start_year: '1756'
-    end_year: '1791'
     text: 'ヴォルフガング・アマデウス・モーツァルト'
     category:
       - 'human'
@@ -255,7 +247,8 @@
     text: 'イギリス産業革命'
     wikipedia: '産業革命'
     category:
-      - 'evnt'
+      - 'event'
+      - 'age'
       - 'europe'
   -
     start_year: '1762'
