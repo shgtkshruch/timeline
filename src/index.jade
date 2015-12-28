@@ -43,7 +43,7 @@ html(lang="ja")
         span.timeline__yearNum <%= num %>
 
     script(type="text/template" id="event-template")
-      .timeline__event.event(title!="<%= period %> <%= text %>" style!="left: <%= left %>" data-wikipedia!="<%= wikipedia %>")
+      .timeline__event.event(title!="<%= period %> <%= text %>" style!="left: <%= left %>" data-wikipedia!="<%= wikipedia %>" data-category!="<%= category %>" data-start-year!="<%= startYear %>" data-end-year!="<%= endYear %>")
         span.event__time(style!="width: <%= timeWidth %>")
         span.event__period <%= period %>
         span.event__text <%= text %>

@@ -216,7 +216,8 @@ class Timeline
   filteringByCategory: ->
     checked = @$categories.find('input:checked')
     if checked.length is 0
-      @$events.empty()
+      $ '.event'
+        .hide()
       return
 
     switch @$categoryOrder.find('select').val()
@@ -232,10 +233,12 @@ class Timeline
     checked.each (index, el) ->
       showCategories.push $(el).val()
 
-    @events.forEach (event) ->
-      mergeCategory = event.category.concat showCategories
-      if _.uniq(mergeCategory).length is event.category.length + showCategories.length - checked.length
-        events.push event
+    $ '.event'
+      .each (index, event) ->
+        eventCategory = $(event).data('category').split(',')
+        mergeCategory = eventCategory.concat showCategories
+        if _.uniq(mergeCategory).length is eventCategory.length + showCategories.length - checked.length
+          events.push event
 
     @renderEvents events
 
@@ -246,23 +249,20 @@ class Timeline
     checked.each (index, el) ->
       showCategories.push $(el).val()
 
-    @events.forEach (event) ->
-      mergeCategory = event.category.concat showCategories
-      if _.uniq(mergeCategory).length < event.category.length + showCategories.length
-        events.push event
+    $ '.event'
+      .each (index, event) ->
+        eventCategory = $(event).data('category').split(',')
+        mergeCategory = eventCategory.concat showCategories
+        if _.uniq(mergeCategory).length < eventCategory.length + showCategories.length
+          events.push event
 
     @renderEvents events
 
   renderEventsFirst: ->
-    @renderEvents @events
-
-  renderEvents: (events) ->
     $fragment = $ document.createDocumentFragment()
     eventTemplate = _.template $('#event-template').text()
 
-    @$events.empty()
-
-    _.chain(events)
+    _.chain(@events)
       .sortBy (n) ->
         if n.start_year is '?'
           parseInt(n.end_year, 10) - 50
@@ -284,8 +284,11 @@ class Timeline
           endYearForWidth = endYearForPeriod = parseInt event.end_year, 10
 
         ev = {}
+        ev.startYear = startYearForWidth
+        ev.endYear = endYearForWidth
         ev.left = ((@startYear * -1 + startYearForWidth) * @oneUnitYearWidth / @yearUnit) + 'px'
         ev.wikipedia = event.wikipedia || ''
+        ev.category = event.category
         ev.timeWidth = ((endYearForWidth - startYearForWidth) * @oneUnitYearWidth / @yearUnit) + 'px'
         ev.period = startYearForPeriod + if endYearForPeriod then ' ~ ' + endYearForPeriod else ''
         ev.text = event.text
@@ -293,11 +296,33 @@ class Timeline
 
     $fragment.appendTo @$events
 
+    $ '.event'
+      .hide()
+
+  renderEvents: (events) ->
+    $ '.event'
+      .hide()
+
+    events.forEach (event) =>
+      $event = $ event
+      startYear = $event.data('startYear')
+      endYear = $event.data('endYear')
+      $event
+        .css
+          top: '0px'
+          left: ((@startYear * -1 + startYear) * @oneUnitYearWidth / @yearUnit) + 'px'
+        .children '.event__time'
+          .css
+            width: ((endYear - startYear) * @oneUnitYearWidth / @yearUnit) + 'px'
+          .end()
+        .show()
+
     @adjustOverlapEvents()
 
   adjustOverlapEvents: ->
     leftEvents = []
     $ '.event'
+      .filter ':visible'
       .each (index, el) ->
         $el = $ el
         loopEnd = false
