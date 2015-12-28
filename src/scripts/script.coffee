@@ -9,6 +9,7 @@ class Timeline
     @$lightboxClose = $ '#lightboxClose'
 
     @showLightboxId = ''
+    @borderStyle = '1px dashed rgba(255, 255, 255, 0.3)'
 
     @setEvents()
     @fetch()
@@ -113,14 +114,12 @@ class Timeline
         @startYear = parseInt data.config.start_year, 10
         @endYear = parseInt data.config.end_year, 10
 
-        @renderYears()
+        @renderYearsFirst()
         @renderCategories()
 
-  renderYears: ->
+  renderYearsFirst: ->
     $fragment = $ document.createDocumentFragment()
     yearTemplate = _.template $('#year-template').text()
-
-    @$years.empty()
 
     i = @startYear
     while i <= @endYear
@@ -135,6 +134,16 @@ class Timeline
 
     @adjustOverlapYears()
 
+  renderYears: ->
+    $ '.timeline__year'
+      .css
+        width: @oneUnitYearWidth + 'px'
+        'border-left': @borderStyle
+      .children()
+      .show()
+
+    @adjustOverlapYears()
+
   adjustOverlapYears: ->
     scale = [2, 5, 10, 100, 1000]
     i = 0
@@ -145,14 +154,14 @@ class Timeline
             'border-left': 'none'
           .end()
         .hide()
-        .each (index, el) ->
+        .each (index, el) =>
           $el = $ el
           if ($el.text() / 10) % scale[i] is 0
             $el
               .show()
               .parent()
               .css
-                'border-left': '1px dashed rgba(255, 255, 255, .3)'
+                'border-left': @borderStyle
       i++
 
     @filteringByCategory()
