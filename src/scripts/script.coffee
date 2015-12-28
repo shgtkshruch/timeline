@@ -153,18 +153,13 @@ class Timeline
     while @isOverlapYears()
       $ '.timeline__yearNum'
           .parent()
-          .css
-            'border-left': 'none'
+          .css {'border-left': 'none'}
           .end()
         .hide()
         .each (index, el) =>
           $el = $ el
           if ($el.text() / 10) % scale[i] is 0
-            $el
-              .show()
-              .parent()
-              .css
-                'border-left': @borderStyle
+            $el.show().parent().css {'border-left': @borderStyle}
       i++
 
   isOverlapYears: ->
@@ -214,40 +209,35 @@ class Timeline
     $fragment.appendTo @$categories
 
   filteringByCategory: ->
+    showCategories = []
     checked = @$categories.find('input:checked')
+    checked.each (index, el) ->
+      showCategories.push $(el).val()
+
     if checked.length is 0
-      $ '.event'
-        .hide()
+      $('.event').hide()
       return
 
     switch @$categoryOrder.find('select').val()
       when 'and'
-        @filteringByAnd checked
+        @filteringByAnd showCategories
       when 'or'
-        @filteringByOr checked
+        @filteringByOr showCategories
 
-  filteringByAnd: (checked) ->
-    showCategories = []
+  filteringByAnd: (showCategories) ->
     events = []
-
-    checked.each (index, el) ->
-      showCategories.push $(el).val()
 
     $ '.event'
       .each (index, event) ->
         eventCategory = $(event).data('category').split(',')
         mergeCategory = eventCategory.concat showCategories
-        if _.uniq(mergeCategory).length is eventCategory.length + showCategories.length - checked.length
+        if _.uniq(mergeCategory).length is eventCategory.length
           events.push event
 
     @renderEvents events
 
-  filteringByOr: (checked) ->
-    showCategories = []
+  filteringByOr: (showCategories) ->
     events = []
-
-    checked.each (index, el) ->
-      showCategories.push $(el).val()
 
     $ '.event'
       .each (index, event) ->
@@ -294,14 +284,15 @@ class Timeline
         ev.text = event.text
         $fragment.append eventTemplate ev
 
-    $fragment.appendTo @$events
-
-    $ '.event'
+    @$events
+      .append $fragment
+      .find '.event'
       .hide()
+
+    @adjustOverlapEvents()
 
   renderEvents: (events) ->
-    $ '.event'
-      .hide()
+    $('.event').hide()
 
     events.forEach (event) =>
       $event = $ event
@@ -309,7 +300,7 @@ class Timeline
       endYear = $event.data('endYear')
       $event
         .css
-          top: '0px'
+          top: '0'
           left: ((@startYear * -1 + startYear) * @oneUnitYearWidth / @yearUnit) + 'px'
         .children '.event__time'
           .css
@@ -336,8 +327,7 @@ class Timeline
               loopEnd = true
               leftEvents.splice index2, 1, {row: $el.position().top, $el: $el}
             else
-              $el.css
-                top: leftEvent.row + $el.outerHeight()
+              $el.css {top: leftEvent.row + $el.outerHeight()}
               if index2 is leftEvents.length - 1
                 leftEvents.push {row: $el.position().top, $el: $el}
 
@@ -346,12 +336,8 @@ class Timeline
   extendYearAxis: (leftEvents) ->
     last = _.last(leftEvents)
     if last is undefined or last.$el.offset().top + last.$el.outerHeight() < $(window).height()
-      @$years
-        .css
-          height: '100vh'
+      @$years.css {height: '100vh'}
     else
-      @$years
-        .css
-          height: last.$el.offset().top + last.$el.outerHeight() + 'px'
+      @$years.css {height: last.$el.offset().top + last.$el.outerHeight() + 'px'}
 
 new Timeline()
