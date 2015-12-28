@@ -23,6 +23,7 @@ class Timeline
         else
           @oneUnitYearWidth += 10
         @renderYears()
+        @filteringByCategory()
         @scrollWindow nowYear
 
     $ '#controllerMinus'
@@ -35,6 +36,7 @@ class Timeline
         else
           @oneUnitYearWidth -= 10
         @renderYears()
+        @filteringByCategory()
         @scrollWindow nowYear
 
     @$events.on 'click', '.event', (e) =>
@@ -115,6 +117,7 @@ class Timeline
         @endYear = parseInt data.config.end_year, 10
 
         @renderYearsFirst()
+        @renderEventsFirst()
         @renderCategories()
 
   renderYearsFirst: ->
@@ -164,8 +167,6 @@ class Timeline
                 'border-left': @borderStyle
       i++
 
-    @filteringByCategory()
-
   isOverlapYears: ->
     isOverlap = false
     $prevElement = ''
@@ -213,31 +214,20 @@ class Timeline
     $fragment.appendTo @$categories
 
   filteringByCategory: ->
-    switch @$categoryOrder.find('select').val()
-      when 'or'
-        @filteringByOr()
-      when 'and'
-        @filteringByAnd()
-
-  filteringByOr: ->
-    showCategories = []
-    events = []
-
-    @$categories.find('input:checked').each (index, el) ->
-      showCategories.push $(el).val()
-
-    @events.forEach (event) ->
-      mergeCategory = event.category.concat showCategories
-      if _.uniq(mergeCategory).length < event.category.length + showCategories.length
-        events.push event
-
-    @renderEvents events
-
-  filteringByAnd: ->
-    showCategories = []
-    events = []
-
     checked = @$categories.find('input:checked')
+    if checked.length is 0
+      @$events.empty()
+      return
+
+    switch @$categoryOrder.find('select').val()
+      when 'and'
+        @filteringByAnd checked
+      when 'or'
+        @filteringByOr checked
+
+  filteringByAnd: (checked) ->
+    showCategories = []
+    events = []
 
     checked.each (index, el) ->
       showCategories.push $(el).val()
@@ -248,6 +238,23 @@ class Timeline
         events.push event
 
     @renderEvents events
+
+  filteringByOr: (checked) ->
+    showCategories = []
+    events = []
+
+    checked.each (index, el) ->
+      showCategories.push $(el).val()
+
+    @events.forEach (event) ->
+      mergeCategory = event.category.concat showCategories
+      if _.uniq(mergeCategory).length < event.category.length + showCategories.length
+        events.push event
+
+    @renderEvents events
+
+  renderEventsFirst: ->
+    @renderEvents @events
 
   renderEvents: (events) ->
     $fragment = $ document.createDocumentFragment()
