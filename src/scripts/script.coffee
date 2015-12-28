@@ -325,10 +325,11 @@ class Timeline
             return if loopEnd
             if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
               loopEnd = true
+              $el.css {top: leftEvent.row}
               leftEvents.splice index2, 1, {row: $el.position().top, $el: $el}
             else
-              $el.css {top: leftEvent.row + $el.outerHeight()}
               if index2 is leftEvents.length - 1
+                $el.css {top: leftEvent.row + $el.outerHeight()}
                 leftEvents.push {row: $el.position().top, $el: $el}
 
     @extendYearAxis leftEvents
