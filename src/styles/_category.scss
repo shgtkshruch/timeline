@@ -1,13 +1,16 @@
 .category {
   position: fixed;
-  top: 50%;
+  bottom: 0;
   left: 0;
-  transform: translateY(-50%);
-  z-index: $zindex-category;
+  padding: 10px;
   color: #fff;
+  background-color: rgba($color-body, .3);
+  z-index: $zindex-category;
   &__block {
     margin-top: 10px;
-    margin-bottom: 10px;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
   &__heading {
     font-size: 18px;
