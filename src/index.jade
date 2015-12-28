@@ -23,11 +23,11 @@ html(lang="ja")
       #timelineController.timeline__controller.controller
         ul
           - menus = {}
-          - menus[1] = {id: 'Plus', class: 'plus'}
-          - menus[2] = {id: 'Minus', class: 'minus'}
+          - menus[1] = {id: 'Plus', class: 'plus', title: 'zoom in'}
+          - menus[2] = {id: 'Minus', class: 'minus', title: 'zoom out'}
           each menu, i in menus
             li
-              i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}")
+              i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}" title="#{menu.title}")
       #timelineCategory.timeline__category.category
         .category__order#categoryOrder
           select

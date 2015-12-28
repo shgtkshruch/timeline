@@ -1,12 +1,14 @@
 .controller {
   position: fixed;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba($color-body, .3);
   z-index: $zindex-controller;
   &__icon {
     font-size: 50px;
     cursor: pointer;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .8);
     transition: color .3s;
     &:hover {
       color: #fff;
