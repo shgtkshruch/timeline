@@ -118,22 +118,21 @@ class Timeline
 
   renderYears: ->
     $fragment = $ document.createDocumentFragment()
+    yearTemplate = _.template $('#year-template').text()
+
     @$years.empty()
+
     i = @startYear
     while i <= @endYear
       if i % @yearUnit is 0
-        $ '<div></div>'
-          .addClass 'timeline__year'
-          .css
-            width: @oneUnitYearWidth + 'px'
-          .append '<span></span>'
-            .find 'span'
-            .addClass 'timeline__yearNum'
-            .text if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
-            .end()
-          .appendTo $fragment
+        year = {}
+        year.width = @oneUnitYearWidth + 'px'
+        year.num = if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
+        $fragment.append yearTemplate year
       i++
-      $fragment.appendTo @$years
+
+    $fragment.appendTo @$years
+
     @adjustOverlapYears()
 
   adjustOverlapYears: ->

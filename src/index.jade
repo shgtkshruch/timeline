@@ -38,6 +38,10 @@ html(lang="ja")
       #lightboxInner.lightbox__inner
       #lightboxClose.lightbox__close
 
+    script(type="text/template" id="year-template")
+      .timeline__year(style!="width: <%= width %>")
+        span.timeline__yearNum <%= num %>
+
     script(type="text/template" id="event-template")
       .timeline__event.event(title!="<%= period %> <%= text %>" style!="left: <%= left %>" data-wikipedia!="<%= wikipedia %>")
         span.event__time(style!="width: <%= timeWidth %>")
