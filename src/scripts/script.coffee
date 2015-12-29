@@ -216,6 +216,7 @@ class Timeline
 
     if checked.length is 0
       $('.event').hide()
+      @extendYearAxis()
       return
 
     switch @$sortOrder.find('select').val()
