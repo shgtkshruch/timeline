@@ -1,4 +1,452 @@
   -
+    start_year: '1802'
+    end_year: '1885'
+    text: 'ヴィクトル・ユーゴー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1803'
+    end_year: '1853'
+    text: 'クリスチャン・ドップラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1806'
+    end_year: '1873'
+    text: 'ジョン・スチュアート・ミル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1809'
+    end_year: '1865'
+    text: 'エイブラハム・リンカーン'
+    category:
+      - 'human'
+      - 'america'
+      - 'politics'
+  -
+    start_year: '1809'
+    end_year: '1882'
+    text: 'チャールズ・ダーウィン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1809'
+    end_year: '1891'
+    text: 'ジョルジュ・オスマン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1810'
+    end_year: '1849'
+    text: 'ショパン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1812'
+    end_year: '1870'
+    text: 'チャールズ・ディッケンズ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1813'
+    end_year: '1883'
+    text: 'ヴィルヘルム・リヒャルト・ワーグナー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1813'
+    end_year: '1885'
+    text: 'キェルケゴール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1813'
+    end_year: '1901'
+    text: 'ジュゼッペ・ヴェルディ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1814'
+    end_year: '1875'
+    text: 'ジャン＝フランソワ・ミレー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1815'
+    end_year: '1898'
+    text: 'オットー・フォン・ビスマルク'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1818'
+    end_year: '1883'
+    text: 'カール・マルクス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1818'
+    end_year: '1889'
+    text: 'ジェームズ・プレスコット・ジュール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1819'
+    end_year: '1900'
+    text: 'ジョン・ラスキン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1820'
+    end_year: '1895'
+    text: 'フリードリヒ・エンゲルス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1820'
+    end_year: '1903'
+    text: 'ハーバート・スペンサー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1820'
+    end_year: '1910'
+    text: 'フローレンス・ナイチンゲール'
+    category:
+      - 'human'
+      - 'europe'
+  -
+    start_year: '1821'
+    end_year: '1881'
+    text: 'フョードル・ドストエフスキー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1825'
+    end_year: '1898'
+    text: 'シャルル・ガルニエ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1832'
+    end_year: '1883'
+    text: 'エドゥアール・マネ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1832'
+    end_year: '1923'
+    text: 'ギュスターヴ・エッフェル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1833'
+    end_year: '1896'
+    text: 'アルフレッド・ノーベル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1833'
+    end_year: '1897'
+    text: 'ヨハネス・ブラームス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1834'
+    end_year: '1896'
+    text: 'ウィリアム・モリス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1834'
+    end_year: '1907'
+    text: 'ドミトリ・メンデレーエフ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1834'
+    end_year: '1917'
+    text: 'エドガー・ドガ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1839'
+    end_year: '1906'
+    text: 'ポール・セザンヌ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1840'
+    end_year: '1917'
+    text: 'オーギュスト・ロダン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1840'
+    end_year: '1926'
+    text: 'クロード・モネ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1840'
+    end_year: '1931'
+    text: '渋沢栄一'
+    category:
+      - 'human'
+      - 'japan'
+      - 'economy'
+  -
+    start_year: '1841'
+    end_year: '1918'
+    text: 'オットー・ワーグナー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1841'
+    end_year: '1919'
+    text: 'ピエール＝オーギュスト・ルノワール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1844'
+    end_year: '1900'
+    text: 'フリードリヒ・ニーチェ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1844'
+    end_year: '1906'
+    text: 'ルートヴィッヒ・ボルツマン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1845'
+    end_year: '1923'
+    text: 'ヴィルヘルム・レントゲン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1846'
+    end_year: '1904'
+    text: 'エミール・ガレ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1847'
+    end_year: '1931'
+    text: 'トーマス・エジソン'
+    category:
+      - 'human'
+      - 'america'
+      - 'science'
+  -
+    start_year: '1848'
+    end_year: '1903'
+    text: 'ポール・ゴーギャン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1848'
+    end_year: '1923'
+    text: 'ヴィルフレド・パレート'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'economy'
+  -
+    start_year: '1848'
+    end_year: '1933'
+    text: 'ルイス・カムフォート・ティファニー'
+    category:
+      - 'human'
+      - 'america'
+      - 'art'
+  -
+    start_year: '1852'
+    end_year: '1920'
+    text: 'ジョサイア・コンドル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1852'
+    end_year: '1926'
+    text: 'アントニ・ガウディ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1853'
+    end_year: '1890'
+    text: 'フィンセント・ファン・ゴッホ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1854'
+    end_year: '1919'
+    text: '辰野金吾'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1856'
+    end_year: '1924'
+    text: 'ルイス・サリヴァン'
+    category:
+      - 'human'
+      - 'america'
+      - 'art'
+  -
+    start_year: '1856'
+    end_year: '1939'
+    text: 'ジークムント・フロイト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1857'
+    end_year: '1913'
+    text: 'フェルディナン・ド・ソシュール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1858'
+    end_year: '1917'
+    text: 'エミール・デュルケーム'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1858'
+    end_year: '1918'
+    text: 'ゲオルク・ジンメル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1859'
+    end_year: '1891'
+    text: 'ジョルジュ・スーラ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1859'
+    end_year: '1916'
+    text: '妻木頼黄'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1859'
+    end_year: '1938'
+    text: 'エトムント・フッサール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1859'
+    end_year: '1941'
+    text: 'アンリ・ベルクソン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1859'
+    end_year: '1952'
+    text: 'ジョン・デューイ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
     start_year: '1868'
     end_year: '1912'
     text: '明治時代'
