@@ -5,7 +5,8 @@ class Timeline
     @$events = $ '#timelineEvents'
     @$lightbox = $ '#timelineLightbox'
     @$categories = $ '#timelineCategory'
-    @$categoryOrder = $ '#categoryOrder'
+    @$sortOrder = $ '#sortOrder'
+    @$arrangeOrder = $ '#arrangeOrder'
     @$lightboxClose = $ '#lightboxClose'
 
     @showLightboxId = ''
@@ -49,8 +50,11 @@ class Timeline
       @$lightbox.fadeOut 400, ->
         $(@).find('.lightbox__item').remove()
 
-    @$categories.on 'change', =>
-      @filteringByCategory()
+    @$categories.on 'change', (event) =>
+      if $(event.target).parents(@$arrangeOrder).is(@$arrangeOrder)
+        @rearrangingByOrder()
+      else
+        @filteringByCategory()
 
   getNowYear: ->
     return ($(window).scrollLeft() + $(window).width() / 2) * @yearUnit / @oneUnitYearWidth
@@ -214,7 +218,7 @@ class Timeline
       $('.event').hide()
       return
 
-    switch @$categoryOrder.find('select').val()
+    switch @$sortOrder.find('select').val()
       when 'and'
         @filteringByAnd showCategories
       when 'or'
@@ -281,7 +285,7 @@ class Timeline
 
     @$events.append(@$fragment).find('.event').hide()
 
-    @adjustOverlapEvents()
+    @rearrangingByOrder()
 
   renderEvents: (events) ->
     $('.event').hide()
@@ -300,9 +304,27 @@ class Timeline
           .end()
         .show()
 
-    @adjustOverlapEvents()
+    @rearrangingByOrder()
 
-  adjustOverlapEvents: ->
+  rearrangingByOrder: ->
+    switch @$arrangeOrder.find('select').val()
+      when 'masonry'
+        @rearrangingByMasonry()
+      when 'waterfall'
+        @rearrangingByWaterfall()
+
+  rearrangingByWaterfall: ->
+    leftEvents = []
+    $ '.event'
+      .filter ':visible'
+      .each (index, el) ->
+        $el = $ el
+        $el.css {top: $el.outerHeight() * index}
+        leftEvents.push {$el: $el}
+
+    @extendYearAxis leftEvents
+
+  rearrangingByMasonry: ->
     leftEvents = []
     $ '.event'
       .filter ':visible'

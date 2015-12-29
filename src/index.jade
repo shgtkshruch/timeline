@@ -29,10 +29,16 @@ html(lang="ja")
             li
               i.controller__icon(id="controller#{menu.id}" class="fa fa-search-#{menu.class}" title="#{menu.title}")
       #timelineCategory.timeline__category.category
-        .category__order#categoryOrder
-          select
+        .category__form#sortOrder
+          p.category__heading Sort Order
+          select.category__select
             option(value="and") and
             option(value="or") or
+        .category__form#arrangeOrder
+          p.category__heading Arrangee Order
+          select.category__select
+            option(value="masonry") marsonry
+            option(value="waterfall") waterfall
 
     #timelineLightbox.lightbox
       #lightboxInner.lightbox__inner
