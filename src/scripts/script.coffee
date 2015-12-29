@@ -10,13 +10,14 @@ class Timeline
 
     @showLightboxId = ''
     @borderStyle = '1px dashed rgba(255, 255, 255, 0.3)'
+    @$fragment = $ document.createDocumentFragment()
 
     @setEvents()
     @fetch()
 
   setEvents: ->
     $ '#controllerPlus'
-      .click (e) =>
+      .click =>
         nowYear = @getNowYear()
         if @oneUnitYearWidth < 10
           @oneUnitYearWidth++
@@ -27,7 +28,7 @@ class Timeline
         @scrollWindow nowYear
 
     $ '#controllerMinus'
-      .click (e) =>
+      .click =>
         nowYear = @getNowYear()
         if @oneUnitYearWidth is 1
           return
@@ -39,65 +40,16 @@ class Timeline
         @filteringByCategory()
         @scrollWindow nowYear
 
-    @$events.on 'click', '.event', (e) =>
-      $el = $(e.target).closest('.event')
-      dataWikipedia = $el.data('wikipedia')
-      text = dataWikipedia || $el.find('.event__text').text()
-      url = ['https://jp.wikipedia.org/w/api.php?'
-            'action=query',
-            '&format=json',
-            '&prop=extracts',
-            '&exintro=',
-            '&explaintext=',
-            '&redirects=',
-            '&titles=',
-            text
-            ].join('')
+    @$events.on 'click', '.event', (event) =>
+      @getWikipediaText event
 
-      $.ajax
-        url: url
-        dataType: 'jsonp'
-        success: (data, status, xhr) =>
-          pageId = Object.keys(data.query.pages)[0]
-          content = if pageId isnt '-1'
-            data.query.pages[pageId].extract
-          else
-            'Wikipediaに記事がありませんでした。'
+    @$lightboxClose.click =>
+      $('html').css {overflow: 'initial'}
 
-          $lightboxInner = $ '#lightboxInner'
-          padding = 20
-
-          p = $ '<p></p>'
-            .addClass 'lightbox__item'
-            .text content
-
-          @$lightbox
-            .css
-              top: $(window).scrollTop()
-              left: $(window).scrollLeft()
-            .find $lightboxInner
-              .append p
-              .end()
-            .fadeIn()
-
-          $ 'html'
-            .css
-              overflow: 'hidden'
-
-          @$lightboxClose.css
-            top: $lightboxInner.position().top + padding + 'px'
-            left: $lightboxInner.position().left + $lightboxInner.outerWidth() - padding + 'px'
-
-    @$lightboxClose.click (e) =>
-      $ 'html'
-        .css
-          overflow: 'initial'
       @$lightbox.fadeOut 400, ->
-        $(@)
-          .find '.lightbox__item'
-          .remove()
+        $(@).find('.lightbox__item').remove()
 
-    @$categories.on 'change', (e) =>
+    @$categories.on 'change', =>
       @filteringByCategory()
 
   getNowYear: ->
@@ -105,6 +57,52 @@ class Timeline
 
   scrollWindow: (nowYear) ->
     $(window).scrollLeft nowYear * @oneUnitYearWidth / @yearUnit - $(window).width() / 2
+
+  getWikipediaText: (event) ->
+    $el = $(event.target).closest('.event')
+    text = $el.data('wikipedia')|| $el.find('.event__text').text()
+    url = ['https://jp.wikipedia.org/w/api.php?'
+          'action=query',
+          '&format=json',
+          '&prop=extracts',
+          '&exintro=',
+          '&explaintext=',
+          '&redirects=',
+          '&titles=',
+          text
+          ].join('')
+
+    $.ajax
+      url: url
+      dataType: 'jsonp'
+      success: (data, status, xhr) =>
+        pageId = Object.keys(data.query.pages)[0]
+        content = if pageId isnt '-1'
+          data.query.pages[pageId].extract
+        else
+          'Wikipediaに記事がありませんでした。'
+
+        $lightboxInner = $ '#lightboxInner'
+        padding = 20
+
+        p = $ '<p></p>'
+          .addClass 'lightbox__item'
+          .text content
+
+        @$lightbox
+          .css
+            top: $(window).scrollTop()
+            left: $(window).scrollLeft()
+          .find $lightboxInner
+            .append p
+            .end()
+          .fadeIn()
+
+        $('html').css {overflow: 'hidden'}
+
+        @$lightboxClose.css
+          top: $lightboxInner.position().top + padding + 'px'
+          left: $lightboxInner.position().left + $lightboxInner.outerWidth() - padding + 'px'
 
   fetch: ->
     $.ajax
@@ -121,7 +119,6 @@ class Timeline
         @renderCategories()
 
   renderYearsFirst: ->
-    $fragment = $ document.createDocumentFragment()
     yearTemplate = _.template $('#year-template').text()
 
     i = @startYear
@@ -130,10 +127,10 @@ class Timeline
         year = {}
         year.width = @oneUnitYearWidth + 'px'
         year.num = if i % 100 is 0 then i else i.toString().match(/\d{2}$/)
-        $fragment.append yearTemplate year
+        @$fragment.append yearTemplate year
       i++
 
-    $fragment.appendTo @$years
+    @$fragment.appendTo @$years
 
     @adjustOverlapYears()
 
@@ -189,11 +186,10 @@ class Timeline
       kind: ['age', 'countory', 'event', 'human']
       region: ['america', 'arab', 'china', 'egypt', 'europe', 'india', 'japan']
       occupation: ['art','economy', 'politics', 'religion', 'scholar', 'science']
-      others: []
+      others: ['nature']
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 
     categoryTemplate = _.template $('#category-template').text()
-    $fragment = $ document.createDocumentFragment()
 
     @events.forEach (event, index) ->
      if event.category
@@ -204,9 +200,9 @@ class Timeline
         selectedCategory.others.push category
 
     for key, value of selectedCategory
-      $fragment.append categoryTemplate {heading: key, categories: value}
+      @$fragment.append categoryTemplate {heading: key, categories: value}
 
-    $fragment.appendTo @$categories
+    @$fragment.appendTo @$categories
 
   filteringByCategory: ->
     showCategories = []
@@ -249,7 +245,6 @@ class Timeline
     @renderEvents events
 
   renderEventsFirst: ->
-    $fragment = $ document.createDocumentFragment()
     eventTemplate = _.template $('#event-template').text()
 
     _.chain(@events)
@@ -282,12 +277,9 @@ class Timeline
         ev.timeWidth = ((endYearForWidth - startYearForWidth) * @oneUnitYearWidth / @yearUnit) + 'px'
         ev.period = startYearForPeriod + if endYearForPeriod then ' ~ ' + endYearForPeriod else ''
         ev.text = event.text
-        $fragment.append eventTemplate ev
+        @$fragment.append eventTemplate ev
 
-    @$events
-      .append $fragment
-      .find '.event'
-      .hide()
+    @$events.append(@$fragment).find('.event').hide()
 
     @adjustOverlapEvents()
 
