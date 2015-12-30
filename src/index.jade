@@ -18,6 +18,7 @@ html(lang="ja")
     link(rel='stylesheet', href='styles/style.css', media='all')
   body
     #timeline.timeline
+      #timelineRuledLines.timeline__ruledLines
       #timelineYears.timeline__years
       #timelineEvents.timeline__events
       #timelineController.timeline__controller.controller
@@ -43,6 +44,9 @@ html(lang="ja")
     #timelineLightbox.lightbox
       #lightboxInner.lightbox__inner
       #lightboxClose.lightbox__close
+
+    script(type="text/template" id="ruledLine-template")
+      .timeline__ruledLine(style!="width: <%= width %>")
 
     script(type="text/template" id="year-template")
       .timeline__year(style!="width: <%= width %>")

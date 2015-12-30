@@ -1,6 +1,7 @@
 class Timeline
   constructor: ->
 
+    @$ruledLines = $ '#timelineRuledLines'
     @$years = $ '#timelineYears'
     @$events = $ '#timelineEvents'
     @$lightbox = $ '#timelineLightbox'
@@ -24,7 +25,7 @@ class Timeline
           @oneUnitYearWidth++
         else
           @oneUnitYearWidth += 10
-        @renderYears()
+        @renderRuledLine()
         @filteringByCategory()
         @scrollWindow nowYear
 
@@ -37,7 +38,7 @@ class Timeline
           @oneUnitYearWidth--
         else
           @oneUnitYearWidth -= 10
-        @renderYears()
+        @renderRuledLine()
         @filteringByCategory()
         @scrollWindow nowYear
 
@@ -45,7 +46,7 @@ class Timeline
       @getWikipediaText event
 
     @$lightboxClose.click =>
-      $('html').css {overflow: 'initial'}
+      $('html').css overflow: 'initial'
 
       @$lightbox.fadeOut 400, ->
         $(@).find('.lightbox__item').remove()
@@ -55,6 +56,9 @@ class Timeline
         @rearrangingByOrder()
       else
         @filteringByCategory()
+
+    $(window).scroll =>
+      @$years.css left: $(window).scrollLeft() * -1
 
   getNowYear: ->
     return ($(window).scrollLeft() + $(window).width() / 2) * @yearUnit / @oneUnitYearWidth
@@ -102,7 +106,7 @@ class Timeline
             .end()
           .fadeIn()
 
-        $('html').css {overflow: 'hidden'}
+        $('html').css overflow: 'hidden'
 
         @$lightboxClose.css
           top: $lightboxInner.position().top + padding + 'px'
@@ -118,9 +122,22 @@ class Timeline
         @startYear = parseInt data.config.start_year, 10
         @endYear = parseInt data.config.end_year, 10
 
-        @renderYearsFirst()
+        @renderRuledLineFirst()
         @renderEventsFirst()
         @renderCategories()
+
+  renderRuledLineFirst: ->
+    ruledLineTemplate = _.template $('#ruledLine-template').text()
+
+    i = @startYear
+    while i <= @endYear
+      if i % @yearUnit is 0
+        @$fragment.append ruledLineTemplate {width: @oneUnitYearWidth + 'px'}
+      i++
+
+    @$fragment.appendTo @$ruledLines
+
+    @renderYearsFirst()
 
   renderYearsFirst: ->
     yearTemplate = _.template $('#year-template').text()
@@ -136,31 +153,32 @@ class Timeline
 
     @$fragment.appendTo @$years
 
-    @adjustOverlapYears()
+
+  renderRuledLine: ->
+    $ '.timeline__ruledLine'
+      .css width: @oneUnitYearWidth + 'px'
+
+    @renderYears()
 
   renderYears: ->
     $ '.timeline__year'
-      .css
-        width: @oneUnitYearWidth + 'px'
-        'border-left': @borderStyle
-      .children()
-      .show()
+      .css width: @oneUnitYearWidth + 'px'
 
     @adjustOverlapYears()
 
   adjustOverlapYears: ->
+    $timelineRuledLine = $ '.timeline__ruledLine'
     scale = [2, 5, 10, 100, 1000]
     i = 0
     while @isOverlapYears()
+      $timelineRuledLine.css visibility: 'hidden'
       $ '.timeline__yearNum'
-          .parent()
-          .css {'border-left': 'none'}
-          .end()
         .hide()
-        .each (index, el) =>
+        .each (index, el) ->
           $el = $ el
           if ($el.text() / 10) % scale[i] is 0
-            $el.show().parent().css {'border-left': @borderStyle}
+            $el.show()
+            $timelineRuledLine.eq(index).css visibility: 'visible'
       i++
 
   isOverlapYears: ->
@@ -320,7 +338,7 @@ class Timeline
       .filter ':visible'
       .each (index, el) ->
         $el = $ el
-        $el.css {top: $el.outerHeight() * index}
+        $el.css top: $el.outerHeight() * index
         leftEvents.push {$el: $el}
 
     @extendYearAxis leftEvents
@@ -340,11 +358,11 @@ class Timeline
             return if loopEnd
             if $el.offset().left > leftEvent.$el.offset().left + leftEvent.$el.outerWidth()
               loopEnd = true
-              $el.css {top: leftEvent.row}
+              $el.css top: leftEvent.row
               leftEvents.splice index2, 1, {row: $el.position().top, $el: $el}
             else
               if index2 is leftEvents.length - 1
-                $el.css {top: leftEvent.row + $el.outerHeight()}
+                $el.css top: leftEvent.row + $el.outerHeight()
                 leftEvents.push {row: $el.position().top, $el: $el}
 
     @extendYearAxis leftEvents
@@ -352,8 +370,8 @@ class Timeline
   extendYearAxis: (leftEvents) ->
     last = _.last(leftEvents)
     if last is undefined or last.$el.offset().top + last.$el.outerHeight() < $(window).height()
-      @$years.css {height: '100vh'}
+      @$ruledLines.css height: '100vh'
     else
-      @$years.css {height: last.$el.offset().top + last.$el.outerHeight() + 'px'}
+      @$ruledLines.css height: last.$el.offset().top + last.$el.outerHeight() + 'px'
 
 new Timeline()

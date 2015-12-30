@@ -1,24 +1,35 @@
 .timeline {
   $font-size: 30px;
-  &__years {
+  &__ruledLines {
     position: absolute;
     top: 0;
     left: 0;
-    white-space: nowrap;
     font-size: 0;
-    z-index: $zindex-year;
+    white-space: nowrap;
+    z-index: $zindex-ruledLine
   }
-  &__year {
+  &__ruledLine {
     box-sizing: border-box;
     position: relative;
     display: inline-block;
     height: 100%;
     border-left: 1px dashed rgba(255, 255, 255, .3);
   }
-  &__yearNum {
-    position: absolute;
+  &__years {
+    position: fixed;
     top: 0;
     left: 0;
+    background-color: rgba($color-body, .7);
+    font-size: 0;
+    white-space: nowrap;
+    z-index: $zindex-year;
+  }
+  &__year {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  &__yearNum {
+    display:  inline-block;
     font-size: $font-size;
     font-family: 'Rozha One', serif;
     color: rgba(255, 255, 255, .8);
