@@ -27,7 +27,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1508'
     end_year: '1580'
@@ -35,7 +35,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1509'
     end_year: '1564'
@@ -53,6 +53,7 @@
       - 'human'
       - 'europe'
       - 'art'
+      - 'architecture'
   -
     start_year: '1517'
     text: 'ルターの宗教改革'
@@ -110,6 +111,15 @@
       - 'politics'
   -
     start_year: '1533'
+    end_year: '1592'
+    text: 'ミシェル・ド・モンテーニュ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'literature'
+  -
+    start_year: '1533'
     end_year: '1603'
     text: 'エリザベス1世'
     category:
@@ -147,7 +157,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1548'
     end_year: '1600'
@@ -179,7 +189,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1570'
     end_year: '1619'
@@ -230,7 +240,7 @@
   -
     start_year: '1593'
     end_year: '1652'
-    text: 'ジョルジョ・ド・ラ・トゥール'
+    text: 'ジョルジュ・ド・ラ・トゥール'
     category:
       - 'human'
       - 'europe'
@@ -251,6 +261,7 @@
       - 'human'
       - 'europe'
       - 'art'
+      - 'architecture'
   -
     start_year: '1599'
     end_year: '1658'
@@ -274,4 +285,4 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'

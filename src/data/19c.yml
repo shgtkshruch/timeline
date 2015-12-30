@@ -1,11 +1,19 @@
   -
     start_year: '1802'
+    end_year: '1870'
+    text: 'アレクサンドル・デュマ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1802'
     end_year: '1885'
     text: 'ヴィクトル・ユーゴー'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1803'
     end_year: '1853'
@@ -15,6 +23,22 @@
       - 'europe'
       - 'science'
   -
+    start_year: '1804'
+    end_year: '1864'
+    text: 'ナサニエル・ホーソーン'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1805'
+    end_year: '1875'
+    text: 'ハンス・クリスチャン・アンデルセン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
     start_year: '1806'
     end_year: '1873'
     text: 'ジョン・スチュアート・ミル'
@@ -22,6 +46,30 @@
       - 'human'
       - 'europe'
       - 'scholar'
+  -
+    start_year: '1809'
+    end_year: '1847'
+    text: 'フェリックス・メンデルスゾーン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1809'
+    end_year: '1849'
+    text: 'エドガー・アラン・ポー'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1809'
+    end_year: '1852'
+    text: 'ニコライ・ゴーゴリ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'literature'
   -
     start_year: '1809'
     end_year: '1865'
@@ -46,6 +94,7 @@
       - 'human'
       - 'europe'
       - 'politics'
+      - 'architecture'
   -
     start_year: '1810'
     end_year: '1849'
@@ -53,23 +102,39 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
+  -
+    start_year: '1810'
+    end_year: '1856'
+    text: 'ロベルト・シューマン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1811'
+    end_year: '1886'
+    text: 'フランツ・リスト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
   -
     start_year: '1812'
     end_year: '1870'
-    text: 'チャールズ・ディッケンズ'
+    text: 'チャールズ・ディケンズ'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1813'
     end_year: '1883'
-    text: 'ヴィルヘルム・リヒャルト・ワーグナー'
+    text: 'リヒャルト・ワーグナー'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1813'
     end_year: '1885'
@@ -85,7 +150,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1814'
     end_year: '1875'
@@ -104,6 +169,14 @@
       - 'politics'
   -
     start_year: '1818'
+    end_year: '1848'
+    text: 'エミリー・ブロンテ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1818'
     end_year: '1883'
     text: 'カール・マルクス'
     category:
@@ -120,12 +193,21 @@
       - 'science'
   -
     start_year: '1819'
+    end_year: '1891'
+    text: 'ハーマン・メルヴィル'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1819'
     end_year: '1900'
     text: 'ジョン・ラスキン'
     category:
       - 'human'
       - 'europe'
       - 'art'
+      - 'architecture'
   -
     start_year: '1820'
     end_year: '1895'
@@ -151,12 +233,36 @@
       - 'europe'
   -
     start_year: '1821'
+    end_year: '1880'
+    text: 'ギュスターヴ・フローベル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1821'
     end_year: '1881'
     text: 'フョードル・ドストエフスキー'
     category:
       - 'human'
+      - 'russia'
+      - 'literature'
+  -
+    start_year: '1824'
+    end_year: '1884'
+    text: 'ベドルジハ・スメタナ'
+    category:
+      - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
+  -
+    start_year: '1824'
+    end_year: '1896'
+    text: 'アントン・ブルックナー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
   -
     start_year: '1825'
     end_year: '1898'
@@ -164,7 +270,31 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
+  -
+    start_year: '1825'
+    end_year: '1899'
+    text: 'ヨハン・シュトラウス2世'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1828'
+    end_year: '1906'
+    text: 'ヘンリック・イプセン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1828'
+    end_year: '1910'
+    text: 'レフ・トルストイ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'literature'
   -
     start_year: '1832'
     end_year: '1883'
@@ -175,12 +305,21 @@
       - 'art'
   -
     start_year: '1832'
+    end_year: '1898'
+    text: 'ルイス・キャロル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+      - 'science'
+  -
+    start_year: '1832'
     end_year: '1923'
     text: 'ギュスターヴ・エッフェル'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1833'
     end_year: '1896'
@@ -196,7 +335,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1834'
     end_year: '1896'
@@ -211,7 +350,7 @@
     text: 'ドミトリ・メンデレーエフ'
     category:
       - 'human'
-      - 'europe'
+      - 'russia'
       - 'science'
   -
     start_year: '1834'
@@ -222,6 +361,30 @@
       - 'europe'
       - 'art'
   -
+    start_year: '1835'
+    end_year: '1910'
+    text: 'マーク・トウェイン'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1838'
+    end_year: '1875'
+    text: 'ジョルジュ・ビゼー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1839'
+    end_year: '1881'
+    text: 'モデスト・ムソルグスキー'
+    category:
+      - 'human'
+      - 'russia'
+      - 'music'
+  -
     start_year: '1839'
     end_year: '1906'
     text: 'ポール・セザンヌ'
@@ -229,6 +392,14 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1840'
+    end_year: '1893'
+    text: 'ピョートル・チャイコフスキー'
+    category:
+      - 'human'
+      - 'russia'
+      - 'music'
   -
     start_year: '1840'
     end_year: '1917'
@@ -255,12 +426,20 @@
       - 'economy'
   -
     start_year: '1841'
+    end_year: '1904'
+    text: 'アントニン・ドヴォルザーク'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1841'
     end_year: '1918'
     text: 'オットー・ワーグナー'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1841'
     end_year: '1919'
@@ -269,6 +448,14 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1843'
+    end_year: '1907'
+    text: 'エドヴァルド・グリーグ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
   -
     start_year: '1844'
     end_year: '1900'
@@ -284,6 +471,23 @@
     category:
       - 'human'
       - 'europe'
+      - 'science'
+  -
+    start_year: '1844'
+    end_year: '1908'
+    text: 'ニコライ・リムスキー＝コルサコフ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'music'
+  -
+    start_year: '1844'
+    end_year: '1929'
+    text: 'カール・ベンツ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
       - 'science'
   -
     start_year: '1845'
@@ -341,7 +545,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1852'
     end_year: '1926'
@@ -349,7 +553,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1853'
     end_year: '1890'
@@ -365,7 +569,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1856'
     end_year: '1924'
@@ -373,7 +577,7 @@
     category:
       - 'human'
       - 'america'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1856'
     end_year: '1939'
@@ -391,6 +595,14 @@
       - 'europe'
       - 'scholar'
   -
+    start_year: '1857'
+    end_year: '1934'
+    text: 'エドワード・エルガー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
     start_year: '1858'
     end_year: '1917'
     text: 'エミール・デュルケーム'
@@ -407,6 +619,14 @@
       - 'europe'
       - 'scholar'
   -
+    start_year: '1858'
+    end_year: '1924'
+    text: 'ジャコモ・プッチーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
     start_year: '1859'
     end_year: '1891'
     text: 'ジョルジュ・スーラ'
@@ -421,7 +641,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1859'
     end_year: '1938'
@@ -444,8 +664,168 @@
     text: 'ジョン・デューイ'
     category:
       - 'human'
+      - 'america'
+      - 'scholar'
+  -
+    start_year: '1860'
+    end_year: '1904'
+    text: 'アントン・チェーホフ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'literature'
+  -
+    start_year: '1860'
+    end_year: '1911'
+    text: 'グスタフ・マーラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1860'
+    end_year: '1939'
+    text: 'アルフォンス・ミュシャ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1861'
+    end_year: '1927'
+    text: 'ヘルマン・ムテジウス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1862'
+    end_year: '1918'
+    text: 'グスタフ・クリムト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1862'
+    end_year: '1918'
+    text: 'クロード・ドビュッシー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1863'
+    end_year: '1944'
+    text: 'エドヴァルド・ムンク'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1863'
+    end_year: '1947'
+    text: 'ヘンリー・フォード'
+    category:
+      - 'human'
+      - 'america'
+      - 'economy'
+  -
+    start_year: '1863'
+    end_year: '1957'
+    text: 'アンリ・ヴァン・デ・ヴェルデ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1864'
+    end_year: '1901'
+    text: 'アンリ・ド・トゥールーズ＝ロートレック'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1864'
+    end_year: '1920'
+    text: 'マックス・ ヴェーバー'
+    category:
+      - 'human'
       - 'europe'
       - 'scholar'
+  -
+    start_year: '1865'
+    end_year: '1957'
+    text: 'ジャン・シベリウス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1866'
+    end_year: '1925'
+    text: 'エリック・サティ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1866'
+    end_year: '1944'
+    text: 'ワシリー・カンディンスキー'
+    category:
+      - 'human'
+      - 'russia'
+      - 'art'
+  -
+    start_year: '1866'
+    end_year: '1944'
+    text: 'ロマン・ロラン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1867'
+    end_year: '1912'
+    text: 'ライト兄弟'
+    category:
+      - 'human'
+      - 'america'
+      - 'science'
+  -
+    start_year: '1867'
+    end_year: '1934'
+    text: 'マリ・キュリー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1867'
+    end_year: '1942'
+    text: 'エクトール・ギマール'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1867'
+    end_year: '1954'
+    text: '伊東忠太'
+    category:
+      - 'human'
+      - 'japan'
+      - 'architecture'
+  -
+    start_year: '1867'
+    end_year: '1959'
+    text: 'フランク・ロイド・ライト'
+    category:
+      - 'human'
+      - 'america'
+      - 'architecture'
   -
     start_year: '1868'
     end_year: '1912'
@@ -453,3 +833,251 @@
     category:
       - 'age'
       - 'japan'
+  -
+    start_year: '1868'
+    end_year: '1928'
+    text: 'チャールズ・レニー・マッキントッシュ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1868'
+    end_year: '1940'
+    text: 'ペーター・ベーレンス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+      - 'architecture'
+  -
+    start_year: '1869'
+    end_year: '1948'
+    text: 'モーハンダース・カラムチャンド・ガーンディー'
+    category:
+      - 'human'
+      - 'india'
+  -
+    start_year: '1869'
+    end_year: '1951'
+    text: 'アンドレ・ジッド'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1870'
+    end_year: '1924'
+    text: 'ウラジーミル・レーニン'
+    category:
+      - 'human'
+      - 'russia'
+      - 'politics'
+  -
+    start_year: '1870'
+    end_year: '1933'
+    text: 'アドルフ・ロース'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1870'
+    end_year: '1945'
+    text: '西田幾多郎'
+    category:
+      - 'human'
+      - 'japan'
+      - 'scholar'
+  -
+    start_year: '1871'
+    end_year: '1922'
+    text: 'マルセル・プルースト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1872'
+    end_year: '1944'
+    text: 'ピエト・モンドリアン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1872'
+    end_year: '1970'
+    text: 'バートランド・ラッセル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1873'
+    end_year: '1943'
+    text: 'セルゲイ・ラフマニノフ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'music'
+  -
+    start_year: '1873'
+    end_year: '1950'
+    text: 'エリエル・サーリネン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1874'
+    end_year: '1934'
+    text: 'グスターヴ・ホルスト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1874'
+    end_year: '1937'
+    text: 'グリエルモ・マルコーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1874'
+    end_year: '1954'
+    text: 'オーギュスト・ペレ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1875'
+    end_year: '1926'
+    text: 'ライナー・マリア・リルケ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1875'
+    end_year: '1937'
+    text: 'モーリス・ラヴェル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1875'
+    end_year: '1955'
+    text: 'トマス・マン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1875'
+    end_year: '1961'
+    text: 'カール・グスタフ・ユング'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1876'
+    end_year: '1944'
+    text: 'マリネッティ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1878'
+    end_year: '1935'
+    text: 'マレーヴィチ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'art'
+  -
+    start_year: '1879'
+    end_year: '1955'
+    text: 'アルベルト・アインシュタイン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1882'
+    end_year: '1941'
+    text: 'ジェイムズ・ジョイス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1882'
+    end_year: '1971'
+    text: 'イーゴリ・ストラヴィンスキー'
+    category:
+      - 'human'
+      - 'russia'
+      - 'music'
+  -
+    start_year: '1883'
+    end_year: '1924'
+    text: 'フランツ・カフカ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1892'
+    end_year: '1973'
+    text: 'パール・S・バック'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1894'
+    end_year: '1961'
+    text: 'ルイ=フェルディナン・セリーヌ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1897'
+    end_year: '1962'
+    text: 'ウィリアム・フォークナー'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1898'
+    end_year: '1937'
+    text: 'ジョージ・ガーシュウィン'
+    category:
+      - 'human'
+      - 'america'
+      - 'music'
+  -
+    start_year: '1899'
+    end_year: '1961'
+    text: 'アーネスト・ヘミングウェイ'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1899'
+    end_year: '1977'
+    text: 'ウラジーミル・ナブコフ'
+    category:
+      - 'human'
+      - 'russia'
+      - 'literature'

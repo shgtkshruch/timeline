@@ -21,7 +21,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1336'
     end_year: '1573'
@@ -53,6 +53,14 @@
       - 'japan'
       - 'politics'
   -
+    start_year: '1364'
+    end_year: '?'
+    text: '羅貫中'
+    category:
+      - 'human'
+      - 'china'
+      - 'literature'
+  -
     start_year: '1371'
     end_year: '1434'
     text: '鄭和'
@@ -67,6 +75,7 @@
       - 'human'
       - 'europe'
       - 'art'
+      - 'architecture'
   -
     start_year: '1386'
     end_year: '1466'

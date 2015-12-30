@@ -1,4 +1,12 @@
   -
+    start_year: '350'
+    end_year: '?'
+    text: 'カーリダーサ'
+    category:
+      - 'human'
+      - 'india'
+      - 'literature'
+  -
     start_year: '354'
     end_year: '430'
     text: 'アウレリウス・アウグスティヌス'

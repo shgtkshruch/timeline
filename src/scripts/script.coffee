@@ -204,8 +204,8 @@ class Timeline
     categories = []
     selectedCategory =
       kind: ['age', 'countory', 'event', 'human']
-      region: ['america', 'arab', 'china', 'egypt', 'europe', 'india', 'japan']
-      occupation: ['art','economy', 'politics', 'religion', 'scholar', 'science']
+      region: ['america', 'arab', 'china', 'egypt', 'europe', 'india', 'japan', 'russia']
+      occupation: ['art', 'architecture', 'economy', 'literature', 'politics', 'music', 'religion', 'scholar', 'science']
       others: []
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 

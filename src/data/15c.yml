@@ -142,7 +142,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1475'
     end_year: '1564'
@@ -190,7 +190,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'scholar'
+      - 'literature'
   -
     start_year: '1485'
     end_year: '1528'
@@ -242,3 +242,4 @@
       - 'human'
       - 'europe'
       - 'art'
+      - 'architecture'

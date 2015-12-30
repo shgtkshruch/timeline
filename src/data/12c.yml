@@ -13,7 +13,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'literature'
   -
     start_year: '1120'
     end_year: '1180'
@@ -84,7 +84,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'literature'
   -
     start_year: '1157'
     end_year: '1199'

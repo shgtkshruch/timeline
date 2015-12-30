@@ -1,4 +1,37 @@
   -
+    start_year: '1900'
+    end_year: '1949'
+    text: 'マーガレット・ミッチェル'
+    category:
+      - 'human'
+      - 'america'
+      - 'literature'
+  -
+    start_year: '1901'
+    end_year: '1999'
+    text: 'ホアキン・ロドリーゴ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1905'
+    end_year: '1980'
+    text: 'ジャン=ポール・サルトル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+      - 'literature'
+  -
+    start_year: '1906'
+    end_year: '1989'
+    text: 'サミュエル・ベケット'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
     start_year: '1912'
     end_year: '1926'
     text: '大正時代'
@@ -6,9 +39,32 @@
       - 'age'
       - 'japan'
   -
+    start_year: '1913'
+    end_year: '1960'
+    text: 'アルベール・カミュ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1923'
+    end_year: '1985'
+    text: 'イタロ・カルヴィーノ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
     start_year: '1926'
     end_year: '1989'
     text: '昭和時代'
     category:
       - 'age'
       - 'japan'
+  -
+    start_year: '1928'
+    end_year: '2014'
+    text: 'ガブリエル・ガルシア=マルケス'
+    category:
+      - 'human'
+      - 'literature'

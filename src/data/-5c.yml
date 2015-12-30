@@ -22,6 +22,14 @@
       - 'event'
       - 'europe'
   -
+    start_year: '-496'
+    end_year: '-406'
+    text: 'ソポクレス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
     start_year: '-487'
     end_year: '-376'
     text: 'ゴルギアス'
@@ -37,6 +45,14 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '-480'
+    end_year: '-406'
+    text: 'エウリピデス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
   -
     start_year: '-469'
     end_year: '-339'

@@ -71,7 +71,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1270'
     text: '第8回十字軍'
@@ -98,7 +98,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'literature'
   -
     start_year: '1288'
     end_year: '1339'

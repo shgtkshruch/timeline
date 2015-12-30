@@ -49,12 +49,20 @@
       - 'scholar'
   -
     start_year: '1713'
+    end_year: '1768'
+    text: 'ローレンス・スターン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1713'
     end_year: '1769'
     text: 'マルク・アントワーヌ・ロージェ'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1713'
     end_year: '1780'
@@ -62,7 +70,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1717'
     end_year: '1768'
@@ -78,7 +86,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1723'
     end_year: '1790'
@@ -103,7 +111,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1730'
     end_year: '1801'
@@ -135,7 +143,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1734'
     end_year: '1798'
@@ -143,7 +151,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1736'
     end_year: '1806'
@@ -151,7 +159,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'architecture'
   -
     start_year: '1736'
     end_year: '1819'
@@ -176,6 +184,22 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1740'
+    end_year: '1814'
+    text: 'マルキ・ド・サド'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1741'
+    end_year: '1803'
+    text: 'コデルロス・ド・ラクロ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
   -
     start_year: '1743'
     end_year: '1826'
@@ -216,7 +240,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1755'
     end_year: '1793'
@@ -232,7 +256,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1760'
     end_year: '1849'
@@ -281,7 +305,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1770'
     end_year: '1843'
@@ -289,7 +313,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1770'
     end_year: '1881'
@@ -306,6 +330,14 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1775'
+    end_year: '1817'
+    text: 'ジェーン・オースティン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
   -
     start_year: '1775'
     end_year: '1851'
@@ -343,7 +375,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1785'
     end_year: '1863'
@@ -351,7 +383,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1788'
     end_year: '1860'
@@ -369,13 +401,21 @@
       - 'europe'
       - 'politics'
   -
+    start_year: '1792'
+    end_year: '1868'
+    text: 'ジョアキーノ・ロッシーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
     start_year: '1797'
     end_year: '1828'
     text: 'シューベルト'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
   -
     start_year: '1797'
     end_year: '1858'
@@ -392,3 +432,11 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1799'
+    end_year: '1850'
+    text: 'オノレ・ド・バルザック'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'

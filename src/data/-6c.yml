@@ -5,6 +5,7 @@
     category:
       - 'human'
       - 'china'
+      - 'scholar'
   -
     start_year: '-582'
     end_year: '-496'
@@ -30,6 +31,14 @@
       - 'human'
       - 'europe'
       - 'scholar'
+  -
+    start_year: '-525'
+    end_year: '-456'
+    text: 'アイスキュロス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
   -
     start_year: '-509'
     end_year: '-27'

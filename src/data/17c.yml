@@ -64,7 +64,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1618'
     end_year: '1648'
@@ -79,7 +79,7 @@
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'literature'
   -
     start_year: '1623'
     end_year: '1662'
@@ -174,7 +174,7 @@
     category:
       - 'human'
       - 'japan'
-      - 'art'
+      - 'literature'
   -
     start_year: '1646'
     end_year: '1716'
@@ -190,6 +190,14 @@
       - 'event'
       - 'europe'
       - 'politics'
+  -
+    start_year: '1648'
+    end_year: '1741'
+    text: 'アントニオ・ヴィヴァルディ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
   -
     start_year: '1658'
     end_year: '1716'
@@ -207,13 +215,29 @@
       - 'japan'
       - 'scholar'
   -
+    start_year: '1667'
+    end_year: '1745'
+    text: 'ジョナサン・スウィフト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
     start_year: '1685'
     end_year: '1750'
     text: 'ヨハン・セバスティアン・バッハ'
     category:
       - 'human'
       - 'europe'
-      - 'art'
+      - 'music'
+  -
+    start_year: '1685'
+    end_year: '1759'
+    text: 'ゲオルク・フリードリヒ・ヘンデル'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
   -
     start_year: '1688'
     end_year: '1689'
