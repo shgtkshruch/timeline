@@ -11,7 +11,6 @@ class Timeline
     @$lightboxClose = $ '#lightboxClose'
 
     @showLightboxId = ''
-    @borderStyle = '1px dashed rgba(255, 255, 255, 0.3)'
     @$fragment = $ document.createDocumentFragment()
 
     @setEvents()
@@ -68,7 +67,7 @@ class Timeline
 
   getWikipediaText: (event) ->
     $el = $(event.target).closest('.event')
-    text = $el.data('wikipedia')|| $el.find('.event__text').text()
+    text = $el.data('wikipedia') || $el.find('.event__text').text()
     url = ['https://jp.wikipedia.org/w/api.php?'
           'action=query',
           '&format=json',
@@ -153,7 +152,6 @@ class Timeline
 
     @$fragment.appendTo @$years
 
-
   renderRuledLine: ->
     $ '.timeline__ruledLine'
       .css width: @oneUnitYearWidth + 'px'
@@ -208,7 +206,7 @@ class Timeline
       kind: ['age', 'countory', 'event', 'human']
       region: ['america', 'arab', 'china', 'egypt', 'europe', 'india', 'japan']
       occupation: ['art','economy', 'politics', 'religion', 'scholar', 'science']
-      others: ['nature']
+      others: []
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 
     categoryTemplate = _.template $('#category-template').text()
