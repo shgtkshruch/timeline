@@ -152,15 +152,21 @@ class Timeline
 
     @$fragment.appendTo @$years
 
+    @adjustOverlapYears()
+
   renderRuledLine: ->
     $ '.timeline__ruledLine'
-      .css width: @oneUnitYearWidth + 'px'
+      .css
+        width: @oneUnitYearWidth + 'px'
+        visibility: 'visible'
 
     @renderYears()
 
   renderYears: ->
     $ '.timeline__year'
       .css width: @oneUnitYearWidth + 'px'
+      .children()
+      .show()
 
     @adjustOverlapYears()
 
