@@ -62,7 +62,7 @@ html(lang="ja")
       .category__block
         p.category__heading <%= heading %>
         <% _.forEach(categories, function (category) { %>
-        label
+        label.category__label
           input(type="checkbox" value!="<%= category %>")
           span.category__text <%= category %>
         <% }); %>
