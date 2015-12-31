@@ -68,3 +68,11 @@
     category:
       - 'human'
       - 'literature'
+  -
+    start_year: '1929'
+    end_year: '-'
+    text: 'ユルゲン・ハーバーマス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'

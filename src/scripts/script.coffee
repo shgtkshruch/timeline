@@ -292,6 +292,9 @@ class Timeline
         if event.end_year is '?'
           endYearForWidth = parseInt(event.start_year, 10) + 50
           endYearForPeriod = '?'
+        else if event.end_year is '-'
+          endYearForWidth = parseInt(event.start_year, 10) + 50
+          endYearForPeriod = '-'
         else
           endYearForWidth = endYearForPeriod = parseInt event.end_year, 10
 
