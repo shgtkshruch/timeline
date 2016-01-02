@@ -124,6 +124,7 @@ class Timeline
         @renderRuledLineFirst()
         @renderEventsFirst()
         @renderCategories()
+        $(window).trigger 'timelineLoad'
 
   renderRuledLineFirst: ->
     ruledLineTemplate = _.template $('#ruledLine-template').text()
@@ -215,6 +216,7 @@ class Timeline
       others: []
     selectedCategoryArray = _.chain(selectedCategory).values().flatten().value()
 
+    $category = $ '#category'
     categoryTemplate = _.template $('#category-template').text()
 
     @events.forEach (event, index) ->
@@ -228,7 +230,7 @@ class Timeline
     for key, value of selectedCategory
       @$fragment.append categoryTemplate {heading: key, categories: value}
 
-    @$fragment.appendTo @$categories
+    @$fragment.appendTo $category
 
   filteringByCategory: ->
     showCategories = []

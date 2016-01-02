@@ -13,6 +13,8 @@ html(lang="ja")
     link(href='https://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css')
     // build:css styles/vendor.css
     // bower:css
+    link(rel='stylesheet', href='../bower_components/intro.js/introjs.css')
+    link(rel='stylesheet', href='../bower_components/intro.js/themes/introjs-dark.css')
     // endbower
     // endbuild
     link(rel='stylesheet', href='styles/style.css', media='all')
@@ -40,6 +42,7 @@ html(lang="ja")
           select.category__select
             option(value="masonry") marsonry
             option(value="waterfall") waterfall
+        #category
 
     #timelineLightbox.lightbox
       #lightboxInner.lightbox__inner
@@ -71,9 +74,11 @@ html(lang="ja")
     // bower:js
     script(src='../bower_components/jquery/dist/jquery.js')
     script(src='../bower_components/lodash/lodash.js')
+    script(src='../bower_components/intro.js/intro.js')
     // endbower
     // endbuild
 
     // build:js scripts/main.js
     script(src='scripts/script.js')
+    script(src='scripts/intro.js')
     // endbuild

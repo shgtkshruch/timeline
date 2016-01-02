@@ -1,0 +1,12 @@
+.introjs {
+  &-button {
+    color: #000 !important;
+    text-shadow: none;
+  }
+  &-disabled {
+    color: #fff !important;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}
