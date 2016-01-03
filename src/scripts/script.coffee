@@ -124,7 +124,6 @@ class Timeline
         @renderRuledLineFirst()
         @renderEventsFirst()
         @renderCategories()
-        $(window).trigger 'timelineLoad'
 
   renderRuledLineFirst: ->
     ruledLineTemplate = _.template $('#ruledLine-template').text()

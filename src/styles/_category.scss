@@ -17,6 +17,20 @@
       text-transform: uppercase;
     }
   }
+  &__intro {
+    $background-color: #D10461;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
   &__label {
     display: inline-block;
   }
