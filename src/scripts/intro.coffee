@@ -14,7 +14,7 @@ $ '#intro'
           }
           {
             element: '#arrangeOrder'
-            intro: '要素を年表に並べる時のルールを選択してください。<br/>詰めて並べるmarsonryと、上から順に並べるwaterfallが選べます。'
+            intro: '要素を年表に並べる時のルールを選択してください。<br/>詰めて並べるmasonryと、上から順に並べるwaterfallが選べます。'
           }
           {
             element: '#timelineController'
