@@ -161,6 +161,14 @@
       - 'europe'
   -
     start_year: '1642'
+    end_year: '1693'
+    text: '井原西鶴'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1642'
     end_year: '1727'
     text: 'アイザック・ニュートン'
     category:

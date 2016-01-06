@@ -16,6 +16,13 @@
       - 'literature'
   -
     start_year: '1803'
+    end_year: '1815'
+    text: 'ナポレオン戦争'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1803'
     end_year: '1853'
     text: 'クリスチャン・ドップラー'
     category:
@@ -153,6 +160,13 @@
       - 'music'
   -
     start_year: '1814'
+    end_year: '1815'
+    text: 'ウィーン会議'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1814'
     end_year: '1875'
     text: 'ジャン＝フランソワ・ミレー'
     category:
@@ -248,6 +262,13 @@
       - 'russia'
       - 'literature'
   -
+    start_year: '1823'
+    text: 'アメリカがモンロー宣言'
+    wikipedia: 'モンロー主義'
+    category:
+      - 'event'
+      - 'america'
+  -
     start_year: '1824'
     end_year: '1884'
     text: 'ベドルジハ・スメタナ'
@@ -263,6 +284,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1825'
+    end_year: '1883'
+    text: '岩倉具視'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1825'
     end_year: '1898'
@@ -281,6 +310,14 @@
       - 'music'
   -
     start_year: '1828'
+    end_year: '1877'
+    text: '西郷隆盛'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1828'
     end_year: '1906'
     text: 'ヘンリック・イプセン'
     category:
@@ -295,6 +332,12 @@
       - 'human'
       - 'russia'
       - 'literature'
+  -
+    start_year: '1830'
+    text: 'フランス7月革命'
+    category:
+      - 'event'
+      - 'europe'
   -
     start_year: '1832'
     end_year: '1883'
@@ -320,6 +363,21 @@
       - 'human'
       - 'europe'
       - 'architecture'
+  -
+    start_year: '1833'
+    end_year: '1839'
+    text: '天保の大飢饉'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '1833'
+    end_year: '1877'
+    text: '木戸孝允'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1833'
     end_year: '1896'
@@ -362,12 +420,37 @@
       - 'art'
   -
     start_year: '1835'
+    end_year: '1901'
+    text: '福沢諭吉'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+      - 'scholar'
+  -
+    start_year: '1835'
     end_year: '1910'
     text: 'マーク・トウェイン'
     category:
       - 'human'
       - 'america'
       - 'literature'
+  -
+    start_year: '1836'
+    end_year: '1867'
+    text: '坂本龍馬'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1837'
+    end_year: '1919'
+    text: '板垣退助'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1838'
     end_year: '1875'
@@ -376,6 +459,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1838'
+    end_year: '1922'
+    text: '大隈重信'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1839'
     end_year: '1881'
@@ -392,6 +483,14 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1840'
+    end_year: '1842'
+    text: 'アヘン戦争'
+    category:
+      - 'event'
+      - 'china'
+      - 'europe'
   -
     start_year: '1840'
     end_year: '1893'
@@ -432,6 +531,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1841'
+    end_year: '1909'
+    text: '伊藤博文'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1841'
     end_year: '1918'
@@ -515,6 +622,18 @@
       - 'science'
   -
     start_year: '1848'
+    text: 'フランス2月革命'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1848'
+    text: '共産党宣言'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1848'
     end_year: '1903'
     text: 'ポール・ゴーギャン'
     category:
@@ -539,6 +658,21 @@
       - 'america'
       - 'art'
   -
+    start_year: '1850'
+    end_year: '1914'
+    text: 'イギリス黄金時代'
+    wikipedia: 'パクス・ブリタニカ'
+    category:
+      - 'age'
+      - 'europe'
+  -
+    start_year: '1851'
+    text: '第1回万国博覧会'
+    wikipedia: 'ロンドン万国博覧会 (1851年)'
+    category:
+      - 'event'
+      - 'europe'
+  -
     start_year: '1852'
     end_year: '1920'
     text: 'ジョサイア・コンドル'
@@ -556,12 +690,25 @@
       - 'architecture'
   -
     start_year: '1853'
+    text: '黒船来航'
+    category:
+      - 'event'
+      - 'japan'
+  -
+    start_year: '1853'
     end_year: '1890'
     text: 'フィンセント・ファン・ゴッホ'
     category:
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1854'
+    text: '日米和親条約'
+    category:
+      - 'event'
+      - 'japan'
+      - 'america'
   -
     start_year: '1854'
     end_year: '1919'
@@ -628,6 +775,14 @@
       - 'music'
   -
     start_year: '1859'
+    text: '「種の起源」発表'
+    wikipedia: '種の起源'
+    category:
+      - 'event'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1859'
     end_year: '1891'
     text: 'ジョルジュ・スーラ'
     category:
@@ -642,6 +797,14 @@
       - 'human'
       - 'japan'
       - 'architecture'
+  -
+    start_year: '1859'
+    end_year: '1935'
+    text: '坪内逍遥'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1859'
     end_year: '1938'
@@ -692,6 +855,13 @@
       - 'art'
   -
     start_year: '1861'
+    end_year: '1865'
+    text: 'アメリカ南北戦争'
+    category:
+      - 'event'
+      - 'america'
+  -
+    start_year: '1861'
     end_year: '1927'
     text: 'ヘルマン・ムテジウス'
     category:
@@ -714,6 +884,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1862'
+    end_year: '1922'
+    text: '森鴎外'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1863'
     end_year: '1944'
@@ -746,6 +924,14 @@
       - 'human'
       - 'europe'
       - 'art'
+  -
+    start_year: '1864'
+    end_year: '1909'
+    text: '二葉亭四迷'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1864'
     end_year: '1920'
@@ -788,12 +974,28 @@
       - 'literature'
   -
     start_year: '1867'
+    text: '「資本論」刊行'
+    wikipedia: '資本論'
+    category:
+      - 'event'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1867'
     end_year: '1912'
     text: 'ライト兄弟'
     category:
       - 'human'
       - 'america'
       - 'science'
+  -
+    start_year: '1867'
+    end_year: '1916'
+    text: '夏目漱石'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1867'
     end_year: '1934'
@@ -826,6 +1028,12 @@
       - 'human'
       - 'america'
       - 'architecture'
+  -
+    start_year: '1868'
+    text: '明治維新'
+    category:
+      - 'event'
+      - 'japan'
   -
     start_year: '1868'
     end_year: '1912'
@@ -896,6 +1104,14 @@
     category:
       - 'human'
       - 'europe'
+      - 'literature'
+  -
+    start_year: '1872'
+    end_year: '1896'
+    text: '樋口一葉'
+    category:
+      - 'human'
+      - 'japan'
       - 'literature'
   -
     start_year: '1872'
@@ -1002,6 +1218,14 @@
       - 'russia'
       - 'art'
   -
+    start_year: '1878'
+    end_year: '1942'
+    text: '与謝野晶子'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1879'
     end_year: '1955'
     text: 'アルベルト・アインシュタイン'
@@ -1009,6 +1233,29 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1880'
+    end_year: '1938'
+    text: 'ブルーノ・タウト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1880'
+    end_year: '1968'
+    text: 'ヘレン・ケラー'
+    category:
+      - 'human'
+      - 'america'
+  -
+    start_year: '1881'
+    end_year: '1973'
+    text: 'パブロ・ピカソ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
   -
     start_year: '1882'
     end_year: '1941'
@@ -1034,6 +1281,182 @@
       - 'europe'
       - 'literature'
   -
+    start_year: '1883'
+    end_year: '1945'
+    text: 'ベニート・ムッソリーニ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1883'
+    end_year: '1946'
+    text: 'ジョン・メイナード・ケインズ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1883'
+    end_year: '1950'
+    text: 'ヨーゼフ・シュンペーター'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1883'
+    end_year: '1969'
+    text: 'ヴァルター・グロピウス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1883'
+    end_year: '1969'
+    text: 'カール・ヤスパース'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1886'
+    end_year: '1964'
+    text: 'カール・ポランニー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1886'
+    end_year: '1965'
+    text: '谷崎潤一郎'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1886'
+    end_year: '1969'
+    text: 'ミース・ファン・デル・ローエ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1887'
+    end_year: '1961'
+    text: 'シュレーディンガー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
+    start_year: '1887'
+    end_year: '1965'
+    text: 'ル・コルビュジエ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1887'
+    end_year: '1968'
+    text: 'マルセル・デュシャン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1888'
+    end_year: '1948'
+    text: '菊池寛'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1888'
+    end_year: '1964'
+    text: 'リートフェルト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1888'
+    end_year: '1976'
+    text: 'アントニン・レーモンド'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
+    start_year: '1888'
+    end_year: '1978'
+    text: 'ジョルジョ・デ・キリコ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1888'
+    end_year: '1985'
+    text: 'カール・シュミット'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1889'
+    end_year: '1945'
+    text: 'アドルフ・ヒトラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'politics'
+  -
+    start_year: '1889'
+    end_year: '1951'
+    text: 'ルートヴィヒ・ウィトゲンシュタイン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1889'
+    end_year: '1976'
+    text: 'マルティン・ハイデッガー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1890'
+    end_year: '1976'
+    text: 'マン・レイ'
+    category:
+      - 'human'
+      - 'america'
+      - 'art'
+  -
+    start_year: '1892'
+    end_year: '1927'
+    text: '芥川龍之介'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1892'
+    end_year: '1940'
+    text: 'ヴァルター・ベンヤミン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
     start_year: '1892'
     end_year: '1973'
     text: 'パール・S・バック'
@@ -1042,6 +1465,30 @@
       - 'america'
       - 'literature'
   -
+    start_year: '1893'
+    end_year: '1947'
+    text: 'カール・マンハイム'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
+    start_year: '1893'
+    end_year: '1976'
+    text: '毛沢東'
+    category:
+      - 'human'
+      - 'china'
+      - 'politics'
+  -
+    start_year: '1894'
+    end_year: '1895'
+    text: '日清戦争'
+    category:
+      - 'event'
+      - 'japan'
+      - 'china'
+  -
     start_year: '1894'
     end_year: '1961'
     text: 'ルイ=フェルディナン・セリーヌ'
@@ -1049,6 +1496,46 @@
       - 'human'
       - 'europe'
       - 'literature'
+  -
+    start_year: '1894'
+    end_year: '1974'
+    text: '吉田五十八'
+    category:
+      - 'human'
+      - 'japan'
+      - 'architecture'
+  -
+    start_year: '1895'
+    end_year: '1983'
+    text: 'バックミンスター・フラー'
+    category:
+      - 'human'
+      - 'america'
+      - 'architecture'
+      - 'art'
+  -
+    start_year: '1896'
+    text: '第1回夏季オリンピック'
+    wikipedia: 'アテネオリンピック (1896年)'
+    category:
+      - 'event'
+      - 'europe'
+  -
+    start_year: '1896'
+    end_year: '1966'
+    text: 'アンドレ・ブルトン'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1897'
+    end_year: '1962'
+    text: 'ジョルジュ・バタイユ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
   -
     start_year: '1897'
     end_year: '1962'
@@ -1066,6 +1553,22 @@
       - 'america'
       - 'music'
   -
+    start_year: '1898'
+    end_year: '1967'
+    text: 'ルネ・マグリット'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1898'
+    end_year: '1976'
+    text: 'アルヴァ・アールト'
+    category:
+      - 'human'
+      - 'europe'
+      - 'architecture'
+  -
     start_year: '1899'
     end_year: '1961'
     text: 'アーネスト・ヘミングウェイ'
@@ -1075,9 +1578,25 @@
       - 'literature'
   -
     start_year: '1899'
+    end_year: '1972'
+    text: '川端康成'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1899'
     end_year: '1977'
     text: 'ウラジーミル・ナブコフ'
     category:
       - 'human'
       - 'russia'
       - 'literature'
+  -
+    start_year: '1899'
+    end_year: '1992'
+    text: 'フリードリヒ・ハイエク'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'

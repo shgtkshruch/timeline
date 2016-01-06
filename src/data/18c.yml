@@ -283,6 +283,14 @@
       - 'europe'
       - 'scholar'
   -
+    start_year: '1763'
+    end_year: '1828'
+    text: '小林一茶'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1768'
     end_year: '1830'
     text: 'ジョゼフ・フーリエ'

@@ -117,6 +117,14 @@
       - 'human'
       - 'politics'
   -
+    start_year: '1162'
+    end_year: '1241'
+    text: '藤原定家'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1180'
     end_year: '1239'
     text: '後鳥羽天皇'

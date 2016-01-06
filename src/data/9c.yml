@@ -1,4 +1,12 @@
   -
+    start_year: '825'
+    end_year: '900'
+    text: '小野小町'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '886'
     end_year: '945'
     text: '紀貫之'

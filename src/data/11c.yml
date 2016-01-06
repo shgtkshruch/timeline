@@ -1,4 +1,11 @@
   -
+    start_year: '1008'
+    text: '源氏物語'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1096'
     end_year: '1099'
     text: '第1回十字軍'

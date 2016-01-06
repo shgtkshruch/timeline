@@ -7,12 +7,26 @@
       - 'japan'
       - 'religion'
   -
+    start_year: '1201'
+    text: '新古今和歌集'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1202'
     end_year: '1204'
     text: '第4回十字軍'
     category:
       - 'event'
       - 'europe'
+  -
+    start_year: '1212'
+    text: '方丈記'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1215'
     end_year: '1294'
@@ -50,6 +64,13 @@
     category:
       - 'event'
       - 'europe'
+  -
+    start_year: '1235'
+    text: '小倉百人一首'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
   -
     start_year: '1248'
     end_year: '1249'

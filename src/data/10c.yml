@@ -1,4 +1,18 @@
   -
+    start_year: '905'
+    text: '古今和歌集'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '935'
+    text: '土佐日記'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '966'
     end_year: '1025'
     text: '清少納言'
@@ -12,6 +26,13 @@
     text: '紫式部'
     category:
       - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '996'
+    text: '枕草子'
+    category:
+      - 'event'
       - 'japan'
       - 'literature'
   -

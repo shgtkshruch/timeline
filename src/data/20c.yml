@@ -25,11 +25,27 @@
       - 'literature'
   -
     start_year: '1906'
+    end_year: '1955'
+    text: '坂口安吾'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1906'
     end_year: '1989'
     text: 'サミュエル・ベケット'
     category:
       - 'human'
       - 'europe'
+      - 'literature'
+  -
+    start_year: '1909'
+    end_year: '1948'
+    text: '太宰治'
+    category:
+      - 'human'
+      - 'japan'
       - 'literature'
   -
     start_year: '1912'
@@ -55,6 +71,38 @@
       - 'europe'
       - 'literature'
   -
+    start_year: '1923'
+    end_year: '1996'
+    text: '司馬遼太郎'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1923'
+    end_year: '1996'
+    text: '遠藤周作'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1924'
+    end_year: '1993'
+    text: '安部公房'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1925'
+    end_year: '1970'
+    text: '三島由紀夫'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1926'
     end_year: '1989'
     text: '昭和時代'
@@ -76,3 +124,11 @@
       - 'human'
       - 'europe'
       - 'scholar'
+  -
+    start_year: '1935'
+    end_year: '-'
+    text: '大江健三郎'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'

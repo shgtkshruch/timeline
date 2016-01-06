@@ -23,6 +23,13 @@
       - 'europe'
       - 'literature'
   -
+    start_year: '1330'
+    text: '徒然草'
+    category:
+      - 'event'
+      - 'japan'
+      - 'literature'
+  -
     start_year: '1336'
     end_year: '1573'
     text: '室町時代'
@@ -52,6 +59,15 @@
       - 'human'
       - 'japan'
       - 'politics'
+  -
+    start_year: '1363'
+    end_year: '1443'
+    text: '世阿弥'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+      - 'literature'
   -
     start_year: '1364'
     end_year: '?'
