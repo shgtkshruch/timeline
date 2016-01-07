@@ -128,3 +128,9 @@
       - 'human'
       - 'japan'
       - 'politics'
+  -
+    start_year: '1299'
+    end_year: '1922'
+    text: 'オスマン帝国'
+    category:
+      - 'countory'

@@ -43,6 +43,14 @@
       - 'age'
       - 'japan'
   -
+    start_year: '1604'
+    end_year: '1651'
+    text: '徳川家光'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
     start_year: '1605'
     text: '慶長地震'
     category:
@@ -160,6 +168,14 @@
       - 'event'
       - 'europe'
   -
+    start_year: '1641'
+    end_year: '1680'
+    text: '徳川家綱'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
     start_year: '1642'
     end_year: '1693'
     text: '井原西鶴'
@@ -185,6 +201,14 @@
       - 'literature'
   -
     start_year: '1646'
+    end_year: '1709'
+    text: '徳川綱吉'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1646'
     end_year: '1716'
     text: 'ゴットフリート・ライプニッツ'
     category:
@@ -199,13 +223,13 @@
       - 'europe'
       - 'politics'
   -
-    start_year: '1648'
-    end_year: '1741'
-    text: 'アントニオ・ヴィヴァルディ'
+    start_year: '1656'
+    end_year: '1742'
+    text: 'エドモンド・ハレー'
     category:
       - 'human'
       - 'europe'
-      - 'music'
+      - 'science'
   -
     start_year: '1658'
     end_year: '1716'
@@ -214,6 +238,30 @@
       - 'human'
       - 'japan'
       - 'art'
+  -
+    start_year: '1659'
+    end_year: '1719'
+    text: '山本常朝'
+    category:
+      - 'human'
+      - 'japan'
+      - 'literature'
+  -
+    start_year: '1660'
+    end_year: '1731'
+    text: 'ダニエル・デフォー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
+  -
+    start_year: '1662'
+    end_year: '1712'
+    text: '徳川家宣'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1666'
     end_year: '1728'
@@ -230,6 +278,22 @@
       - 'human'
       - 'europe'
       - 'literature'
+  -
+    start_year: '1678'
+    end_year: '1741'
+    text: 'アントニオ・ヴィヴァルディ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'music'
+  -
+    start_year: '1684'
+    end_year: '1751'
+    text: '徳川吉宗'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1685'
     end_year: '1750'

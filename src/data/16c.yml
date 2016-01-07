@@ -192,6 +192,14 @@
       - 'literature'
   -
     start_year: '1570'
+    end_year: '?'
+    text: '俵屋宗達'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
+  -
+    start_year: '1570'
     end_year: '1619'
     text: 'ハンス・リッペルスハイ'
     category:
@@ -229,6 +237,22 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1579'
+    end_year: '1632'
+    text: '徳川秀忠'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1584'
+    end_year: '1645'
+    text: '宮本武蔵'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
   -
     start_year: '1588'
     end_year: '1679'

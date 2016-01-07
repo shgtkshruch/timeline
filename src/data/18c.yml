@@ -32,6 +32,22 @@
       - 'japan'
       - 'nature'
   -
+    start_year: '1707'
+    text: '富士山宝永大噴火'
+    wikipedia: '宝永大噴火'
+    category:
+      - 'event'
+      - 'japan'
+      - 'nature'
+  -
+    start_year: '1709'
+    end_year: '1716'
+    text: '徳川家継'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
     start_year: '1711'
     end_year: '1776'
     text: 'デイヴィッド・ヒューム'
@@ -39,6 +55,14 @@
       - 'human'
       - 'europe'
       - 'scholar'
+  -
+    start_year: '1712'
+    end_year: '1761'
+    text: '徳川家重'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1712'
     end_year: '1778'
@@ -71,6 +95,14 @@
       - 'human'
       - 'europe'
       - 'architecture'
+  -
+    start_year: '1716'
+    end_year: '1800'
+    text: '伊藤若冲'
+    category:
+      - 'human'
+      - 'japan'
+      - 'art'
   -
     start_year: '1717'
     end_year: '1768'
@@ -113,6 +145,14 @@
       - 'europe'
       - 'architecture'
   -
+    start_year: '1729'
+    end_year: '1797'
+    text: 'エドマンド・バーク'
+    category:
+      - 'human'
+      - 'europe'
+      - 'scholar'
+  -
     start_year: '1730'
     end_year: '1801'
     text: '本居宣長'
@@ -120,6 +160,12 @@
       - 'human'
       - 'japan'
       - 'scholar'
+  -
+    start_year: '1732'
+    text: '享保の大飢饉'
+    category:
+      - 'event'
+      - 'japan'
   -
     start_year: '1732'
     end_year: '1799'
@@ -170,6 +216,14 @@
       - 'science'
   -
     start_year: '1737'
+    end_year: '1786'
+    text: '徳川家治'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
+  -
+    start_year: '1737'
     end_year: '1809'
     text: 'トマス・ペイン'
     category:
@@ -209,6 +263,14 @@
       - 'america'
       - 'politics'
   -
+    start_year: '1745'
+    end_year: '1827'
+    text: 'アレッサンドロ・ボルタ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'science'
+  -
     start_year: '1746'
     end_year: '1823'
     text: 'ジャック・シャルル'
@@ -216,6 +278,22 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1746'
+    end_year: '1828'
+    text: 'フランシスコ・デ・ゴヤ'
+    category:
+      - 'human'
+      - 'europe'
+      - 'art'
+  -
+    start_year: '1747'
+    text: '百科全書刊行開始'
+    wikipedia: '百科全書'
+    category:
+      - 'event'
+      - 'europe'
+      - 'scholar'
   -
     start_year: '1748'
     end_year: '1832'
@@ -242,6 +320,13 @@
       - 'europe'
       - 'literature'
   -
+    start_year: '1753'
+    text: '大英博物館設立'
+    wikipedia: '大英博物館'
+    category:
+      - 'event'
+      - 'europe'
+  -
     start_year: '1755'
     end_year: '1793'
     text: 'マリー・アントワネット'
@@ -257,6 +342,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1759'
+    end_year: '1805'
+    text: 'フリードリヒ・フォン・シラー'
+    category:
+      - 'human'
+      - 'europe'
+      - 'literature'
   -
     start_year: '1760'
     end_year: '1849'
@@ -290,6 +383,14 @@
       - 'human'
       - 'japan'
       - 'literature'
+  -
+    start_year: '1766'
+    end_year: '1834'
+    text: 'トマス・ロバート・マルサス'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
   -
     start_year: '1768'
     end_year: '1830'
@@ -331,6 +432,28 @@
       - 'europe'
       - 'scholar'
   -
+    start_year: '1772'
+    end_year: '1883'
+    text: 'デヴィッド・リカード'
+    category:
+      - 'human'
+      - 'europe'
+      - 'economy'
+  -
+    start_year: '1773'
+    text: 'ボストン茶会事件'
+    category:
+      - 'event'
+      - 'america'
+  -
+    start_year: '1773'
+    end_year: '1817'
+    text: '杉田玄白'
+    category:
+      - 'human'
+      - 'japan'
+      - 'scholar'
+  -
     start_year: '1773'
     end_year: '1829'
     text: 'トマス・ヤング'
@@ -338,6 +461,14 @@
       - 'human'
       - 'europe'
       - 'science'
+  -
+    start_year: '1773'
+    end_year: '1841'
+    text: '徳川家斉'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1775'
     end_year: '1817'
@@ -363,7 +494,8 @@
       - 'europe'
       - 'scholar'
   -
-    start_year: '1776'
+    start_year: '1775'
+    end_year: '1783'
     text: 'アメリカ独立戦争'
     category:
       - 'event'
@@ -416,6 +548,14 @@
       - 'human'
       - 'europe'
       - 'music'
+  -
+    start_year: '1793'
+    end_year: '1853'
+    text: '徳川家慶'
+    category:
+      - 'human'
+      - 'japan'
+      - 'politics'
   -
     start_year: '1797'
     end_year: '1828'
