@@ -132,3 +132,17 @@
       - 'human'
       - 'japan'
       - 'literature'
+  -
+    start_year: '1945'
+    text: 'ブレトンウッズ協定'
+    category:
+      - 'event'
+      - 'america'
+      - 'economy'
+  -
+    start_year: '1945'
+    end_year: '-'
+    text: 'アメリカの覇権'
+    category:
+      - 'age'
+      - 'america'
