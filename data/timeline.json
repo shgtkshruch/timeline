@@ -1,0 +1,5652 @@
+{
+  "config": {
+    "start_year": "-1100",
+    "end_year": "2000",
+    "yearUnit": "10",
+    "oneUnitYearWidth": "100"
+  },
+  "events": [
+    {
+      "start_year": "?",
+      "end_year": "-1000",
+      "text": "サウル",
+      "category": [
+        "human",
+        "arab",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-1040",
+      "end_year": "-961",
+      "text": "ダビデ",
+      "category": [
+        "human",
+        "arab",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-1011",
+      "end_year": "-931",
+      "text": "ソロモン",
+      "category": [
+        "human",
+        "arab",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-1200",
+      "end_year": "-700",
+      "text": "暗黒時代",
+      "wikipedia": "暗黒時代 (古代ギリシア) ",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "-1400",
+      "end_year": "-300",
+      "text": "縄文時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "-100",
+      "end_year": "-44",
+      "text": "ガイウス・ユリウス・カエサル",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-80",
+      "end_year": "-15",
+      "text": "ウィトルウィウス",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "-69",
+      "end_year": "-30",
+      "text": "クレオパトラ",
+      "category": [
+        "human",
+        "egypt",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-63",
+      "end_year": "14",
+      "text": "アウグストゥス",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-43",
+      "end_year": "17",
+      "text": "オウィディウス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "-6",
+      "end_year": "57",
+      "text": "光武帝",
+      "category": [
+        "human",
+        "china",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-4",
+      "end_year": "32",
+      "text": "イエス・キリスト",
+      "category": [
+        "human",
+        "europe",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "-145",
+      "end_year": "-86",
+      "text": "司馬遷",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-106",
+      "end_year": "-43",
+      "text": "マルクス・トゥッリウス・キケロ",
+      "category": [
+        "human",
+        "europe",
+        "politics",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-300",
+      "end_year": "300",
+      "text": "弥生時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "-287",
+      "end_year": "-212",
+      "text": "アルキメデス",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "science"
+      ]
+    },
+    {
+      "start_year": "-280",
+      "end_year": "-233",
+      "text": "韓非",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-259",
+      "end_year": "-210",
+      "text": "始皇帝",
+      "category": [
+        "human",
+        "china",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-206",
+      "end_year": "220",
+      "text": "漢",
+      "category": [
+        "countory",
+        "china"
+      ]
+    },
+    {
+      "start_year": "-384",
+      "end_year": "-322",
+      "text": "アリストテレス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-372",
+      "end_year": "-289",
+      "text": "孟子",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-369",
+      "end_year": "-286",
+      "text": "荘子",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-367",
+      "end_year": "-282",
+      "text": "プトレマイオス1世",
+      "category": [
+        "human",
+        "egypt",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-356",
+      "end_year": "-323",
+      "text": "アレクサンドロス3世",
+      "category": [
+        "human",
+        "egypt",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-341",
+      "end_year": "-270",
+      "text": "エピクロス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-313",
+      "end_year": "-238",
+      "text": "荀子",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-500",
+      "end_year": "-428",
+      "text": "アナクサゴラス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-500",
+      "end_year": "?",
+      "text": "パルメニデス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-499",
+      "end_year": "-449",
+      "text": "ペルシア戦争",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "-496",
+      "end_year": "-406",
+      "text": "ソポクレス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "-487",
+      "end_year": "-376",
+      "text": "ゴルギアス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-480",
+      "end_year": "?",
+      "text": "レウキッポス",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "-480",
+      "end_year": "-406",
+      "text": "エウリピデス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "-469",
+      "end_year": "-339",
+      "text": "ソクラテス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-463",
+      "end_year": "-383",
+      "text": "釈迦",
+      "category": [
+        "human",
+        "india",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "-460",
+      "end_year": "-370",
+      "text": "デモクリトス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-427",
+      "end_year": "-343",
+      "text": "プラトン",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-600",
+      "end_year": "?",
+      "text": "老子",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-582",
+      "end_year": "-496",
+      "text": "ピタゴラス",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "science"
+      ]
+    },
+    {
+      "start_year": "-552",
+      "end_year": "-479",
+      "text": "孔子",
+      "category": [
+        "human",
+        "china",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-540",
+      "end_year": "-480",
+      "text": "ヘラクレイトス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-525",
+      "end_year": "-456",
+      "text": "アイスキュロス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "-509",
+      "end_year": "-27",
+      "text": "共和制ローマ",
+      "category": [
+        "countory",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "-700",
+      "end_year": "?",
+      "text": "ヘーシオドス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "?",
+      "end_year": "-609",
+      "text": "ヨシア",
+      "category": [
+        "human",
+        "arab",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-639",
+      "end_year": "-559",
+      "text": "ソロン",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "-624",
+      "end_year": "-546",
+      "text": "タレス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-610",
+      "end_year": "-546",
+      "text": "アナクシマンドロス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "-609",
+      "text": "メギドの戦い",
+      "wikipedia": "メギドの戦い (紀元前609年)",
+      "category": [
+        "event",
+        "arab"
+      ]
+    },
+    {
+      "start_year": "-778",
+      "end_year": "-206",
+      "text": "秦",
+      "category": [
+        "countory",
+        "china"
+      ]
+    },
+    {
+      "start_year": "-753",
+      "end_year": "-509",
+      "text": "王政ローマ",
+      "category": [
+        "countory",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "-750",
+      "end_year": "?",
+      "text": "ホメーロス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "905",
+      "text": "古今和歌集",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "935",
+      "text": "土佐日記",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "966",
+      "end_year": "1025",
+      "text": "清少納言",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "975",
+      "end_year": "1020",
+      "text": "紫式部",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "996",
+      "text": "枕草子",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1000",
+      "end_year": "1200",
+      "text": "ロマネスク",
+      "category": [
+        "age",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1008",
+      "text": "源氏物語",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1096",
+      "end_year": "1099",
+      "text": "第1回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1096",
+      "text": "東海地震",
+      "category": [
+        "event",
+        "nature",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1099",
+      "text": "南海地震",
+      "category": [
+        "event",
+        "nature",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1118",
+      "end_year": "1191",
+      "text": "平清盛",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1118",
+      "end_year": "1190",
+      "text": "西行",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1120",
+      "end_year": "1180",
+      "text": "ルイ7世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1123",
+      "end_year": "1160",
+      "text": "源頼朝",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1123",
+      "end_year": "1190",
+      "text": "フリードリヒ1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1127",
+      "end_year": "1192",
+      "text": "後白河天皇",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1133",
+      "end_year": "1212",
+      "text": "法然",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1141",
+      "end_year": "1215",
+      "text": "栄西",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1147",
+      "end_year": "1148",
+      "text": "第2回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1150",
+      "end_year": "1500",
+      "text": "ゴシック",
+      "category": [
+        "age",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1155",
+      "end_year": "1216",
+      "text": "鴨長明",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1157",
+      "end_year": "1199",
+      "text": "リチャード1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1157",
+      "end_year": "1225",
+      "text": "北条政子",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1159",
+      "end_year": "1189",
+      "text": "源義経",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1162",
+      "end_year": "1227",
+      "text": "チンギス・カン",
+      "category": [
+        "human",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1162",
+      "end_year": "1241",
+      "text": "藤原定家",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1180",
+      "end_year": "1239",
+      "text": "後鳥羽天皇",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1185",
+      "end_year": "1333",
+      "text": "鎌倉時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1189",
+      "end_year": "1192",
+      "text": "第3回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1200",
+      "end_year": "1253",
+      "text": "道元",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1201",
+      "text": "新古今和歌集",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1202",
+      "end_year": "1204",
+      "text": "第4回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1212",
+      "text": "方丈記",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1215",
+      "end_year": "1294",
+      "text": "クビライ",
+      "category": [
+        "human",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1218",
+      "end_year": "1221",
+      "text": "第5回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1222",
+      "end_year": "1282",
+      "text": "日蓮",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1225",
+      "end_year": "1274",
+      "text": "トマス・アクィナス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1228",
+      "end_year": "1229",
+      "text": "第6回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1235",
+      "text": "小倉百人一首",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1248",
+      "end_year": "1249",
+      "text": "第7回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1254",
+      "end_year": "1324",
+      "text": "マルコ・ポーロ",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1265",
+      "end_year": "1321",
+      "text": "ダンテ・アリギエーリ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1270",
+      "text": "第8回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1271",
+      "end_year": "1272",
+      "text": "第9回十字軍",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1274",
+      "text": "元寇",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1283",
+      "end_year": "1352",
+      "text": "吉田兼好",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1288",
+      "end_year": "1339",
+      "text": "後醍醐天皇",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1299",
+      "end_year": "1922",
+      "text": "オスマン帝国",
+      "category": [
+        "countory"
+      ]
+    },
+    {
+      "start_year": "1300",
+      "end_year": "1600",
+      "text": "ルネサンス",
+      "category": [
+        "age",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1305",
+      "end_year": "1358",
+      "text": "足利尊氏",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1313",
+      "end_year": "1375",
+      "text": "ジョヴァンニ・ボッカッチョ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1330",
+      "text": "徒然草",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1336",
+      "end_year": "1573",
+      "text": "室町時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1337",
+      "end_year": "1453",
+      "text": "百年戦争",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1348",
+      "end_year": "1350",
+      "text": "ペスト禍",
+      "wikipedia": "ペスト",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1358",
+      "end_year": "1408",
+      "text": "足利義満",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1363",
+      "end_year": "1443",
+      "text": "世阿弥",
+      "category": [
+        "human",
+        "japan",
+        "art",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1364",
+      "end_year": "?",
+      "text": "羅貫中",
+      "category": [
+        "human",
+        "china",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1371",
+      "end_year": "1434",
+      "text": "鄭和",
+      "category": [
+        "human",
+        "china"
+      ]
+    },
+    {
+      "start_year": "1377",
+      "end_year": "1446",
+      "text": "フィリッポ・ブルネレスキ",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1386",
+      "end_year": "1466",
+      "text": "ドナテッロ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1394",
+      "end_year": "1460",
+      "text": "エンリケ航海王子",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1398",
+      "end_year": "1468",
+      "text": "ヨハネス・グーテンベルク",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1404",
+      "end_year": "1472",
+      "text": "レオン・バッティスタ・アルベルティ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1412",
+      "end_year": "1431",
+      "text": "ジャンヌ・ダルク",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1415",
+      "end_year": "1648",
+      "text": "大航海時代",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1421",
+      "end_year": "1471",
+      "text": "ヘンリー6世",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1434",
+      "end_year": "1530",
+      "text": "狩野正信",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1436",
+      "end_year": "1490",
+      "text": "足利義政",
+      "category": [
+        "human",
+        "japan",
+        "art",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1440",
+      "end_year": "1506",
+      "text": "雪舟",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1444",
+      "end_year": "1514",
+      "text": "ドナト・ブラマンテ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1445",
+      "end_year": "1510",
+      "text": "サンドロ・ボッティチェッリ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1450",
+      "end_year": "1498",
+      "text": "ジョン・カボット",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1450",
+      "end_year": "1500",
+      "text": "バルトロメウ・ディアス",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1451",
+      "end_year": "1506",
+      "text": "クリストファー・コロンブス",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1452",
+      "end_year": "1519",
+      "text": "レオナルド・ダ・ヴィンチ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1457",
+      "end_year": "1509",
+      "text": "ヘンリー7世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1467",
+      "end_year": "1524",
+      "text": "ジョヴァンニ・デ・メディチ・イル・ポポラーノ",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1469",
+      "end_year": "1524",
+      "text": "ヴァスコ・ダ・ガマ",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1469",
+      "end_year": "1527",
+      "text": "マキャヴェリ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1473",
+      "end_year": "1543",
+      "text": "コペルニクス",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1475",
+      "end_year": "1554",
+      "text": "セバスティアーノ・セルリオ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1475",
+      "end_year": "1564",
+      "text": "ミケランジェロ・ブオナローティ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1478",
+      "end_year": "1535",
+      "text": "トマス・モア",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1480",
+      "end_year": "1521",
+      "text": "フェルディナンド・マゼラン",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1483",
+      "end_year": "1520",
+      "text": "ラファエロ・サンティ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1483",
+      "end_year": "1546",
+      "text": "マルティン・ルター",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1483",
+      "end_year": "1555",
+      "text": "フランソワ・ラブレー",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1485",
+      "end_year": "1528",
+      "text": "ジョバンニ・ダ・ヴェラッツァーノ",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1491",
+      "end_year": "1557",
+      "text": "ジャック・カルティエ",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1491",
+      "end_year": "1557",
+      "text": "ヘンリー8世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1494",
+      "end_year": "1566",
+      "text": "スレイマン1世",
+      "category": [
+        "human"
+      ]
+    },
+    {
+      "start_year": "1497",
+      "end_year": "1543",
+      "text": "ハンス・ホルバイン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1498",
+      "text": "南海地震",
+      "category": [
+        "event",
+        "japan",
+        "nature"
+      ]
+    },
+    {
+      "start_year": "1498",
+      "end_year": "1546",
+      "text": "ジュリオ・ロマーノ",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1500",
+      "end_year": "1600",
+      "text": "スペイン黄金時代",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1500",
+      "end_year": "1700",
+      "text": "科学革命",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1500",
+      "end_year": "1555",
+      "text": "カール5世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1507",
+      "end_year": "1573",
+      "text": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1508",
+      "end_year": "1580",
+      "text": "アンドレーア・パッラーディオ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1509",
+      "end_year": "1564",
+      "text": "ジャン・カルヴァン",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1511",
+      "end_year": "1574",
+      "text": "ジョルジョ・ヴァザーリ",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1517",
+      "text": "ルターの宗教改革",
+      "wikipedia": "宗教改革",
+      "category": [
+        "event",
+        "europe",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1521",
+      "end_year": "1573",
+      "text": "武田信玄",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1522",
+      "end_year": "1591",
+      "text": "千利休",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1525",
+      "end_year": "1569",
+      "text": "ピーテル・ブリューゲル",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1517",
+      "text": "ローマ略奪（ルネサンス終了）",
+      "wikipedia": "ローマ略奪",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1527",
+      "end_year": "1598",
+      "text": "フェリペ2世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1530",
+      "end_year": "1578",
+      "text": "上杉謙信",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1533",
+      "end_year": "1592",
+      "text": "ミシェル・ド・モンテーニュ",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1533",
+      "end_year": "1603",
+      "text": "エリザベス1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1534",
+      "end_year": "1582",
+      "text": "織田信長",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1537",
+      "end_year": "1598",
+      "text": "豊臣秀吉",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1543",
+      "end_year": "1616",
+      "text": "徳川家康",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1547",
+      "end_year": "1616",
+      "text": "ミゲル・デ・セルバンテス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1548",
+      "end_year": "1600",
+      "text": "ガリレオ・ガリレイ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1555",
+      "text": "イタリアで利子率革命",
+      "category": [
+        "event",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1561",
+      "end_year": "1626",
+      "text": "フランシス・ベーコン",
+      "wikipedia": "フランシス・ベーコン (哲学者)",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1564",
+      "end_year": "1616",
+      "text": "ウィリアム・シェイクスピア",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1570",
+      "end_year": "?",
+      "text": "俵屋宗達",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1570",
+      "end_year": "1619",
+      "text": "ハンス・リッペルスハイ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1571",
+      "end_year": "1630",
+      "text": "ヨハネス・ケプラー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1573",
+      "end_year": "1603",
+      "text": "安土桃山時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1577",
+      "end_year": "1640",
+      "text": "ピーテル・パウル・ルーベンス",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1578",
+      "end_year": "1657",
+      "text": "ウィリアム・ハーヴェー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1579",
+      "end_year": "1632",
+      "text": "徳川秀忠",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1584",
+      "end_year": "1645",
+      "text": "宮本武蔵",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1588",
+      "end_year": "1679",
+      "text": "トマス・ホッブズ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1593",
+      "end_year": "1652",
+      "text": "ジョルジュ・ド・ラ・トゥール",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1596",
+      "end_year": "1650",
+      "text": "ルネ・デカルト",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1598",
+      "end_year": "1680",
+      "text": "ジャン・ロレンツォ・ベルニーニ",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1599",
+      "end_year": "1658",
+      "text": "オリバー・クロムウェル",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1599",
+      "end_year": "1660",
+      "text": "ディエゴ・ベラスケス",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1599",
+      "end_year": "1667",
+      "text": "フランチェスコ・ボッロミーニ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1600",
+      "text": "関ヶ原の戦い",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1600",
+      "end_year": "1700",
+      "text": "オランダ黄金時代",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1600",
+      "end_year": "1800",
+      "text": "バロック",
+      "category": [
+        "age",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1600",
+      "end_year": "1649",
+      "text": "チャールズ1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1602",
+      "text": "オランダ東インド会社設立",
+      "wikipedia": "オランダ東インド会社",
+      "category": [
+        "event",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1603",
+      "end_year": "1868",
+      "text": "江戸時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1604",
+      "end_year": "1651",
+      "text": "徳川家光",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1605",
+      "text": "慶長地震",
+      "category": [
+        "event",
+        "japan",
+        "nature"
+      ]
+    },
+    {
+      "start_year": "1606",
+      "end_year": "1669",
+      "text": "レンブラント・ファン・レイン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1608",
+      "end_year": "1674",
+      "text": "ジョン・ミルトン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1618",
+      "end_year": "1648",
+      "text": "三十年戦争",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1622",
+      "end_year": "1673",
+      "text": "モリエール",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1623",
+      "end_year": "1662",
+      "text": "ブレーズ・パスカル",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1627",
+      "end_year": "1691",
+      "text": "ロバート・ボイル",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1629",
+      "end_year": "1695",
+      "text": "クリスティアーン・ホイヘンス",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1632",
+      "end_year": "1675",
+      "text": "ヨハネス・フェルメール",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1632",
+      "end_year": "1677",
+      "text": "バールーフ・デ・スピノザ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1632",
+      "end_year": "1707",
+      "text": "ジョン・ロック",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1635",
+      "end_year": "1703",
+      "text": "ロバート・フック",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1637",
+      "text": "オランダでチューリップ・バブル",
+      "wikipedia": "チューリップ・バブル",
+      "category": [
+        "event",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1638",
+      "end_year": "1715",
+      "text": "ルイ14世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1641",
+      "end_year": "1649",
+      "text": "清教徒革命",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1641",
+      "end_year": "1680",
+      "text": "徳川家綱",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1642",
+      "end_year": "1693",
+      "text": "井原西鶴",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1642",
+      "end_year": "1727",
+      "text": "アイザック・ニュートン",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1644",
+      "end_year": "1694",
+      "text": "松尾芭蕉",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1646",
+      "end_year": "1709",
+      "text": "徳川綱吉",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1646",
+      "end_year": "1716",
+      "text": "ゴットフリート・ライプニッツ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1648",
+      "text": "ヴェストファーレン条約",
+      "category": [
+        "event",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1656",
+      "end_year": "1742",
+      "text": "エドモンド・ハレー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1658",
+      "end_year": "1716",
+      "text": "尾形光琳",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1659",
+      "end_year": "1719",
+      "text": "山本常朝",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1660",
+      "end_year": "1731",
+      "text": "ダニエル・デフォー",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1662",
+      "end_year": "1712",
+      "text": "徳川家宣",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1666",
+      "end_year": "1728",
+      "text": "荻生徂徠",
+      "category": [
+        "human",
+        "japan",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1667",
+      "end_year": "1745",
+      "text": "ジョナサン・スウィフト",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1678",
+      "end_year": "1741",
+      "text": "アントニオ・ヴィヴァルディ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1684",
+      "end_year": "1751",
+      "text": "徳川吉宗",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1685",
+      "end_year": "1750",
+      "text": "ヨハン・セバスティアン・バッハ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1685",
+      "end_year": "1759",
+      "text": "ゲオルク・フリードリヒ・ヘンデル",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1688",
+      "end_year": "1689",
+      "text": "名誉革命",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1689",
+      "end_year": "1755",
+      "text": "シャルル・ド・モンテスキュー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1700",
+      "end_year": "1782",
+      "text": "ダニエル・ベルヌーイ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1706",
+      "end_year": "1790",
+      "text": "ベンジャミン・フランクリン",
+      "category": [
+        "human",
+        "america",
+        "politics",
+        "scholar",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1707",
+      "end_year": "1783",
+      "text": "レオンハルト・オイラー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1707",
+      "text": "宝永地震",
+      "category": [
+        "event",
+        "japan",
+        "nature"
+      ]
+    },
+    {
+      "start_year": "1707",
+      "text": "富士山宝永大噴火",
+      "wikipedia": "宝永大噴火",
+      "category": [
+        "event",
+        "japan",
+        "nature"
+      ]
+    },
+    {
+      "start_year": "1709",
+      "end_year": "1716",
+      "text": "徳川家継",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1711",
+      "end_year": "1776",
+      "text": "デイヴィッド・ヒューム",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1712",
+      "end_year": "1761",
+      "text": "徳川家重",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1712",
+      "end_year": "1778",
+      "text": "ジャン＝ジャック・ルソー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1713",
+      "end_year": "1768",
+      "text": "ローレンス・スターン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1713",
+      "end_year": "1769",
+      "text": "マルク・アントワーヌ・ロージェ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1713",
+      "end_year": "1780",
+      "text": "ジャック・ジェルメン・スフロ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1716",
+      "end_year": "1800",
+      "text": "伊藤若冲",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1717",
+      "end_year": "1768",
+      "text": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1720",
+      "end_year": "1778",
+      "text": "ジョヴァンニ・バッティスタ・ピラネージ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1723",
+      "end_year": "1790",
+      "text": "アダム・スミス",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1724",
+      "end_year": "1804",
+      "text": "イマヌエル・カント",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1728",
+      "end_year": "1799",
+      "text": "エティエンヌ・ルイ・ブーレー",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1729",
+      "end_year": "1797",
+      "text": "エドマンド・バーク",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1730",
+      "end_year": "1801",
+      "text": "本居宣長",
+      "category": [
+        "human",
+        "japan",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1732",
+      "text": "享保の大飢饉",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1732",
+      "end_year": "1799",
+      "text": "ジョージ・ワシントン",
+      "category": [
+        "human",
+        "america",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1732",
+      "end_year": "1792",
+      "text": "リチャード・アークライト",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1732",
+      "end_year": "1809",
+      "text": "フランツ・ヨーゼフ・ハイドン",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1734",
+      "end_year": "1798",
+      "text": "ジョゼッペ・ピエルマリー二",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1736",
+      "end_year": "1806",
+      "text": "クロード・ニコラ・ルドゥー",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1736",
+      "end_year": "1819",
+      "text": "ジェームズ・ワット",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1737",
+      "end_year": "1786",
+      "text": "徳川家治",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1737",
+      "end_year": "1809",
+      "text": "トマス・ペイン",
+      "category": [
+        "human",
+        "america",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1740",
+      "end_year": "1810",
+      "text": "モンゴルフィエ兄弟",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1740",
+      "end_year": "1814",
+      "text": "マルキ・ド・サド",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1741",
+      "end_year": "1803",
+      "text": "コデルロス・ド・ラクロ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1743",
+      "end_year": "1826",
+      "text": "トーマス・ジェファーソン",
+      "category": [
+        "human",
+        "america",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1745",
+      "end_year": "1827",
+      "text": "アレッサンドロ・ボルタ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1746",
+      "end_year": "1823",
+      "text": "ジャック・シャルル",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1746",
+      "end_year": "1828",
+      "text": "フランシスコ・デ・ゴヤ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1747",
+      "text": "百科全書刊行開始",
+      "wikipedia": "百科全書",
+      "category": [
+        "event",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1748",
+      "end_year": "1832",
+      "text": "ジェレミ・ベンサム",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1749",
+      "end_year": "1827",
+      "text": "ピエール＝シモン・ラプラス",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1749",
+      "end_year": "1832",
+      "text": "ゲーテ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1753",
+      "text": "大英博物館設立",
+      "wikipedia": "大英博物館",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1755",
+      "end_year": "1793",
+      "text": "マリー・アントワネット",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1756",
+      "end_year": "1791",
+      "text": "ヴォルフガング・アマデウス・モーツァルト",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1759",
+      "end_year": "1805",
+      "text": "フリードリヒ・フォン・シラー",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1760",
+      "end_year": "1849",
+      "text": "葛飾北斎",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1760",
+      "end_year": "1830",
+      "text": "イギリス産業革命",
+      "wikipedia": "産業革命",
+      "category": [
+        "event",
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1762",
+      "end_year": "1814",
+      "text": "ヨハン・ゴットリープ・フィヒテ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1763",
+      "end_year": "1828",
+      "text": "小林一茶",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1766",
+      "end_year": "1834",
+      "text": "トマス・ロバート・マルサス",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1768",
+      "end_year": "1830",
+      "text": "ジョゼフ・フーリエ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1769",
+      "end_year": "1821",
+      "text": "ナポレオン・ボナパルト",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1770",
+      "end_year": "1823",
+      "text": "ベートーヴェン",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1770",
+      "end_year": "1843",
+      "text": "フリードリヒ・ヘルダーリン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1770",
+      "end_year": "1881",
+      "text": "ヘーゲル",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1772",
+      "end_year": "1883",
+      "text": "デヴィッド・リカード",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1773",
+      "text": "ボストン茶会事件",
+      "category": [
+        "event",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1773",
+      "end_year": "1817",
+      "text": "杉田玄白",
+      "category": [
+        "human",
+        "japan",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1773",
+      "end_year": "1829",
+      "text": "トマス・ヤング",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1773",
+      "end_year": "1841",
+      "text": "徳川家斉",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1775",
+      "end_year": "1817",
+      "text": "ジェーン・オースティン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1775",
+      "end_year": "1851",
+      "text": "ジョゼフ・マロード・ウィリアム・ターナー",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1775",
+      "end_year": "1854",
+      "text": "フリードリヒ・シェリング",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1775",
+      "end_year": "1783",
+      "text": "アメリカ独立戦争",
+      "category": [
+        "event",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1777",
+      "end_year": "1855",
+      "text": "カール・フリードリヒ・ガウス",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1783",
+      "end_year": "1842",
+      "text": "スタンダール",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1785",
+      "end_year": "1863",
+      "text": "グリム兄弟",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1788",
+      "end_year": "1860",
+      "text": "アルトゥル・ショーペンハウアー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1789",
+      "end_year": "1799",
+      "text": "フランス革命",
+      "category": [
+        "event",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1792",
+      "end_year": "1868",
+      "text": "ジョアキーノ・ロッシーニ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1793",
+      "end_year": "1853",
+      "text": "徳川家慶",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1797",
+      "end_year": "1828",
+      "text": "シューベルト",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1797",
+      "end_year": "1858",
+      "text": "歌川広重",
+      "category": [
+        "human",
+        "japan",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1798",
+      "end_year": "1863",
+      "text": "ウジェーヌ・ドラクロワ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1799",
+      "end_year": "1850",
+      "text": "オノレ・ド・バルザック",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1802",
+      "end_year": "1870",
+      "text": "アレクサンドル・デュマ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1802",
+      "end_year": "1885",
+      "text": "ヴィクトル・ユーゴー",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1803",
+      "end_year": "1815",
+      "text": "ナポレオン戦争",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1803",
+      "end_year": "1853",
+      "text": "クリスチャン・ドップラー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1804",
+      "end_year": "1864",
+      "text": "ナサニエル・ホーソーン",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1805",
+      "end_year": "1875",
+      "text": "ハンス・クリスチャン・アンデルセン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1806",
+      "end_year": "1873",
+      "text": "ジョン・スチュアート・ミル",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1847",
+      "text": "フェリックス・メンデルスゾーン",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1849",
+      "text": "エドガー・アラン・ポー",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1852",
+      "text": "ニコライ・ゴーゴリ",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1865",
+      "text": "エイブラハム・リンカーン",
+      "category": [
+        "human",
+        "america",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1882",
+      "text": "チャールズ・ダーウィン",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1809",
+      "end_year": "1891",
+      "text": "ジョルジュ・オスマン",
+      "category": [
+        "human",
+        "europe",
+        "politics",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1810",
+      "end_year": "1849",
+      "text": "ショパン",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1810",
+      "end_year": "1856",
+      "text": "ロベルト・シューマン",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1811",
+      "end_year": "1886",
+      "text": "フランツ・リスト",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1812",
+      "end_year": "1870",
+      "text": "チャールズ・ディケンズ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1813",
+      "end_year": "1883",
+      "text": "リヒャルト・ワーグナー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1813",
+      "end_year": "1885",
+      "text": "キェルケゴール",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1813",
+      "end_year": "1901",
+      "text": "ジュゼッペ・ヴェルディ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1814",
+      "end_year": "1815",
+      "text": "ウィーン会議",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1814",
+      "end_year": "1875",
+      "text": "ジャン＝フランソワ・ミレー",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1815",
+      "end_year": "1898",
+      "text": "オットー・フォン・ビスマルク",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1818",
+      "end_year": "1848",
+      "text": "エミリー・ブロンテ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1818",
+      "end_year": "1883",
+      "text": "カール・マルクス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1818",
+      "end_year": "1883",
+      "text": "イワン・ツルゲーネフ",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1818",
+      "end_year": "1889",
+      "text": "ジェームズ・プレスコット・ジュール",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1819",
+      "end_year": "1891",
+      "text": "ハーマン・メルヴィル",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1819",
+      "end_year": "1900",
+      "text": "ジョン・ラスキン",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1820",
+      "end_year": "1895",
+      "text": "フリードリヒ・エンゲルス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1820",
+      "end_year": "1903",
+      "text": "ハーバート・スペンサー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1820",
+      "end_year": "1910",
+      "text": "フローレンス・ナイチンゲール",
+      "category": [
+        "human",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1821",
+      "end_year": "1867",
+      "text": "シャルル・ボードレール",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1821",
+      "end_year": "1880",
+      "text": "ギュスターヴ・フローベル",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1821",
+      "end_year": "1881",
+      "text": "フョードル・ドストエフスキー",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1823",
+      "text": "アメリカがモンロー宣言",
+      "wikipedia": "モンロー主義",
+      "category": [
+        "event",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1824",
+      "end_year": "1858",
+      "text": "徳川家定",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1824",
+      "end_year": "1884",
+      "text": "ベドルジハ・スメタナ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1824",
+      "end_year": "1896",
+      "text": "アントン・ブルックナー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1825",
+      "end_year": "1883",
+      "text": "岩倉具視",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1825",
+      "end_year": "1898",
+      "text": "シャルル・ガルニエ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1825",
+      "end_year": "1899",
+      "text": "ヨハン・シュトラウス2世",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1828",
+      "end_year": "1877",
+      "text": "西郷隆盛",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1828",
+      "end_year": "1905",
+      "text": "ジュール・ヴェルヌ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1828",
+      "end_year": "1906",
+      "text": "ヘンリック・イプセン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1828",
+      "end_year": "1910",
+      "text": "レフ・トルストイ",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1829",
+      "end_year": "1896",
+      "text": "ジョン・エヴァレット・ミレー",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1830",
+      "text": "フランス7月革命",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1832",
+      "end_year": "1883",
+      "text": "エドゥアール・マネ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1832",
+      "end_year": "1898",
+      "text": "ルイス・キャロル",
+      "category": [
+        "human",
+        "europe",
+        "literature",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1832",
+      "end_year": "1923",
+      "text": "ギュスターヴ・エッフェル",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1833",
+      "end_year": "1839",
+      "text": "天保の大飢饉",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1833",
+      "end_year": "1877",
+      "text": "木戸孝允",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1833",
+      "end_year": "1896",
+      "text": "アルフレッド・ノーベル",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1833",
+      "end_year": "1897",
+      "text": "ヨハネス・ブラームス",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1834",
+      "end_year": "1896",
+      "text": "ウィリアム・モリス",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1834",
+      "end_year": "1907",
+      "text": "ドミトリ・メンデレーエフ",
+      "category": [
+        "human",
+        "russia",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1834",
+      "end_year": "1917",
+      "text": "エドガー・ドガ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1835",
+      "end_year": "1901",
+      "text": "福沢諭吉",
+      "category": [
+        "human",
+        "japan",
+        "literature",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1835",
+      "end_year": "1910",
+      "text": "マーク・トウェイン",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1836",
+      "end_year": "1867",
+      "text": "坂本龍馬",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1837",
+      "end_year": "1913",
+      "text": "徳川慶喜",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1837",
+      "end_year": "1919",
+      "text": "板垣退助",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1838",
+      "end_year": "1875",
+      "text": "ジョルジュ・ビゼー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1838",
+      "end_year": "1922",
+      "text": "大隈重信",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1839",
+      "end_year": "1881",
+      "text": "モデスト・ムソルグスキー",
+      "category": [
+        "human",
+        "russia",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1839",
+      "end_year": "1906",
+      "text": "ポール・セザンヌ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1840",
+      "end_year": "1842",
+      "text": "アヘン戦争",
+      "category": [
+        "event",
+        "china",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1840",
+      "end_year": "1893",
+      "text": "ピョートル・チャイコフスキー",
+      "category": [
+        "human",
+        "russia",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1840",
+      "end_year": "1917",
+      "text": "オーギュスト・ロダン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1840",
+      "end_year": "1926",
+      "text": "クロード・モネ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1840",
+      "end_year": "1931",
+      "text": "渋沢栄一",
+      "category": [
+        "human",
+        "japan",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1841",
+      "end_year": "1904",
+      "text": "アントニン・ドヴォルザーク",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1841",
+      "end_year": "1909",
+      "text": "伊藤博文",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1841",
+      "end_year": "1918",
+      "text": "オットー・ワーグナー",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1841",
+      "end_year": "1919",
+      "text": "ピエール＝オーギュスト・ルノワール",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1841",
+      "end_year": "1898",
+      "text": "ステファヌ・マラルメ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1843",
+      "end_year": "1907",
+      "text": "エドヴァルド・グリーグ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1844",
+      "end_year": "1900",
+      "text": "フリードリヒ・ニーチェ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1844",
+      "end_year": "1906",
+      "text": "ルートヴィッヒ・ボルツマン",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1844",
+      "end_year": "1908",
+      "text": "ニコライ・リムスキー＝コルサコフ",
+      "category": [
+        "human",
+        "russia",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1844",
+      "end_year": "1929",
+      "text": "カール・ベンツ",
+      "category": [
+        "human",
+        "europe",
+        "economy",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1845",
+      "end_year": "1923",
+      "text": "ヴィルヘルム・レントゲン",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1846",
+      "end_year": "1866",
+      "text": "徳川家茂",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1846",
+      "end_year": "1904",
+      "text": "エミール・ガレ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1847",
+      "end_year": "1931",
+      "text": "トーマス・エジソン",
+      "category": [
+        "human",
+        "america",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1848",
+      "text": "フランス2月革命",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1848",
+      "text": "共産党宣言",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1848",
+      "end_year": "1903",
+      "text": "ポール・ゴーギャン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1848",
+      "end_year": "1923",
+      "text": "ヴィルフレド・パレート",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1848",
+      "end_year": "1933",
+      "text": "ルイス・カムフォート・ティファニー",
+      "category": [
+        "human",
+        "america",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1850",
+      "end_year": "1914",
+      "text": "イギリス黄金時代",
+      "wikipedia": "パクス・ブリタニカ",
+      "category": [
+        "age",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1851",
+      "text": "第1回万国博覧会",
+      "wikipedia": "ロンドン万国博覧会 (1851年)",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1852",
+      "end_year": "1920",
+      "text": "ジョサイア・コンドル",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1852",
+      "end_year": "1926",
+      "text": "アントニ・ガウディ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1853",
+      "text": "黒船来航",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1853",
+      "end_year": "1890",
+      "text": "フィンセント・ファン・ゴッホ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1854",
+      "text": "日米和親条約",
+      "category": [
+        "event",
+        "japan",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1854",
+      "end_year": "1891",
+      "text": "アルチュール・ランボー",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1854",
+      "end_year": "1900",
+      "text": "オスカー・ワイルド",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1854",
+      "end_year": "1919",
+      "text": "辰野金吾",
+      "category": [
+        "human",
+        "japan",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1856",
+      "end_year": "1924",
+      "text": "ルイス・サリヴァン",
+      "category": [
+        "human",
+        "america",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1856",
+      "end_year": "1939",
+      "text": "ジークムント・フロイト",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1857",
+      "end_year": "1913",
+      "text": "フェルディナン・ド・ソシュール",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1857",
+      "end_year": "1934",
+      "text": "エドワード・エルガー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1858",
+      "end_year": "1917",
+      "text": "エミール・デュルケーム",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1858",
+      "end_year": "1918",
+      "text": "ゲオルク・ジンメル",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1858",
+      "end_year": "1924",
+      "text": "ジャコモ・プッチーニ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1858",
+      "end_year": "1947",
+      "text": "マックス・プランク",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "text": "「種の起源」発表",
+      "wikipedia": "種の起源",
+      "category": [
+        "event",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1891",
+      "text": "ジョルジュ・スーラ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1916",
+      "text": "妻木頼黄",
+      "category": [
+        "human",
+        "japan",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1930",
+      "text": "アーサー・コナン・ドイル",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1935",
+      "text": "坪内逍遥",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1938",
+      "text": "エトムント・フッサール",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1941",
+      "text": "アンリ・ベルクソン",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1859",
+      "end_year": "1952",
+      "text": "ジョン・デューイ",
+      "category": [
+        "human",
+        "america",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1860",
+      "end_year": "1904",
+      "text": "アントン・チェーホフ",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1860",
+      "end_year": "1911",
+      "text": "グスタフ・マーラー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1860",
+      "end_year": "1939",
+      "text": "アルフォンス・ミュシャ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1861",
+      "end_year": "1865",
+      "text": "アメリカ南北戦争",
+      "category": [
+        "event",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1861",
+      "end_year": "1927",
+      "text": "ヘルマン・ムテジウス",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1862",
+      "end_year": "1918",
+      "text": "グスタフ・クリムト",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1862",
+      "end_year": "1918",
+      "text": "クロード・ドビュッシー",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1862",
+      "end_year": "1922",
+      "text": "森鴎外",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1863",
+      "end_year": "1913",
+      "text": "岡倉天心",
+      "category": [
+        "human",
+        "japan",
+        "art",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1863",
+      "end_year": "1944",
+      "text": "エドヴァルド・ムンク",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1863",
+      "end_year": "1947",
+      "text": "ヘンリー・フォード",
+      "category": [
+        "human",
+        "america",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1863",
+      "end_year": "1957",
+      "text": "アンリ・ヴァン・デ・ヴェルデ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1864",
+      "end_year": "1901",
+      "text": "アンリ・ド・トゥールーズ＝ロートレック",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1864",
+      "end_year": "1909",
+      "text": "二葉亭四迷",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1864",
+      "end_year": "1920",
+      "text": "マックス・ ヴェーバー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1865",
+      "end_year": "1957",
+      "text": "ジャン・シベリウス",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1866",
+      "end_year": "1925",
+      "text": "エリック・サティ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1866",
+      "end_year": "1944",
+      "text": "ワシリー・カンディンスキー",
+      "category": [
+        "human",
+        "russia",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1866",
+      "end_year": "1944",
+      "text": "ロマン・ロラン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1866",
+      "end_year": "1946",
+      "text": "ハーバート・ジョージ・ウェルズ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "text": "「資本論」刊行",
+      "wikipedia": "資本論",
+      "category": [
+        "event",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1912",
+      "text": "ライト兄弟",
+      "category": [
+        "human",
+        "america",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1916",
+      "text": "夏目漱石",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1934",
+      "text": "マリ・キュリー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1942",
+      "text": "エクトール・ギマール",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1954",
+      "text": "伊東忠太",
+      "category": [
+        "human",
+        "japan",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1867",
+      "end_year": "1959",
+      "text": "フランク・ロイド・ライト",
+      "category": [
+        "human",
+        "america",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1868",
+      "text": "明治維新",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1868",
+      "end_year": "1912",
+      "text": "明治時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1868",
+      "end_year": "1928",
+      "text": "チャールズ・レニー・マッキントッシュ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1868",
+      "end_year": "1940",
+      "text": "ペーター・ベーレンス",
+      "category": [
+        "human",
+        "europe",
+        "art",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1869",
+      "end_year": "1948",
+      "text": "モーハンダース・カラムチャンド・ガーンディー",
+      "category": [
+        "human",
+        "india"
+      ]
+    },
+    {
+      "start_year": "1869",
+      "end_year": "1951",
+      "text": "アンドレ・ジッド",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1870",
+      "end_year": "1924",
+      "text": "ウラジーミル・レーニン",
+      "category": [
+        "human",
+        "russia",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1870",
+      "end_year": "1933",
+      "text": "アドルフ・ロース",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1870",
+      "end_year": "1945",
+      "text": "西田幾多郎",
+      "category": [
+        "human",
+        "japan",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1871",
+      "end_year": "1922",
+      "text": "マルセル・プルースト",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1872",
+      "end_year": "1896",
+      "text": "樋口一葉",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1872",
+      "end_year": "1944",
+      "text": "ピエト・モンドリアン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1872",
+      "end_year": "1970",
+      "text": "バートランド・ラッセル",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1873",
+      "end_year": "1943",
+      "text": "セルゲイ・ラフマニノフ",
+      "category": [
+        "human",
+        "russia",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1873",
+      "end_year": "1950",
+      "text": "エリエル・サーリネン",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1874",
+      "end_year": "1934",
+      "text": "グスターヴ・ホルスト",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1874",
+      "end_year": "1937",
+      "text": "グリエルモ・マルコーニ",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1874",
+      "end_year": "1954",
+      "text": "オーギュスト・ペレ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1875",
+      "end_year": "1926",
+      "text": "ライナー・マリア・リルケ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1875",
+      "end_year": "1937",
+      "text": "モーリス・ラヴェル",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1875",
+      "end_year": "1955",
+      "text": "トマス・マン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1875",
+      "end_year": "1961",
+      "text": "カール・グスタフ・ユング",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1876",
+      "end_year": "1944",
+      "text": "マリネッティ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1878",
+      "end_year": "1935",
+      "text": "マレーヴィチ",
+      "category": [
+        "human",
+        "russia",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1878",
+      "end_year": "1942",
+      "text": "与謝野晶子",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1879",
+      "end_year": "1955",
+      "text": "アルベルト・アインシュタイン",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1880",
+      "end_year": "1938",
+      "text": "ブルーノ・タウト",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1880",
+      "end_year": "1968",
+      "text": "ヘレン・ケラー",
+      "category": [
+        "human",
+        "america"
+      ]
+    },
+    {
+      "start_year": "1881",
+      "end_year": "1973",
+      "text": "パブロ・ピカソ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1882",
+      "end_year": "1941",
+      "text": "ジェイムズ・ジョイス",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1882",
+      "end_year": "1971",
+      "text": "イーゴリ・ストラヴィンスキー",
+      "category": [
+        "human",
+        "russia",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1924",
+      "text": "フランツ・カフカ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1945",
+      "text": "ベニート・ムッソリーニ",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1946",
+      "text": "ジョン・メイナード・ケインズ",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1950",
+      "text": "ヨーゼフ・シュンペーター",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1969",
+      "text": "ヴァルター・グロピウス",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1883",
+      "end_year": "1969",
+      "text": "カール・ヤスパース",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1886",
+      "end_year": "1964",
+      "text": "カール・ポランニー",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1886",
+      "end_year": "1965",
+      "text": "谷崎潤一郎",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1886",
+      "end_year": "1969",
+      "text": "ミース・ファン・デル・ローエ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1887",
+      "end_year": "1961",
+      "text": "シュレーディンガー",
+      "category": [
+        "human",
+        "europe",
+        "science"
+      ]
+    },
+    {
+      "start_year": "1887",
+      "end_year": "1965",
+      "text": "ル・コルビュジエ",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1887",
+      "end_year": "1968",
+      "text": "マルセル・デュシャン",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1888",
+      "end_year": "1948",
+      "text": "菊池寛",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1888",
+      "end_year": "1964",
+      "text": "リートフェルト",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1888",
+      "end_year": "1976",
+      "text": "アントニン・レーモンド",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1888",
+      "end_year": "1978",
+      "text": "ジョルジョ・デ・キリコ",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1888",
+      "end_year": "1985",
+      "text": "カール・シュミット",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1889",
+      "end_year": "1945",
+      "text": "アドルフ・ヒトラー",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1889",
+      "end_year": "1951",
+      "text": "ルートヴィヒ・ウィトゲンシュタイン",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1889",
+      "end_year": "1976",
+      "text": "マルティン・ハイデッガー",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1890",
+      "end_year": "1976",
+      "text": "マン・レイ",
+      "category": [
+        "human",
+        "america",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1892",
+      "end_year": "1927",
+      "text": "芥川龍之介",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1892",
+      "end_year": "1940",
+      "text": "ヴァルター・ベンヤミン",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1892",
+      "end_year": "1973",
+      "text": "パール・S・バック",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1893",
+      "end_year": "1947",
+      "text": "カール・マンハイム",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1893",
+      "end_year": "1976",
+      "text": "毛沢東",
+      "category": [
+        "human",
+        "china",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "1894",
+      "end_year": "1895",
+      "text": "日清戦争",
+      "category": [
+        "event",
+        "japan",
+        "china"
+      ]
+    },
+    {
+      "start_year": "1894",
+      "end_year": "1961",
+      "text": "ルイ=フェルディナン・セリーヌ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1894",
+      "end_year": "1974",
+      "text": "吉田五十八",
+      "category": [
+        "human",
+        "japan",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1895",
+      "end_year": "1983",
+      "text": "バックミンスター・フラー",
+      "category": [
+        "human",
+        "america",
+        "architecture",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1896",
+      "text": "第1回夏季オリンピック",
+      "wikipedia": "アテネオリンピック (1896年)",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "1896",
+      "end_year": "1966",
+      "text": "アンドレ・ブルトン",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1897",
+      "end_year": "1962",
+      "text": "ジョルジュ・バタイユ",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1897",
+      "end_year": "1962",
+      "text": "ウィリアム・フォークナー",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1898",
+      "end_year": "1937",
+      "text": "ジョージ・ガーシュウィン",
+      "category": [
+        "human",
+        "america",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1898",
+      "end_year": "1967",
+      "text": "ルネ・マグリット",
+      "category": [
+        "human",
+        "europe",
+        "art"
+      ]
+    },
+    {
+      "start_year": "1898",
+      "end_year": "1976",
+      "text": "アルヴァ・アールト",
+      "category": [
+        "human",
+        "europe",
+        "architecture"
+      ]
+    },
+    {
+      "start_year": "1899",
+      "end_year": "1961",
+      "text": "アーネスト・ヘミングウェイ",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1899",
+      "end_year": "1972",
+      "text": "川端康成",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1899",
+      "end_year": "1977",
+      "text": "ウラジーミル・ナブコフ",
+      "category": [
+        "human",
+        "russia",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1899",
+      "end_year": "1992",
+      "text": "フリードリヒ・ハイエク",
+      "category": [
+        "human",
+        "europe",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "-27",
+      "end_year": "1453",
+      "text": "帝政ローマ",
+      "wikipedia": "ローマ帝国",
+      "category": [
+        "countory",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "37",
+      "end_year": "68",
+      "text": "ネロ",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "76",
+      "end_year": "138",
+      "text": "ハドリアヌス",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "79",
+      "text": "ポンペイ滅亡",
+      "wikipedia": "ポンペイ",
+      "category": [
+        "event",
+        "europe"
+      ]
+    },
+    {
+      "start_year": "83",
+      "end_year": "168",
+      "text": "クラウディオス・プトレマイオス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "100",
+      "text": "大乗仏教誕生",
+      "wikipedia": "大乗仏教",
+      "category": [
+        "event",
+        "india",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "1900",
+      "end_year": "1949",
+      "text": "マーガレット・ミッチェル",
+      "category": [
+        "human",
+        "america",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1901",
+      "end_year": "1999",
+      "text": "ホアキン・ロドリーゴ",
+      "category": [
+        "human",
+        "europe",
+        "music"
+      ]
+    },
+    {
+      "start_year": "1905",
+      "end_year": "1980",
+      "text": "ジャン=ポール・サルトル",
+      "category": [
+        "human",
+        "europe",
+        "scholar",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1906",
+      "end_year": "1955",
+      "text": "坂口安吾",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1906",
+      "end_year": "1989",
+      "text": "サミュエル・ベケット",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1909",
+      "end_year": "1948",
+      "text": "太宰治",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1912",
+      "end_year": "1926",
+      "text": "大正時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1913",
+      "end_year": "1960",
+      "text": "アルベール・カミュ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1923",
+      "end_year": "1985",
+      "text": "イタロ・カルヴィーノ",
+      "category": [
+        "human",
+        "europe",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1923",
+      "end_year": "1996",
+      "text": "司馬遼太郎",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1923",
+      "end_year": "1996",
+      "text": "遠藤周作",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1924",
+      "end_year": "1993",
+      "text": "安部公房",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1925",
+      "end_year": "1970",
+      "text": "三島由紀夫",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1926",
+      "end_year": "1989",
+      "text": "昭和時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "1928",
+      "end_year": "2014",
+      "text": "ガブリエル・ガルシア=マルケス",
+      "category": [
+        "human",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1929",
+      "end_year": "-",
+      "text": "ユルゲン・ハーバーマス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "1935",
+      "end_year": "-",
+      "text": "大江健三郎",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "1945",
+      "text": "ブレトンウッズ協定",
+      "category": [
+        "event",
+        "america",
+        "economy"
+      ]
+    },
+    {
+      "start_year": "1945",
+      "end_year": "-",
+      "text": "アメリカの覇権",
+      "category": [
+        "age",
+        "america"
+      ]
+    },
+    {
+      "start_year": "150",
+      "end_year": "250",
+      "text": "龍樹",
+      "category": [
+        "human",
+        "india",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "155",
+      "end_year": "191",
+      "text": "孫堅",
+      "category": [
+        "human",
+        "china"
+      ]
+    },
+    {
+      "start_year": "155",
+      "end_year": "220",
+      "text": "曹操",
+      "category": [
+        "human",
+        "china"
+      ]
+    },
+    {
+      "start_year": "161",
+      "end_year": "223",
+      "text": "劉備",
+      "category": [
+        "human",
+        "china"
+      ]
+    },
+    {
+      "start_year": "170",
+      "end_year": "248",
+      "text": "卑弥呼",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "181",
+      "end_year": "234",
+      "text": "諸葛亮",
+      "category": [
+        "human",
+        "china"
+      ]
+    },
+    {
+      "start_year": "184",
+      "text": "黄巾の乱",
+      "category": [
+        "event",
+        "china"
+      ]
+    },
+    {
+      "start_year": "300",
+      "end_year": "700",
+      "text": "古墳時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "272",
+      "end_year": "337",
+      "text": "コンスタンティヌス1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "350",
+      "end_year": "?",
+      "text": "カーリダーサ",
+      "category": [
+        "human",
+        "india",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "354",
+      "end_year": "430",
+      "text": "アウレリウス・アウグスティヌス",
+      "category": [
+        "human",
+        "europe",
+        "scholar"
+      ]
+    },
+    {
+      "start_year": "483",
+      "end_year": "565",
+      "text": "ユスティニアヌス1世",
+      "category": [
+        "human",
+        "europe",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "480",
+      "end_year": "547",
+      "text": "ベネディクトゥス",
+      "wikipedia": "ヌルシアのベネディクトゥス",
+      "category": [
+        "human",
+        "europe",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "552",
+      "text": "仏教伝来",
+      "category": [
+        "event",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "570",
+      "end_year": "632",
+      "text": "ムハンマド",
+      "category": [
+        "human",
+        "arab",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "574",
+      "end_year": "622",
+      "text": "聖徳太子",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "592",
+      "end_year": "710",
+      "text": "飛鳥時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "646",
+      "text": "大化の改新",
+      "category": [
+        "event",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "659",
+      "end_year": "720",
+      "text": "藤原不比等",
+      "category": [
+        "human",
+        "japan",
+        "politics"
+      ]
+    },
+    {
+      "start_year": "660",
+      "end_year": "720",
+      "text": "柿本人麻呂",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "668",
+      "end_year": "749",
+      "text": "行基",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "710",
+      "end_year": "794",
+      "text": "奈良時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "712",
+      "text": "古事記",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "720",
+      "text": "日本書紀",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "759",
+      "text": "万葉集",
+      "category": [
+        "event",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "774",
+      "end_year": "835",
+      "text": "空海",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "778",
+      "end_year": "822",
+      "text": "最澄",
+      "category": [
+        "human",
+        "japan",
+        "religion"
+      ]
+    },
+    {
+      "start_year": "794",
+      "end_year": "1185",
+      "text": "平安時代",
+      "category": [
+        "age",
+        "japan"
+      ]
+    },
+    {
+      "start_year": "825",
+      "end_year": "900",
+      "text": "小野小町",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    },
+    {
+      "start_year": "886",
+      "end_year": "945",
+      "text": "紀貫之",
+      "category": [
+        "human",
+        "japan",
+        "literature"
+      ]
+    }
+  ]
+}
